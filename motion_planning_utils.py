@@ -20,3 +20,4 @@ def plot_env(obstacles, start, goal_region, bounds, env=Environment(None)):
     goal_region = Polygon(goal_region)
     plot_poly(ax, start_point,'magenta')
     plot_poly(ax, goal_region,'green')
+    return ax

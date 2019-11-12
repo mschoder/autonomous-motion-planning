@@ -1,0 +1,1565 @@
+
+Gurobi 8.1.1 (mac64, Python) logging started Mon Nov 11 18:49:45 2019
+
+Academic license - for non-commercial use only
+Optimize a model with 11 rows, 24 columns and 16 nonzeros
+Model has 10 quadratic constraints
+Variable types: 18 continuous, 6 integer (6 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+06]
+  QMatrix range    [1e+00, 2e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+00]
+  RHS range        [1e+00, 3e+00]
+  QRHS range       [1e+00, 1e+00]
+Presolve removed 6 rows and 6 columns
+Presolve time: 0.01s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Best objective -, best bound -, gap -
+Optimize a model with 11 rows, 24 columns and 16 nonzeros
+Model has 10 quadratic constraints
+Variable types: 18 continuous, 6 integer (6 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+06]
+  QMatrix range    [1e+00, 2e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+00]
+  RHS range        [1e+00, 3e+00]
+  QRHS range       [1e+00, 1e+00]
+Presolve removed 6 rows and 6 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Best objective -, best bound -, gap -
+Optimize a model with 6 rows, 24 columns and 6 nonzeros
+Model has 10 quadratic constraints
+Variable types: 18 continuous, 6 integer (6 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  QMatrix range    [1e+00, 2e+00]
+  QLMatrix range   [1e+06, 1e+06]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+00]
+  RHS range        [1e+00, 3e+00]
+  QRHS range       [1e+00, 1e+00]
+Presolve removed 6 rows and 11 columns
+Presolve time: 0.00s
+Presolved: 0 rows, 13 columns, 0 nonzeros
+Variable types: 8 continuous, 5 integer (5 binary)
+
+Root relaxation: objective 0.000000e+00, 0 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       0.0000000    0.00000  0.00%     -    0s
+
+Explored 0 nodes (44 simplex iterations) in 0.05 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Warning: max constraint violation (9.5356e-01) exceeds tolerance
+         (model may be infeasible or unbounded - try turning presolve off)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+Optimize a model with 6 rows, 24 columns and 6 nonzeros
+Model has 10 quadratic constraints
+Variable types: 18 continuous, 6 integer (6 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  QMatrix range    [1e+00, 2e+00]
+  QLMatrix range   [1e+06, 1e+06]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+00]
+  RHS range        [1e+00, 3e+00]
+  QRHS range       [1e+00, 1e+00]
+Presolve removed 6 rows and 11 columns
+Presolve time: 0.00s
+Presolved: 0 rows, 13 columns, 0 nonzeros
+Variable types: 8 continuous, 5 integer (5 binary)
+
+Root relaxation: objective 0.000000e+00, 0 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       0.0000000    0.00000  0.00%     -    0s
+
+Explored 0 nodes (44 simplex iterations) in 0.03 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Warning: max constraint violation (9.5356e-01) exceeds tolerance
+         (model may be infeasible or unbounded - try turning presolve off)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+Optimize a model with 5 rows, 18 columns and 5 nonzeros
+Model has 10 quadratic constraints
+Variable types: 12 continuous, 6 integer (6 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  QMatrix range    [1e+00, 2e+00]
+  QLMatrix range   [1e+06, 1e+06]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+00]
+  RHS range        [1e+00, 3e+00]
+  QRHS range       [1e+00, 1e+00]
+Presolve removed 5 rows and 5 columns
+Presolve time: 0.00s
+Presolved: 0 rows, 13 columns, 0 nonzeros
+Variable types: 8 continuous, 5 integer (5 binary)
+
+Root relaxation: objective 0.000000e+00, 0 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       0.0000000    0.00000  0.00%     -    0s
+
+Explored 0 nodes (44 simplex iterations) in 0.04 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Warning: max constraint violation (9.5356e-01) exceeds tolerance
+         (model may be infeasible or unbounded - try turning presolve off)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+Optimize a model with 5 rows, 18 columns and 5 nonzeros
+Model has 10 quadratic constraints
+Variable types: 12 continuous, 6 integer (6 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  QMatrix range    [1e+00, 2e+00]
+  QLMatrix range   [1e+02, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+00]
+  RHS range        [1e+00, 3e+00]
+  QRHS range       [1e+00, 1e+00]
+Presolve removed 5 rows and 5 columns
+Presolve time: 0.00s
+Presolved: 0 rows, 13 columns, 0 nonzeros
+Variable types: 8 continuous, 5 integer (5 binary)
+
+Root relaxation: objective 0.000000e+00, 0 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.06657    0    1          -    0.06657      -     -    0s
+H    0     0                       5.0000000    0.06657  98.7%     -    0s
+     0     0    0.13236    0    3    5.00000    0.13236  97.4%     -    0s
+     0     0    0.13236    0    3    5.00000    0.13236  97.4%     -    0s
+H    0     0                       3.0000000    0.13236  95.6%     -    0s
+     0     2    0.13236    0    3    3.00000    0.13236  95.6%     -    0s
+
+Cutting planes:
+  MIR: 1
+
+Explored 16 nodes (123 simplex iterations) in 0.07 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 3 5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.000000000000e+00, best bound 3.000000000000e+00, gap 0.0000%
+Optimize a model with 5 rows, 18 columns and 5 nonzeros
+Model has 10 quadratic constraints
+Variable types: 12 continuous, 6 integer (6 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  QMatrix range    [1e+00, 2e+00]
+  QLMatrix range   [1e+02, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+00]
+  RHS range        [1e+00, 3e+00]
+  QRHS range       [1e+00, 1e+00]
+Presolve removed 5 rows and 5 columns
+Presolve time: 0.00s
+Presolved: 0 rows, 13 columns, 0 nonzeros
+Variable types: 8 continuous, 5 integer (5 binary)
+
+Root relaxation: objective 0.000000e+00, 0 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.06657    0    1          -    0.06657      -     -    0s
+H    0     0                       5.0000000    0.06657  98.7%     -    0s
+     0     0    0.13236    0    3    5.00000    0.13236  97.4%     -    0s
+     0     0    0.13236    0    3    5.00000    0.13236  97.4%     -    0s
+H    0     0                       3.0000000    0.13236  95.6%     -    0s
+     0     2    0.13236    0    3    3.00000    0.13236  95.6%     -    0s
+
+Cutting planes:
+  MIR: 1
+
+Explored 16 nodes (123 simplex iterations) in 0.09 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 3 5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.000000000000e+00, best bound 3.000000000000e+00, gap 0.0000%
+Optimize a model with 5 rows, 18 columns and 5 nonzeros
+Model has 10 quadratic constraints
+Variable types: 12 continuous, 6 integer (6 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  QMatrix range    [1e+00, 2e+00]
+  QLMatrix range   [1e+02, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+00]
+  RHS range        [1e+00, 3e+00]
+  QRHS range       [1e+00, 1e+00]
+Presolve removed 5 rows and 5 columns
+Presolve time: 0.00s
+Presolved: 0 rows, 13 columns, 0 nonzeros
+Variable types: 8 continuous, 5 integer (5 binary)
+
+Root relaxation: objective 0.000000e+00, 0 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.07440    0    1          -    0.07440      -     -    0s
+H    0     0                       5.0000000    0.07440  98.5%     -    0s
+     0     0    0.14882    0    3    5.00000    0.14882  97.0%     -    0s
+     0     0    0.14882    0    3    5.00000    0.14882  97.0%     -    0s
+H    0     0                       3.0000000    0.14882  95.0%     -    0s
+H    0     0                       2.0000000    0.14882  92.6%     -    0s
+     0     2    0.14882    0    3    2.00000    0.14882  92.6%     -    0s
+
+Cutting planes:
+  MIR: 1
+
+Explored 7 nodes (95 simplex iterations) in 0.06 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: 2 3 5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.000000000000e+00, best bound 2.000000000000e+00, gap 0.0000%
+Optimize a model with 5 rows, 18 columns and 5 nonzeros
+Model has 10 quadratic constraints
+Variable types: 12 continuous, 6 integer (6 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  QMatrix range    [1e+00, 2e+00]
+  QLMatrix range   [1e+05, 1e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+00]
+  RHS range        [1e+00, 3e+00]
+  QRHS range       [1e+00, 1e+00]
+Presolve removed 5 rows and 5 columns
+Presolve time: 0.00s
+Presolved: 0 rows, 13 columns, 0 nonzeros
+Variable types: 8 continuous, 5 integer (5 binary)
+
+Root relaxation: objective 0.000000e+00, 0 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.01356    0    1          -    0.01356      -     -    0s
+     0     0    0.01356    0    1          -    0.01356      -     -    0s
+     0     2    0.01356    0    1          -    0.01356      -     -    0s
+H    7     9                       2.0000000    0.54650  72.7%   4.6    0s
+
+Explored 21 nodes (99 simplex iterations) in 0.05 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 2 
+
+Optimal solution found (tolerance 1.00e-04)
+Warning: max constraint violation (1.2041e-06) exceeds tolerance
+Best objective 2.000000000000e+00, best bound 2.000000000000e+00, gap 0.0000%
+Optimize a model with 5 rows, 18 columns and 5 nonzeros
+Model has 10 quadratic constraints
+Variable types: 12 continuous, 6 integer (6 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  QMatrix range    [1e+00, 2e+00]
+  QLMatrix range   [1e+09, 1e+09]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+00]
+  RHS range        [1e+00, 3e+00]
+  QRHS range       [1e+00, 1e+00]
+Warning: Quadratic constraints contain large coefficients on linear part
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 5 rows and 5 columns
+Presolve time: 0.00s
+Presolved: 0 rows, 13 columns, 0 nonzeros
+Variable types: 8 continuous, 5 integer (5 binary)
+
+Root relaxation: objective 0.000000e+00, 0 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       0.0000000    0.00000  0.00%     -    0s
+
+Explored 0 nodes (28 simplex iterations) in 0.05 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Warning: max constraint violation (1.0009e+00) exceeds tolerance
+         (model may be infeasible or unbounded - try turning presolve off)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+Optimize a model with 5 rows, 18 columns and 5 nonzeros
+Model has 10 quadratic constraints
+Variable types: 12 continuous, 6 integer (6 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  QMatrix range    [1e+00, 2e+00]
+  QLMatrix range   [1e+06, 1e+06]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+00]
+  RHS range        [1e+00, 3e+00]
+  QRHS range       [1e+00, 1e+00]
+Presolve removed 5 rows and 5 columns
+Presolve time: 0.00s
+Presolved: 0 rows, 13 columns, 0 nonzeros
+Variable types: 8 continuous, 5 integer (5 binary)
+
+Root relaxation: objective 0.000000e+00, 0 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       0.0000000    0.00000  0.00%     -    0s
+
+Explored 0 nodes (17 simplex iterations) in 0.03 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Warning: max constraint violation (9.8745e-01) exceeds tolerance
+         (model may be infeasible or unbounded - try turning presolve off)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+Optimize a model with 5 rows, 18 columns and 5 nonzeros
+Model has 10 quadratic constraints
+Variable types: 12 continuous, 6 integer (6 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  QMatrix range    [1e+00, 2e+00]
+  QLMatrix range   [1e+06, 1e+06]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+00]
+  RHS range        [1e+00, 3e+00]
+  QRHS range       [1e+00, 1e+00]
+Presolve removed 5 rows and 5 columns
+Presolve time: 0.00s
+Presolved: 0 rows, 13 columns, 0 nonzeros
+Variable types: 8 continuous, 5 integer (5 binary)
+
+Root relaxation: objective 0.000000e+00, 0 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       0.0000000    0.00000  0.00%     -    0s
+
+Explored 0 nodes (17 simplex iterations) in 0.03 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Warning: max constraint violation (9.8745e-01) exceeds tolerance
+         (model may be infeasible or unbounded - try turning presolve off)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+Optimize a model with 5 rows, 63 columns and 5 nonzeros
+Model has 40 quadratic constraints
+Variable types: 42 continuous, 21 integer (21 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  QMatrix range    [1e+00, 2e+00]
+  QLMatrix range   [1e+06, 1e+06]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+00]
+  RHS range        [1e+00, 7e+00]
+  QRHS range       [2e-01, 2e-01]
+Presolve removed 5 rows and 5 columns
+Presolve time: 0.00s
+Presolved: 0 rows, 58 columns, 0 nonzeros
+Variable types: 38 continuous, 20 integer (20 binary)
+
+Root relaxation: objective 0.000000e+00, 0 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       0.0000000    0.00000  0.00%     -    0s
+
+Explored 0 nodes (375 simplex iterations) in 0.31 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Warning: max constraint violation (2.5093e-01) exceeds tolerance
+         (model may be infeasible or unbounded - try turning presolve off)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+Optimize a model with 5 rows, 63 columns and 5 nonzeros
+Model has 40 quadratic constraints
+Variable types: 42 continuous, 21 integer (21 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  QMatrix range    [1e+00, 2e+00]
+  QLMatrix range   [1e+06, 1e+06]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+00]
+  RHS range        [1e+00, 7e+00]
+  QRHS range       [2e-01, 2e-01]
+Presolve removed 5 rows and 5 columns
+Presolve time: 0.00s
+Presolved: 0 rows, 58 columns, 0 nonzeros
+Variable types: 38 continuous, 20 integer (20 binary)
+
+Root relaxation: objective 0.000000e+00, 0 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       0.0000000    0.00000  0.00%     -    0s
+
+Explored 0 nodes (375 simplex iterations) in 0.30 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Warning: max constraint violation (2.5093e-01) exceeds tolerance
+         (model may be infeasible or unbounded - try turning presolve off)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+Optimize a model with 5 rows, 63 columns and 5 nonzeros
+Model has 40 quadratic constraints
+Variable types: 42 continuous, 21 integer (21 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  QMatrix range    [1e+00, 2e+00]
+  QLMatrix range   [1e+02, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+00]
+  RHS range        [1e+00, 7e+00]
+  QRHS range       [2e-01, 2e-01]
+Presolve removed 5 rows and 5 columns
+Presolve time: 0.00s
+Presolved: 0 rows, 58 columns, 0 nonzeros
+Variable types: 38 continuous, 20 integer (20 binary)
+
+Root relaxation: objective 0.000000e+00, 0 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.16369    0    7          -    0.16369      -     -    0s
+     0     0    0.45894    0   16          -    0.45894      -     -    0s
+     0     0    0.45894    0   16          -    0.45894      -     -    0s
+     0     2    0.45894    0   16          -    0.45894      -     -    0s
+H    3     8                      18.0000000    0.54783  97.0%  11.3    0s
+H    7    12                      17.0000000    1.29823  92.4%  18.9    0s
+
+Cutting planes:
+  Gomory: 27
+  Flow cover: 21
+
+Explored 2118 nodes (30866 simplex iterations) in 0.90 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 17 18 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.700000000000e+01, best bound 1.700000000000e+01, gap 0.0000%
+Optimize a model with 5 rows, 63 columns and 5 nonzeros
+Model has 60 quadratic constraints
+Variable types: 42 continuous, 21 integer (21 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  QMatrix range    [1e+00, 4e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+00]
+  RHS range        [1e+00, 7e+00]
+  QRHS range       [2e-01, 1e+00]
+Presolve removed 5 rows and 5 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Best objective -, best bound -, gap -
+Optimize a model with 5 rows, 63 columns and 5 nonzeros
+Model has 60 quadratic constraints
+Variable types: 42 continuous, 21 integer (21 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  QMatrix range    [1e+00, 4e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+00]
+  RHS range        [1e+00, 7e+00]
+  QRHS range       [2e-01, 1e+00]
+Presolve removed 5 rows and 5 columns
+Presolve time: 0.00s
+Presolved: 0 rows, 58 columns, 0 nonzeros
+Variable types: 38 continuous, 20 integer (20 binary)
+
+Root relaxation: objective 0.000000e+00, 0 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   19.41767    0    1          -   19.41767      -     -    0s
+     0     0 infeasible    0               - infeasible      -     -    0s
+
+Cutting planes:
+  MIR: 1
+
+Explored 1 nodes (277 simplex iterations) in 0.21 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Optimize a model with 5 rows, 63 columns and 5 nonzeros
+Model has 60 quadratic constraints
+Variable types: 42 continuous, 21 integer (21 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  QMatrix range    [1e+00, 4e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+00]
+  RHS range        [1e+00, 7e+00]
+  QRHS range       [2e-01, 1e+00]
+Presolve removed 5 rows and 5 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Best objective -, best bound -, gap -
+Optimize a model with 5 rows, 63 columns and 5 nonzeros
+Model has 40 quadratic constraints
+Variable types: 42 continuous, 21 integer (21 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  QMatrix range    [1e+00, 4e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+00]
+  RHS range        [1e+00, 7e+00]
+  QRHS range       [2e-01, 2e-01]
+Presolve removed 5 rows and 5 columns
+Presolve time: 0.00s
+Presolved: 0 rows, 58 columns, 0 nonzeros
+Variable types: 38 continuous, 20 integer (20 binary)
+
+Root relaxation: objective 0.000000e+00, 0 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    2.98821    0   13          -    2.98821      -     -    0s
+     0     0    5.55026    0   15          -    5.55026      -     -    0s
+     0     0    5.55026    0   15          -    5.55026      -     -    0s
+     0     2    5.55026    0   15          -    5.55026      -     -    0s
+H    1     4                      18.0000000    5.56924  69.1%   0.0    0s
+H  107    72                      17.0000000    8.89500  47.7%  18.6    0s
+*  107    72              20      17.0000000    9.14572  46.2%  18.8    0s
+
+Cutting planes:
+  Gomory: 14
+  Flow cover: 14
+
+Explored 785 nodes (14525 simplex iterations) in 0.73 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 17 18 
+
+Optimal solution found (tolerance 1.00e-04)
+Warning: max constraint violation (1.6805e-05) exceeds tolerance
+Best objective 1.700000000000e+01, best bound 1.700000000000e+01, gap 0.0000%
+Optimize a model with 5 rows, 63 columns and 5 nonzeros
+Model has 60 quadratic constraints
+Variable types: 42 continuous, 21 integer (21 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  QMatrix range    [1e+00, 4e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+00]
+  RHS range        [1e+00, 7e+00]
+  QRHS range       [2e-01, 1e+00]
+Presolve removed 5 rows and 5 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Best objective -, best bound -, gap -
+Optimize a model with 5 rows, 63 columns and 5 nonzeros
+Model has 40 quadratic constraints
+Variable types: 42 continuous, 21 integer (21 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  QMatrix range    [1e+00, 4e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+00]
+  RHS range        [1e+00, 7e+00]
+  QRHS range       [2e-01, 2e-01]
+Presolve removed 5 rows and 5 columns
+Presolve time: 0.00s
+Presolved: 0 rows, 58 columns, 0 nonzeros
+Variable types: 38 continuous, 20 integer (20 binary)
+
+Root relaxation: objective 0.000000e+00, 0 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    2.98821    0   13          -    2.98821      -     -    0s
+     0     0    5.55026    0   15          -    5.55026      -     -    0s
+     0     0    5.55026    0   15          -    5.55026      -     -    0s
+     0     2    5.55026    0   15          -    5.55026      -     -    0s
+H    1     4                      18.0000000    5.56924  69.1%   0.0    0s
+H  107    72                      17.0000000    8.89500  47.7%  18.6    0s
+*  107    72              20      17.0000000    9.14572  46.2%  18.8    0s
+
+Cutting planes:
+  Gomory: 14
+  Flow cover: 14
+
+Explored 785 nodes (14525 simplex iterations) in 0.76 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 17 18 
+
+Optimal solution found (tolerance 1.00e-04)
+Warning: max constraint violation (1.6805e-05) exceeds tolerance
+Best objective 1.700000000000e+01, best bound 1.700000000000e+01, gap 0.0000%
+Optimize a model with 5 rows, 63 columns and 5 nonzeros
+Model has 40 quadratic constraints
+Variable types: 42 continuous, 21 integer (21 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  QMatrix range    [1e+00, 4e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+00]
+  RHS range        [1e+00, 7e+00]
+  QRHS range       [2e-01, 2e-01]
+Presolve removed 5 rows and 5 columns
+Presolve time: 0.00s
+Presolved: 0 rows, 58 columns, 0 nonzeros
+Variable types: 38 continuous, 20 integer (20 binary)
+
+Root relaxation: objective 0.000000e+00, 0 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    2.98821    0   13          -    2.98821      -     -    0s
+     0     0    5.55026    0   15          -    5.55026      -     -    0s
+     0     0    5.55026    0   15          -    5.55026      -     -    0s
+     0     2    5.55026    0   15          -    5.55026      -     -    0s
+H    1     4                      18.0000000    5.56924  69.1%   0.0    0s
+H  107    72                      17.0000000    8.89500  47.7%  18.6    0s
+*  107    72              20      17.0000000    9.14572  46.2%  18.8    0s
+
+Cutting planes:
+  Gomory: 14
+  Flow cover: 14
+
+Explored 785 nodes (14525 simplex iterations) in 0.79 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 17 18 
+
+Optimal solution found (tolerance 1.00e-04)
+Warning: max constraint violation (1.6805e-05) exceeds tolerance
+Best objective 1.700000000000e+01, best bound 1.700000000000e+01, gap 0.0000%
+Optimize a model with 10 rows, 67 columns and 21 nonzeros
+Model has 40 quadratic constraints
+Variable types: 42 continuous, 25 integer (25 binary)
+Coefficient statistics:
+  Matrix range     [3e-01, 1e+03]
+  QMatrix range    [1e+00, 4e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+00]
+  RHS range        [1e+00, 1e+01]
+  QRHS range       [2e-01, 2e-01]
+Presolve removed 10 rows and 9 columns
+Presolve time: 0.00s
+Presolved: 0 rows, 58 columns, 0 nonzeros
+Variable types: 38 continuous, 20 integer (20 binary)
+
+Root relaxation: objective 0.000000e+00, 0 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    2.98821    0   13          -    2.98821      -     -    0s
+     0     0    5.55026    0   15          -    5.55026      -     -    0s
+     0     0    5.55026    0   15          -    5.55026      -     -    0s
+     0     2    5.55026    0   15          -    5.55026      -     -    0s
+H    1     4                      18.0000000    5.56924  69.1%   0.0    0s
+H  107    72                      17.0000000    8.89500  47.7%  18.6    0s
+*  107    72              20      17.0000000    9.14572  46.2%  18.8    0s
+
+Cutting planes:
+  Gomory: 14
+  Flow cover: 14
+
+Explored 785 nodes (14525 simplex iterations) in 0.75 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 17 18 
+
+Optimal solution found (tolerance 1.00e-04)
+Warning: max constraint violation (1.6805e-05) exceeds tolerance
+Best objective 1.700000000000e+01, best bound 1.700000000000e+01, gap 0.0000%
+Optimize a model with 50 rows, 67 columns and 141 nonzeros
+Model has 40 quadratic constraints
+Variable types: 42 continuous, 25 integer (25 binary)
+Coefficient statistics:
+  Matrix range     [3e-01, 1e+03]
+  QMatrix range    [1e+00, 4e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+00]
+  RHS range        [1e+00, 1e+01]
+  QRHS range       [2e-01, 2e-01]
+Presolve removed 50 rows and 9 columns
+Presolve time: 0.00s
+Presolved: 0 rows, 58 columns, 0 nonzeros
+Variable types: 38 continuous, 20 integer (20 binary)
+
+Root relaxation: objective 0.000000e+00, 0 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    2.98821    0   13          -    2.98821      -     -    0s
+     0     0    5.55026    0   15          -    5.55026      -     -    0s
+     0     0    5.55026    0   15          -    5.55026      -     -    0s
+     0     2    5.55026    0   15          -    5.55026      -     -    0s
+H    1     4                      18.0000000    5.56924  69.1%   0.0    0s
+H  107    72                      17.0000000    8.89500  47.7%  18.6    0s
+*  107    72              20      17.0000000    9.14572  46.2%  18.8    0s
+
+Cutting planes:
+  Gomory: 14
+  Flow cover: 14
+
+Explored 785 nodes (14525 simplex iterations) in 0.77 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 17 18 
+
+Optimal solution found (tolerance 1.00e-04)
+Warning: max constraint violation (1.6805e-05) exceeds tolerance
+Best objective 1.700000000000e+01, best bound 1.700000000000e+01, gap 0.0000%
+Optimize a model with 90 rows, 67 columns and 261 nonzeros
+Model has 40 quadratic constraints
+Variable types: 42 continuous, 25 integer (25 binary)
+Coefficient statistics:
+  Matrix range     [3e-01, 1e+03]
+  QMatrix range    [1e+00, 4e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+00]
+  RHS range        [1e+00, 1e+01]
+  QRHS range       [2e-01, 2e-01]
+Presolve removed 90 rows and 9 columns
+Presolve time: 0.00s
+Presolved: 0 rows, 58 columns, 0 nonzeros
+Variable types: 38 continuous, 20 integer (20 binary)
+
+Root relaxation: objective 0.000000e+00, 0 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    2.98821    0   13          -    2.98821      -     -    0s
+     0     0    5.55026    0   15          -    5.55026      -     -    0s
+     0     0    5.55026    0   15          -    5.55026      -     -    0s
+     0     2    5.55026    0   15          -    5.55026      -     -    0s
+H    1     4                      18.0000000    5.56924  69.1%   0.0    0s
+H  107    72                      17.0000000    8.89500  47.7%  18.6    0s
+*  107    72              20      17.0000000    9.14572  46.2%  18.8    0s
+
+Cutting planes:
+  Gomory: 14
+  Flow cover: 14
+
+Explored 785 nodes (14525 simplex iterations) in 0.81 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 17 18 
+
+Optimal solution found (tolerance 1.00e-04)
+Warning: max constraint violation (1.6805e-05) exceeds tolerance
+Best objective 1.700000000000e+01, best bound 1.700000000000e+01, gap 0.0000%
+Optimize a model with 90 rows, 67 columns and 261 nonzeros
+Model has 40 quadratic constraints
+Variable types: 42 continuous, 25 integer (25 binary)
+Coefficient statistics:
+  Matrix range     [3e-01, 1e+03]
+  QMatrix range    [1e+00, 4e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+00]
+  RHS range        [1e+00, 1e+01]
+  QRHS range       [2e-01, 2e-01]
+Presolve removed 90 rows and 9 columns
+Presolve time: 0.00s
+Presolved: 0 rows, 58 columns, 0 nonzeros
+Variable types: 38 continuous, 20 integer (20 binary)
+
+Root relaxation: objective 0.000000e+00, 0 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    2.98821    0   13          -    2.98821      -     -    0s
+     0     0    5.55026    0   15          -    5.55026      -     -    0s
+     0     0    5.55026    0   15          -    5.55026      -     -    0s
+     0     2    5.55026    0   15          -    5.55026      -     -    0s
+H    1     4                      18.0000000    5.56924  69.1%   0.0    0s
+H  107    72                      17.0000000    8.89500  47.7%  18.6    0s
+*  107    72              20      17.0000000    9.14572  46.2%  18.8    0s
+
+Cutting planes:
+  Gomory: 14
+  Flow cover: 14
+
+Explored 785 nodes (14525 simplex iterations) in 0.76 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 17 18 
+
+Optimal solution found (tolerance 1.00e-04)
+Warning: max constraint violation (1.6805e-05) exceeds tolerance
+Best objective 1.700000000000e+01, best bound 1.700000000000e+01, gap 0.0000%
+Optimize a model with 90 rows, 67 columns and 261 nonzeros
+Model has 40 quadratic constraints
+Variable types: 42 continuous, 25 integer (25 binary)
+Coefficient statistics:
+  Matrix range     [3e-01, 1e+03]
+  QMatrix range    [1e+00, 4e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+00]
+  RHS range        [1e+00, 1e+01]
+  QRHS range       [2e-01, 2e-01]
+Presolve removed 1 rows and 1 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Optimize a model with 90 rows, 67 columns and 261 nonzeros
+Model has 40 quadratic constraints
+Variable types: 42 continuous, 25 integer (25 binary)
+Coefficient statistics:
+  Matrix range     [3e-01, 1e+03]
+  QMatrix range    [1e+00, 4e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+00]
+  RHS range        [1e+00, 1e+01]
+  QRHS range       [2e-01, 2e-01]
+Presolve removed 90 rows and 9 columns
+Presolve time: 0.00s
+Presolved: 0 rows, 58 columns, 0 nonzeros
+Variable types: 38 continuous, 20 integer (20 binary)
+
+Root relaxation: objective 0.000000e+00, 0 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    2.98821    0   13          -    2.98821      -     -    0s
+     0     0    5.55026    0   15          -    5.55026      -     -    0s
+     0     0    5.55026    0   15          -    5.55026      -     -    0s
+     0     2    5.55026    0   15          -    5.55026      -     -    0s
+H    1     4                      18.0000000    5.56924  69.1%   0.0    0s
+H  107    72                      17.0000000    8.89500  47.7%  18.6    0s
+*  107    72              20      17.0000000    9.14572  46.2%  18.8    0s
+
+Cutting planes:
+  Gomory: 14
+  Flow cover: 14
+
+Explored 785 nodes (14525 simplex iterations) in 0.75 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 17 18 
+
+Optimal solution found (tolerance 1.00e-04)
+Warning: max constraint violation (1.6805e-05) exceeds tolerance
+Best objective 1.700000000000e+01, best bound 1.700000000000e+01, gap 0.0000%
+Optimize a model with 90 rows, 67 columns and 261 nonzeros
+Model has 40 quadratic constraints
+Variable types: 42 continuous, 25 integer (25 binary)
+Coefficient statistics:
+  Matrix range     [3e-01, 1e+03]
+  QMatrix range    [1e+00, 2e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+00]
+  RHS range        [1e+00, 1e+01]
+  QRHS range       [1e+00, 1e+00]
+Presolve removed 1 rows and 1 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Optimize a model with 130 rows, 97 columns and 381 nonzeros
+Model has 60 quadratic constraints
+Variable types: 62 continuous, 35 integer (35 binary)
+Coefficient statistics:
+  Matrix range     [3e-01, 1e+03]
+  QMatrix range    [1e+00, 2e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+00]
+  RHS range        [1e+00, 1e+01]
+  QRHS range       [1e+00, 1e+00]
+Presolve removed 1 rows and 1 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Optimize a model with 130 rows, 97 columns and 381 nonzeros
+Model has 60 quadratic constraints
+Variable types: 62 continuous, 35 integer (35 binary)
+Coefficient statistics:
+  Matrix range     [3e-01, 1e+03]
+  QMatrix range    [1e+00, 2e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+00]
+  RHS range        [1e+00, 1e+01]
+  QRHS range       [1e+00, 1e+00]
+Presolve removed 101 rows and 9 columns
+Presolve time: 0.00s
+Presolved: 29 rows, 88 columns, 58 nonzeros
+Variable types: 58 continuous, 30 integer (30 binary)
+
+Root relaxation: objective 0.000000e+00, 0 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.01853    0    3          -    0.01853      -     -    0s
+H    0     0                       3.0000000    0.01853  99.4%     -    0s
+     0     0    0.08467    0   11    3.00000    0.08467  97.2%     -    0s
+     0     0    0.08542    0   10    3.00000    0.08542  97.2%     -    0s
+     0     0    0.12257    0   19    3.00000    0.12257  95.9%     -    0s
+     0     0    0.12257    0   19    3.00000    0.12257  95.9%     -    0s
+     0     2    0.12257    0   19    3.00000    0.12257  95.9%     -    0s
+H    2     4                       2.0000000    0.12350  93.8%   1.0    0s
+
+Cutting planes:
+  Gomory: 3
+  MIR: 8
+
+Explored 54 nodes (1710 simplex iterations) in 0.54 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 2 3 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.000000000000e+00, best bound 2.000000000000e+00, gap 0.0000%
+Optimize a model with 130 rows, 97 columns and 381 nonzeros
+Model has 60 quadratic constraints
+Variable types: 62 continuous, 35 integer (35 binary)
+Coefficient statistics:
+  Matrix range     [3e-01, 1e+03]
+  QMatrix range    [1e+00, 2e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+00]
+  RHS range        [1e+00, 1e+01]
+  QRHS range       [1e+00, 1e+00]
+Presolve removed 1 rows and 1 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Optimize a model with 130 rows, 97 columns and 381 nonzeros
+Model has 60 quadratic constraints
+Variable types: 62 continuous, 35 integer (35 binary)
+Coefficient statistics:
+  Matrix range     [3e-01, 1e+03]
+  QMatrix range    [1e+00, 2e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+00]
+  RHS range        [1e+00, 1e+01]
+  QRHS range       [1e+00, 1e+00]
+Presolve removed 1 rows and 1 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Optimize a model with 5 rows, 93 columns and 5 nonzeros
+Model has 60 quadratic constraints
+Variable types: 62 continuous, 31 integer (31 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  QMatrix range    [1e+00, 2e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+00]
+  RHS range        [1e+00, 7e+00]
+  QRHS range       [1e+00, 1e+00]
+Presolve removed 5 rows and 5 columns
+Presolve time: 0.00s
+Presolved: 0 rows, 88 columns, 0 nonzeros
+Variable types: 58 continuous, 30 integer (30 binary)
+
+Root relaxation: objective 0.000000e+00, 0 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.08442    0    7          -    0.08442      -     -    0s
+H    0     0                       7.0000000    0.08442  98.8%     -    0s
+     0     0    0.08442    0    7    7.00000    0.08442  98.8%     -    0s
+     0     2    0.08442    0    7    7.00000    0.08442  98.8%     -    0s
+ 16677  8285    5.72732   32    8    7.00000    5.42225  22.5%  18.6    5s
+ 31595 14933     cutoff   38         7.00000    5.46480  21.9%  19.3   10s
+ 55663 25297     cutoff   38         7.00000    5.49872  21.4%  19.7   15s
+ 79086 34869    5.59422   26   14    7.00000    5.52062  21.1%  20.2   20s
+
+Cutting planes:
+  Gomory: 32
+  Implied bound: 1
+  Flow cover: 62
+
+Explored 95029 nodes (1950698 simplex iterations) in 22.91 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 7 
+
+Solve interrupted
+Warning: max constraint violation (2.2652e-06) exceeds tolerance
+Best objective 7.000000000000e+00, best bound 6.000000000000e+00, gap 14.2857%
+Optimize a model with 5 rows, 63 columns and 5 nonzeros
+Model has 40 quadratic constraints
+Variable types: 42 continuous, 21 integer (21 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  QMatrix range    [1e+00, 2e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+00]
+  RHS range        [1e+00, 7e+00]
+  QRHS range       [1e+00, 1e+00]
+Presolve removed 5 rows and 5 columns
+Presolve time: 0.00s
+Presolved: 0 rows, 58 columns, 0 nonzeros
+Variable types: 38 continuous, 20 integer (20 binary)
+
+Root relaxation: objective 0.000000e+00, 0 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.37377    0    7          -    0.37377      -     -    0s
+     0     0    0.62621    0   10          -    0.62621      -     -    0s
+     0     0    0.62621    0   10          -    0.62621      -     -    0s
+     0     2    0.62621    0   10          -    0.62621      -     -    0s
+H    1     4                      15.0000000    0.62651  95.8%   0.0    0s
+H    4     8                      14.0000000    1.66249  88.1%  20.8    0s
+H   22    23                      13.0000000    2.18082  83.2%  15.2    0s
+H   34    33                      12.0000000    2.18082  81.8%  13.6    0s
+H   45    45                      11.0000000    2.18082  80.2%  13.8    0s
+H   60    58                      10.0000000    2.18082  78.2%  12.8    0s
+H   70    63                       9.0000000    2.18082  75.8%  11.5    0s
+H  158   119                       8.0000000    2.36407  70.4%  11.8    0s
+H  411   311                       7.0000000    5.29585  24.3%  11.5    0s
+ 23587  5317    5.81847   28    7    7.00000    5.77344  17.5%  16.6    5s
+ 51313  5684    5.92684   32    3    7.00000    5.84128  16.6%  17.4   10s
+
+Cutting planes:
+  Gomory: 26
+  Implied bound: 1
+  Flow cover: 37
+  Inf proof: 1
+
+Explored 77753 nodes (1400214 simplex iterations) in 14.50 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 9: 7 8 9 ... 15
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.000000000000e+00, best bound 7.000000000000e+00, gap 0.0000%
+Optimize a model with 90 rows, 67 columns and 261 nonzeros
+Model has 40 quadratic constraints
+Variable types: 42 continuous, 25 integer (25 binary)
+Coefficient statistics:
+  Matrix range     [3e-01, 1e+03]
+  QMatrix range    [1e+00, 2e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+00]
+  RHS range        [1e+00, 1e+01]
+  QRHS range       [1e+00, 1e+00]
+Presolve removed 1 rows and 1 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Optimize a model with 90 rows, 67 columns and 261 nonzeros
+Model has 40 quadratic constraints
+Variable types: 42 continuous, 25 integer (25 binary)
+Coefficient statistics:
+  Matrix range     [3e-01, 1e+03]
+  QMatrix range    [1e+00, 2e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+00]
+  RHS range        [1e+00, 1e+01]
+  QRHS range       [1e+00, 1e+00]
+Presolve removed 1 rows and 1 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Optimize a model with 90 rows, 67 columns and 261 nonzeros
+Model has 40 quadratic constraints
+Variable types: 42 continuous, 25 integer (25 binary)
+Coefficient statistics:
+  Matrix range     [3e-01, 1e+02]
+  QMatrix range    [1e+00, 2e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+00]
+  RHS range        [1e+00, 1e+01]
+  QRHS range       [1e+00, 1e+00]
+Presolve removed 1 rows and 1 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Optimize a model with 90 rows, 67 columns and 261 nonzeros
+Model has 40 quadratic constraints
+Variable types: 42 continuous, 25 integer (25 binary)
+Coefficient statistics:
+  Matrix range     [3e-01, 1e+02]
+  QMatrix range    [1e+00, 2e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+00]
+  RHS range        [1e+00, 1e+01]
+  QRHS range       [1e+00, 1e+00]
+Presolve removed 1 rows and 1 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Optimize a model with 90 rows, 67 columns and 261 nonzeros
+Model has 40 quadratic constraints
+Variable types: 42 continuous, 25 integer (25 binary)
+Coefficient statistics:
+  Matrix range     [3e-01, 1e+02]
+  QMatrix range    [1e+00, 2e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+00]
+  RHS range        [1e+00, 1e+01]
+  QRHS range       [1e+00, 1e+00]
+Presolve removed 1 rows and 1 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Optimize a model with 90 rows, 67 columns and 261 nonzeros
+Model has 40 quadratic constraints
+Variable types: 42 continuous, 25 integer (25 binary)
+Coefficient statistics:
+  Matrix range     [3e-01, 1e+02]
+  QMatrix range    [1e+00, 2e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+00]
+  RHS range        [1e+00, 1e+01]
+  QRHS range       [1e+00, 1e+00]
+Presolve removed 1 rows and 1 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Optimize a model with 90 rows, 67 columns and 261 nonzeros
+Model has 40 quadratic constraints
+Variable types: 42 continuous, 25 integer (25 binary)
+Coefficient statistics:
+  Matrix range     [3e-01, 1e+02]
+  QMatrix range    [1e+00, 2e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+00]
+  RHS range        [1e+00, 1e+01]
+  QRHS range       [1e+00, 1e+00]
+Presolve removed 1 rows and 1 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Optimize a model with 90 rows, 67 columns and 261 nonzeros
+Model has 40 quadratic constraints
+Variable types: 42 continuous, 25 integer (25 binary)
+Coefficient statistics:
+  Matrix range     [3e-01, 1e+02]
+  QMatrix range    [1e+00, 2e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+00]
+  RHS range        [1e+00, 1e+01]
+  QRHS range       [1e+00, 1e+00]
+Presolve removed 1 rows and 1 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Optimize a model with 90 rows, 67 columns and 261 nonzeros
+Model has 40 quadratic constraints
+Variable types: 42 continuous, 25 integer (25 binary)
+Coefficient statistics:
+  Matrix range     [3e-01, 1e+02]
+  QMatrix range    [1e+00, 2e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+00]
+  RHS range        [1e+00, 1e+01]
+  QRHS range       [1e+00, 1e+00]
+Presolve removed 1 rows and 1 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Optimize a model with 90 rows, 67 columns and 261 nonzeros
+Model has 40 quadratic constraints
+Variable types: 42 continuous, 25 integer (25 binary)
+Coefficient statistics:
+  Matrix range     [3e-01, 1e+02]
+  QMatrix range    [1e+00, 2e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+00]
+  RHS range        [1e+00, 1e+01]
+  QRHS range       [1e+00, 1e+00]
+Presolve removed 1 rows and 1 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Optimize a model with 90 rows, 67 columns and 261 nonzeros
+Model has 40 quadratic constraints
+Variable types: 42 continuous, 25 integer (25 binary)
+Coefficient statistics:
+  Matrix range     [3e-01, 1e+02]
+  QMatrix range    [1e+00, 2e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+00]
+  RHS range        [1e+00, 1e+01]
+  QRHS range       [1e+00, 1e+00]
+Presolve removed 1 rows and 1 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+Optimize a model with 110 rows, 147 columns and 341 nonzeros
+Model has 40 quadratic constraints
+Variable types: 42 continuous, 105 integer (105 binary)
+Coefficient statistics:
+  Matrix range     [3e-01, 1e+02]
+  QMatrix range    [1e+00, 2e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+00]
+  RHS range        [1e+00, 1e+01]
+  QRHS range       [1e+00, 1e+00]
+Presolve removed 18 rows and 16 columns
+Presolve time: 0.01s
+Presolved: 92 rows, 131 columns, 294 nonzeros
+Variable types: 38 continuous, 93 integer (93 binary)
+
+Root relaxation: objective 0.000000e+00, 46 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0    1          -    0.00000      -     -    0s
+     0     0    0.00000    0    8          -    0.00000      -     -    0s
+     0     0    0.00000    0    8          -    0.00000      -     -    0s
+     0     2    0.00000    0    8          -    0.00000      -     -    0s
+H   14    16                      16.0000000    0.56449  96.5%  27.6    0s
+H   27    24                      14.0000000    0.70028  95.0%  22.1    0s
+H   35    38                      13.0000000    0.70028  94.6%  19.2    0s
+H   68    65                      12.0000000    0.70028  94.2%  14.1    0s
+H   84    82                      11.0000000    0.70028  93.6%  13.2    0s
+H  247   191                       7.0000000    1.60874  77.0%  15.1    0s
+*  247   191              23       7.0000000    1.60874  77.0%  15.1    0s
+ 23458  5978    5.69308   29    8    7.00000    5.56550  20.5%  26.2    5s
+ 41200  4407    5.87528   33    2    7.00000    5.69684  18.6%  30.6   10s
+ 66481  1920     cutoff   33         7.00000    5.76140  17.7%  30.6   15s
+
+Explored 78568 nodes (2354592 simplex iterations) in 17.11 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 6: 7 11 12 ... 16
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.000000000000e+00, best bound 7.000000000000e+00, gap 0.0000%
+Optimize a model with 110 rows, 147 columns and 341 nonzeros
+Model has 40 quadratic constraints
+Variable types: 42 continuous, 105 integer (105 binary)
+Coefficient statistics:
+  Matrix range     [3e-01, 1e+02]
+  QMatrix range    [1e+00, 2e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+00]
+  RHS range        [1e+00, 1e+01]
+  QRHS range       [1e+00, 1e+00]
+Presolve removed 18 rows and 16 columns
+Presolve time: 0.00s
+Presolved: 92 rows, 131 columns, 294 nonzeros
+Variable types: 38 continuous, 93 integer (93 binary)
+
+Root relaxation: objective 0.000000e+00, 44 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0    6          -    0.00000      -     -    0s
+     0     0    0.00000    0    4          -    0.00000      -     -    0s
+     0     0    0.00000    0    4          -    0.00000      -     -    0s
+     0     0    0.00000    0    3          -    0.00000      -     -    0s
+     0     0    0.00000    0    1          -    0.00000      -     -    0s
+     0     0    0.00000    0    1          -    0.00000      -     -    0s
+     0     0    0.00000    0    -          -    0.00000      -     -    0s
+H  576   378                      16.0000000    7.84484  51.0%  20.5    3s
+H  906   487                      10.0000000    7.94083  20.6%  19.1    3s
+*  906   487             122      10.0000000    7.94083  20.6%  19.1    3s
+  5771  2889    9.00000  124    8   10.00000    8.04913  19.5%  20.0    5s
+ 32201 15794    9.00000  128    2   10.00000    8.10348  19.0%  21.7   10s
+ 50352 23848    9.00000  119   12   10.00000    8.11661  18.8%  22.4   15s
+ 77693 35494    9.00000  112    4   10.00000    8.13117  18.7%  22.6   20s
+ 102611 45078    9.00000  123    6   10.00000    8.14143  18.6%  22.8   25s
+ 124671 53629    9.00000  120    8   10.00000    8.14858  18.5%  23.0   30s
+ 142685 60328 infeasible  120        10.00000    8.15402  18.5%  23.4   35s
+ 159640 66562    9.00000  124   10   10.00000    8.15820  18.4%  23.7   40s
+ 177585 73239    9.00000  122    8   10.00000    8.16205  18.4%  23.9   45s
+ 195045 79638    8.16663  116    9   10.00000    8.16533  18.3%  24.1   50s
+ 207494 84115    9.00000  118    6   10.00000    8.16761  18.3%  24.2   55s
+ 224563 90210    9.00000  117    5   10.00000    8.17034  18.3%  24.4   60s
+ 242296 96890 infeasible  119        10.00000    8.17288  18.3%  24.5   65s
+ 257115 102421    9.00000  117    4   10.00000    8.17485  18.3%  24.6   70s
+ 266478 105766 infeasible  125        10.00000    8.17603  18.2%  24.7   75s
+ 275894 109248    9.00000  118    6   10.00000    8.17727  18.2%  24.8   80s
+ 287229 113337 infeasible  127        10.00000    8.17856  18.2%  24.8   85s
+ 303993 119365    9.00000  116    8   10.00000    8.18034  18.2%  24.9   90s
+ 318738 124508 infeasible  123        10.00000    8.18170  18.2%  24.9   95s
+ 332656 129371    8.19781  113   12   10.00000    8.18303  18.2%  25.0  100s
+ 344027 133141    9.00000  118    4   10.00000    8.18395  18.2%  25.0  105s
+ 358023 137959 infeasible  130        10.00000    8.18510  18.1%  25.0  110s
+ 373534 143332    8.24686  117    8   10.00000    8.18637  18.1%  25.1  115s
+ 390842 149316    9.00000  123    4   10.00000    8.18773  18.1%  25.1  120s
+ 407253 154953    9.00000  121   10   10.00000    8.18896  18.1%  25.1  125s
+ 421197 159895 infeasible  124        10.00000    8.18992  18.1%  25.1  130s
+ 437065 165612    9.00000  120    6   10.00000    8.19098  18.1%  25.2  135s
+ 452063 170700    9.00000  120   18   10.00000    8.19201  18.1%  25.2  140s
+ 464062 174837    9.00000  121    3   10.00000    8.19280  18.1%  25.3  145s
+ 479157 179980    8.22687  118   13   10.00000    8.19379  18.1%  25.3  150s
+ 493158 184722    9.00000  123   10   10.00000    8.19462  18.1%  25.4  155s
+ 506995 189437    9.00000  123   10   10.00000    8.19542  18.0%  25.4  160s
+ 521241 194398 infeasible  116        10.00000    8.19622  18.0%  25.4  165s
+ 537607 199952    9.00000  121    4   10.00000    8.19720  18.0%  25.5  170s
+ 553134 205332 infeasible  124        10.00000    8.19802  18.0%  25.5  175s
+ 564295 209006 infeasible  123        10.00000    8.19862  18.0%  25.5  180s
+ 577668 213464    9.00000  117    4   10.00000    8.19931  18.0%  25.6  185s
+ 593518 218832    8.24961  117   12   10.00000    8.20013  18.0%  25.6  190s
+ 609848 224340    8.25437  117   16   10.00000    8.20096  18.0%  25.6  195s
+ 629493 230927 infeasible  127        10.00000    8.20192  18.0%  25.7  200s
+ 645821 236481    9.00000  121    2   10.00000    8.20273  18.0%  25.8  205s
+ 663347 242379 infeasible  125        10.00000    8.20356  18.0%  25.9  210s
+ 674274 246026    9.00000  120   14   10.00000    8.20409  18.0%  25.9  215s
+ 691058 251784    9.00000  125    6   10.00000    8.20487  18.0%  26.0  220s
+ 708247 257578    8.21454  115   14   10.00000    8.20574  17.9%  26.0  225s
+ 724344 262881    9.00000  117   10   10.00000    8.20648  17.9%  26.1  230s
+ 739992 268118    9.00000  128   12   10.00000    8.20720  17.9%  26.2  235s
+ 754384 272908    9.00000  123   14   10.00000    8.20783  17.9%  26.2  240s
+ 770114 278347 infeasible  131        10.00000    8.20853  17.9%  26.3  245s
+ 779462 281509    9.00000  124   12   10.00000    8.20898  17.9%  26.3  250s
+ 793754 286301 infeasible  124        10.00000    8.20957  17.9%  26.3  255s
+ 809115 291397    9.00000  123    4   10.00000    8.21027  17.9%  26.4  260s
+ 824075 296371    9.00000  119   12   10.00000    8.21090  17.9%  26.4  265s
+ 838589 301280    9.00000  119    8   10.00000    8.21152  17.9%  26.5  270s
+ 853869 306375    9.00000  127    4   10.00000    8.21216  17.9%  26.5  275s
+ 868760 311418 infeasible  126        10.00000    8.21281  17.9%  26.6  280s
+ 883967 316376    9.00000  121    6   10.00000    8.21343  17.9%  26.6  285s
+ 898151 321119 infeasible  130        10.00000    8.21402  17.9%  26.7  290s
+ 913707 326209    9.00000  124   10   10.00000    8.21464  17.9%  26.7  295s
+ 923055 329339    9.00000  123    4   10.00000    8.21503  17.8%  26.8  300s
+ 937468 333986 infeasible  125        10.00000    8.21559  17.8%  26.8  305s
+ 953477 339332    9.00000  115    8   10.00000    8.21622  17.8%  26.8  310s
+ 968252 344237    9.00000  121    7   10.00000    8.21680  17.8%  26.9  315s
+ 983945 349359 infeasible  129        10.00000    8.21739  17.8%  26.9  320s
+ 998454 353967    9.00000  119    6   10.00000    8.21792  17.8%  26.9  325s
+ 1013848 358979    9.00000  121    8   10.00000    8.21852  17.8%  27.0  330s
+ 1028335 363665 infeasible  125        10.00000    8.21907  17.8%  27.0  335s
+ 1043983 368653    8.24683  117   12   10.00000    8.21965  17.8%  27.1  340s
+ 1058631 373325    9.00000  118   12   10.00000    8.22019  17.8%  27.1  345s
+ 1070161 376968    8.22546  115   14   10.00000    8.22060  17.8%  27.1  350s
+ 1085809 382012 infeasible  125        10.00000    8.22118  17.8%  27.1  355s
+ 1099185 386278    9.00000  120    8   10.00000    8.22166  17.8%  27.2  360s
+ 1112595 390742    9.00000  119    4   10.00000    8.22210  17.8%  27.2  365s
+ 1125804 395179    8.25450  116   11   10.00000    8.22257  17.8%  27.2  370s
+ 1137718 399074    9.00000  123   10   10.00000    8.22298  17.8%  27.2  375s
+ 1149894 403004    9.00000  127   10   10.00000    8.22340  17.8%  27.2  380s
+ 1163791 407500    9.00000  124    4   10.00000    8.22389  17.8%  27.3  385s
+ 1174812 411220    9.00000  119   14   10.00000    8.22428  17.8%  27.3  390s
+ 1188097 415428    9.00000  117    8   10.00000    8.22479  17.8%  27.3  395s
+ 1202639 419922 infeasible  126        10.00000    8.22531  17.7%  27.3  400s
+ 1212072 422870    9.00000  125    4   10.00000    8.22563  17.7%  27.3  405s
+ 1221173 425747    9.00000  123    4   10.00000    8.22596  17.7%  27.3  410s
+ 1232005 429136 infeasible  129        10.00000    8.22634  17.7%  27.4  415s
+ 1243849 432959    9.00000  122    6   10.00000    8.22676  17.7%  27.4  420s
+ 1256107 436930    9.00000  124   10   10.00000    8.22720  17.7%  27.4  425s
+ 1266820 440316    9.00000  125    2   10.00000    8.22756  17.7%  27.4  430s
+ 1278974 444176    9.00000  123   16   10.00000    8.22796  17.7%  27.4  435s
+ 1284542 445955    9.00000  125    8   10.00000    8.22816  17.7%  27.4  440s
+ 1295925 449535    9.00000  121    8   10.00000    8.22854  17.7%  27.5  445s
+ 1307986 453438    9.00000  122   10   10.00000    8.22894  17.7%  27.5  450s
+ 1319673 457206    9.00000  125    2   10.00000    8.22935  17.7%  27.5  455s
+ 1328824 460076 infeasible  128        10.00000    8.22968  17.7%  27.5  460s
+ 1343448 464862 infeasible  123        10.00000    8.23020  17.7%  27.5  465s
+ 1357080 469252 infeasible  123        10.00000    8.23066  17.7%  27.6  470s
+ 1371315 473787    9.00000  128   10   10.00000    8.23121  17.7%  27.6  475s
+ 1384911 478221    8.23247  116   15   10.00000    8.23171  17.7%  27.6  480s
+
+Cutting planes:
+  Gomory: 26
+  Flow cover: 22
+
+Explored 1391107 nodes (38431360 simplex iterations) in 483.62 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 10 16 
+
+Solve interrupted
+Best objective 1.000000000000e+01, best bound 9.000000000000e+00, gap 10.0000%
