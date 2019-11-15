@@ -1,0 +1,45 @@
+STATISTICS
+  Problem name     : model
+  Variables        : 17 (8 binary, 0 integer, 0 implicit integer, 9 continuous)
+  Constraints      : 19 initial, 19 maximal
+OBJECTIVE
+  Sense            : minimize
+VARIABLES
+  [binary] <z(0,0,1)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,0,2)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,1,1)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,1,2)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,2,1)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,2,2)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,3,1)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,3,2)>: obj=0, original bounds=[0,1]
+  [continuous] <d(2)>: obj=1, original bounds=[0,+inf]
+  [continuous] <x(0)>: obj=0, original bounds=[0,8]
+  [continuous] <y(0)>: obj=0, original bounds=[0,8]
+  [continuous] <d(0)>: obj=0, original bounds=[0,+inf]
+  [continuous] <x(1)>: obj=0, original bounds=[0,8]
+  [continuous] <y(1)>: obj=0, original bounds=[0,8]
+  [continuous] <d(1)>: obj=1, original bounds=[0,+inf]
+  [continuous] <x(2)>: obj=0, original bounds=[0,8]
+  [continuous] <y(2)>: obj=0, original bounds=[0,8]
+CONSTRAINTS
+  [linear] <c1>: <x(0)>[C] == 1;
+  [linear] <c2>: <y(0)>[C] == 1;
+  [linear] <c3>: <d(0)>[C] == 0;
+  [linear] <c4>: <d(1)>[C] <= 4;
+  [quadratic] <c5>: <d(1)>[C] -<x(0)>[C]^2 -<y(0)>[C]^2 -<x(1)>[C]^2 -<y(1)>[C]^2 +2<x(0)>[C]<x(1)>[C] +2<y(0)>[C]<y(1)>[C] == 0;
+  [linear] <c6>: <d(2)>[C] <= 4;
+  [quadratic] <c7>: <d(2)>[C] -<x(1)>[C]^2 -<y(1)>[C]^2 -<x(2)>[C]^2 -<y(2)>[C]^2 +2<x(1)>[C]<x(2)>[C] +2<y(1)>[C]<y(2)>[C] == 0;
+  [linear] <c8>: <x(2)>[C] == 1;
+  [linear] <c9>: <y(2)>[C] == 5;
+  [linear] <c10>: <y(1)>[C] +4<x(1)>[C] -1000<z(0,0,1)>[B] <= 14;
+  [linear] <c11>: <y(2)>[C] +4<x(2)>[C] -1000<z(0,0,2)>[B] <= 14;
+  [linear] <c12>:  -<y(1)>[C] -0.5<x(1)>[C] -1000<z(0,1,1)>[B] <= -7;
+  [linear] <c13>:  -<y(2)>[C] -0.5<x(2)>[C] -1000<z(0,1,2)>[B] <= -7;
+  [linear] <c14>:  -<y(1)>[C] -<x(1)>[C] -1000<z(0,2,1)>[B] <= -9;
+  [linear] <c15>:  -<y(2)>[C] -<x(2)>[C] -1000<z(0,2,2)>[B] <= -9;
+  [linear] <c16>: <y(1)>[C] -0.333333333333333<x(1)>[C] -1000<z(0,3,1)>[B] <= 1;
+  [linear] <c17>: <y(2)>[C] -0.333333333333333<x(2)>[C] -1000<z(0,3,2)>[B] <= 1;
+  [linear] <c18>: <z(0,0,1)>[B] +<z(0,1,1)>[B] +<z(0,2,1)>[B] +<z(0,3,1)>[B] <= 3;
+  [linear] <c19>: <z(0,0,2)>[B] +<z(0,1,2)>[B] +<z(0,2,2)>[B] +<z(0,3,2)>[B] <= 3;
+END
