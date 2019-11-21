@@ -3,7 +3,7 @@ import numpy as np
 from shapely.geometry import Point, Polygon, LineString, box
 from environment import Environment, plot_environment, plot_line, plot_poly
 import pyclipper
-from gurobipy import *
+#from gurobipy import *
 
 
 def grow_obstacles(obstacles):
