@@ -10,6 +10,36 @@ from environment import Environment, plot_environment, plot_line, plot_poly
 import json
 import scenarios
 
+import random
+
+one_obstacle = {'start': (0,0),
+                'goal': [(6,6),(6,7),(7,7),(7,6)],
+                'obs_list': [[(3,2), (2,6), (4,5), (6,3)]]
+                }
+
+
+two_obstacle = {'start': (3,0),
+                'goal': [(5,6),(5,7),(6,7),(6,6)],
+                'obs_list': [[(1,3), (4,1), (4,3)],
+                            [(4,6), (3.5,4), (7,3)]],
+                }
+
+quad_boxes = {'start': (3.1,0),
+              'goal': [(3.5,6.5),(2.5,6.5),(2.5,5.5),(3.5,5.5)],
+              'obs_list': [[(1,1), (1,3), (3,3), (3,1)],
+                          [(1,3), (1,5), (3,5), (3,3)],
+                          [(3,1), (3,3), (5,3), (5,1)],
+                          [(3,3), (3,5), (5,5), (5,3)]],
+              }
+
+five_obstacle = {'start': (0,0),
+                'goal': [(12,12),(12,14),(14,14),(14,12)],
+                'obs_list': [[(2,1),(3,1),(3,4),(1,4)],
+                            [(5,1),(6,3),(5,5),(4,3)],
+                            [(1,6),(6,6),(6,7),(2,9)],
+                            [(11,4),(14,5),(8,11),(6,9)],
+                            [(5,10),(7,11),(8,14),(4,13)]],
+                }
 
 def random_obstacle_sample(num_obstacles):
     #take a random sample of obstacles from the given JSON.
