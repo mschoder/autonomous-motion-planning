@@ -3,7 +3,7 @@ import numpy as np
 from shapely.geometry import Point, Polygon, LineString, box
 from environment import Environment, plot_environment, plot_line, plot_poly
 import pyclipper
-from gurobipy import *
+from pyscipopt import *
 
 
 
@@ -82,21 +82,21 @@ def create_model(start, goal, obs_list, N, timestep, V_max, buffer):
 
     model = Model()
     # Set x,y decision vars
-    x,y,z = {},{},{}
+    x,y,d,z = {},{},{},{}
     for t in range(0,N+1):
         x[t] = model.addVar(lb=bounds[0], ub=bounds[2], name="x(%s)"%(t))
         y[t] = model.addVar(lb=bounds[1], ub=bounds[3], name="y(%s)"%(t))
-
-    # Set objective function
-    model.setObjective(quicksum((x[t] - x[t-1])*(x[t] - x[t-1]) + (y[t] - y[t-1])*(y[t] - y[t-1]) for t in time))
+        d[t] = model.addVar(lb = 0, ub = vts, name="d(%s)"%(t))
 
     # Set initial conditions
-    model.addConstr(x[0] == start[0])
-    model.addConstr(y[0] == start[1])
+    model.addCons(x[0] == start[0])
+    model.addCons(y[0] == start[1])
+    model.addCons(d[0] == 0)
 
     # Set velocity constraint for each time period
     for t in time:
-        model.addQConstr((x[t] - x[t-1])*(x[t] - x[t-1]) + (y[t] - y[t-1])*(y[t] - y[t-1]) <= vts)
+        # model.addCons((x[t] - x[t-1])*(x[t] - x[t-1]) + (y[t] - y[t-1])*(y[t] - y[t-1]) <= vts)
+        model.addCons(d[t] == ((x[t] - x[t-1])**2 + (y[t] - y[t-1])**2))
 
     # Set Obstacle Constraints
     for idx_obs, obs in enumerate(obs_list):
@@ -113,16 +113,20 @@ def create_model(start, goal, obs_list, N, timestep, V_max, buffer):
                 m = delta_y / delta_x
                 b = vertex1[1] - m * vertex1[0]
                 if vertex_avg[1] < m * vertex_avg[0] + b:  # then flip constraint
-                    model.addConstrs(-y[t] <= -m * x[t] - b + M*z[(idx_obs, idx_v, t)] - buffer for t in time)
+                    for t in time:
+                        model.addCons(-y[t] <= -m * x[t] - b + M*z[(idx_obs, idx_v, t)] - buffer)
                 else:
-                    model.addConstrs(y[t] <= m * x[t] + b + M*z[(idx_obs, idx_v, t)] - buffer for t in time)
+                    for t in time:
+                        model.addCons(y[t] <= m * x[t] + b + M*z[(idx_obs, idx_v, t)] - buffer)
             else:
                 if vertex_avg[0] <= vertex1[0]:  # then flip constraint
-                    model.addConstrs(-x[t] <= -vertex1[0] + M*z[(idx_obs, idx_v, t)] - buffer for t in time)
+                    for t in time:
+                        model.addCons(-x[t] <= -vertex1[0] + M*z[(idx_obs, idx_v, t)] - buffer)
                 else:
-                    model.addConstrs(x[t] <= vertex1[0] + M*z[(idx_obs, idx_v, t)] - buffer for t in time)
+                    for t in time:
+                        model.addCons(x[t] <= vertex1[0] + M*z[(idx_obs, idx_v, t)] - buffer)
         for t in time:
-            model.addConstr(quicksum(z[(idx_obs,v,t)] for v in range(len(obs))) <= (len(obs) - 1))
+            model.addCons(quicksum(z[(idx_obs,v,t)] for v in range(len(obs))) <= (len(obs) - 1))
 
         # Set goal region constraints - final point must be inside goal region
         goal_avg = find_vertex_avg(goal) # known that avg of vertices lies inside convex polygon
@@ -135,26 +139,29 @@ def create_model(start, goal, obs_list, N, timestep, V_max, buffer):
                 m = delta_y / delta_x
                 b = vertex1[1] - m * vertex1[0]
                 if goal_avg[1] > m * goal_avg[0] + b:  # then flip constraint
-                    model.addConstr(-y[N] <= -m * x[N] - b - buffer)
+                    model.addCons(-y[N] <= -m * x[N] - b - buffer)
                 else:
-                    model.addConstr(y[N] <= m * x[N] + b - buffer)
+                    model.addCons(y[N] <= m * x[N] + b - buffer)
             else:
                 if goal_avg[0] > vertex1[0]:  # then flip constraint
-                    model.addConstr(-x[N] <= -vertex1[0] - buffer)
+                    model.addCons(-x[N] <= -vertex1[0] - buffer)
                 else:
-                    model.addConstr(x[N] <= vertex1[0] - buffer)
+                    model.addCons(x[N] <= vertex1[0] - buffer)
 
-    model.update()
-    return model, x, y, bounds
+    # Set objective function
+    model.setObjective(quicksum(d[t] for t in time), "minimize")
+    # model.setObjective(quicksum((x[t] - x[t-1])*(x[t] - x[t-1]) + (y[t] - y[t-1])*(y[t] - y[t-1]) for t in time))
+
+    model.hideOutput(False)
+    return model, x, y, d, bounds
 
 
-def parse_model_path(x,y):
+def parse_model_path(m,x,y,d):
     '''Takes the constraint dictionary and returns (x, y) coordinate array
     as well as distance array d'''
-    path_list = [(x[0].x, y[0].x)]
-    d = [0]
+    path_list = [(m.getVal(x[0]), m.getVal(y[0]))]
+    dist = [m.getVal(d[0])]
     for t in range(1,len(x)):
-        path_list.append((x[t].x, y[t].x))
-        dist = ((x[t].x - x[t-1].x)**2 + (y[t].x - y[t-1].x)**2)**0.5
-        d.append(dist)
-    return path_list, d
+        path_list.append((m.getVal(x[t]), m.getVal(y[t])))
+        dist.append(m.getVal(d[t]))
+    return path_list, dist
