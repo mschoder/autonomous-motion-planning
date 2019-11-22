@@ -1,7 +1,7 @@
 STATISTICS
   Problem name     : model
-  Variables        : 73 (40 binary, 0 integer, 0 implicit integer, 33 continuous)
-  Constraints      : 0 initial, 67 maximal
+  Variables        : 923 (800 binary, 0 integer, 0 implicit integer, 123 continuous)
+  Constraints      : 0 initial, 1063 maximal
 OBJECTIVE
   Sense            : minimize
 VARIABLES
@@ -15,6 +15,36 @@ VARIABLES
   [binary] <z(0,0,8)>: obj=0, original bounds=[0,1]
   [binary] <z(0,0,9)>: obj=0, original bounds=[0,1]
   [binary] <z(0,0,10)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,0,11)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,0,12)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,0,13)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,0,14)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,0,15)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,0,16)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,0,17)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,0,18)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,0,19)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,0,20)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,0,21)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,0,22)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,0,23)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,0,24)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,0,25)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,0,26)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,0,27)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,0,28)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,0,29)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,0,30)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,0,31)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,0,32)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,0,33)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,0,34)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,0,35)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,0,36)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,0,37)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,0,38)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,0,39)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,0,40)>: obj=0, original bounds=[0,1]
   [binary] <z(0,1,1)>: obj=0, original bounds=[0,1]
   [binary] <z(0,1,2)>: obj=0, original bounds=[0,1]
   [binary] <z(0,1,3)>: obj=0, original bounds=[0,1]
@@ -25,6 +55,36 @@ VARIABLES
   [binary] <z(0,1,8)>: obj=0, original bounds=[0,1]
   [binary] <z(0,1,9)>: obj=0, original bounds=[0,1]
   [binary] <z(0,1,10)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,1,11)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,1,12)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,1,13)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,1,14)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,1,15)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,1,16)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,1,17)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,1,18)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,1,19)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,1,20)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,1,21)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,1,22)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,1,23)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,1,24)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,1,25)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,1,26)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,1,27)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,1,28)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,1,29)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,1,30)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,1,31)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,1,32)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,1,33)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,1,34)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,1,35)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,1,36)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,1,37)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,1,38)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,1,39)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,1,40)>: obj=0, original bounds=[0,1]
   [binary] <z(0,2,1)>: obj=0, original bounds=[0,1]
   [binary] <z(0,2,2)>: obj=0, original bounds=[0,1]
   [binary] <z(0,2,3)>: obj=0, original bounds=[0,1]
@@ -35,6 +95,36 @@ VARIABLES
   [binary] <z(0,2,8)>: obj=0, original bounds=[0,1]
   [binary] <z(0,2,9)>: obj=0, original bounds=[0,1]
   [binary] <z(0,2,10)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,2,11)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,2,12)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,2,13)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,2,14)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,2,15)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,2,16)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,2,17)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,2,18)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,2,19)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,2,20)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,2,21)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,2,22)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,2,23)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,2,24)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,2,25)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,2,26)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,2,27)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,2,28)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,2,29)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,2,30)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,2,31)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,2,32)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,2,33)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,2,34)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,2,35)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,2,36)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,2,37)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,2,38)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,2,39)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,2,40)>: obj=0, original bounds=[0,1]
   [binary] <z(0,3,1)>: obj=0, original bounds=[0,1]
   [binary] <z(0,3,2)>: obj=0, original bounds=[0,1]
   [binary] <z(0,3,3)>: obj=0, original bounds=[0,1]
@@ -45,39 +135,799 @@ VARIABLES
   [binary] <z(0,3,8)>: obj=0, original bounds=[0,1]
   [binary] <z(0,3,9)>: obj=0, original bounds=[0,1]
   [binary] <z(0,3,10)>: obj=0, original bounds=[0,1]
-  [continuous] <y(2)>: obj=0, original bounds=[-0.71,7.81]
-  [continuous] <d(2)>: obj=1, original bounds=[0,1]
-  [continuous] <x(3)>: obj=0, original bounds=[-0.69,7.59]
-  [continuous] <y(3)>: obj=0, original bounds=[-0.71,7.81]
-  [continuous] <d(3)>: obj=1, original bounds=[0,1]
-  [continuous] <x(4)>: obj=0, original bounds=[-0.69,7.59]
-  [continuous] <y(4)>: obj=0, original bounds=[-0.71,7.81]
-  [continuous] <d(4)>: obj=1, original bounds=[0,1]
-  [continuous] <x(5)>: obj=0, original bounds=[-0.69,7.59]
-  [continuous] <y(5)>: obj=0, original bounds=[-0.71,7.81]
-  [continuous] <d(5)>: obj=1, original bounds=[0,1]
-  [continuous] <x(6)>: obj=0, original bounds=[-0.69,7.59]
-  [continuous] <y(6)>: obj=0, original bounds=[-0.71,7.81]
-  [continuous] <d(6)>: obj=1, original bounds=[0,1]
-  [continuous] <x(7)>: obj=0, original bounds=[-0.69,7.59]
-  [continuous] <y(7)>: obj=0, original bounds=[-0.71,7.81]
-  [continuous] <d(7)>: obj=1, original bounds=[0,1]
-  [continuous] <x(8)>: obj=0, original bounds=[-0.69,7.59]
-  [continuous] <y(8)>: obj=0, original bounds=[-0.71,7.81]
-  [continuous] <d(8)>: obj=1, original bounds=[0,1]
-  [continuous] <x(9)>: obj=0, original bounds=[-0.69,7.59]
-  [continuous] <y(9)>: obj=0, original bounds=[-0.71,7.81]
-  [continuous] <d(9)>: obj=1, original bounds=[0,1]
-  [continuous] <x(10)>: obj=0, original bounds=[-0.69,7.59]
-  [continuous] <y(10)>: obj=0, original bounds=[-0.71,7.81]
-  [continuous] <d(10)>: obj=1, original bounds=[0,1]
-  [continuous] <x(0)>: obj=0, original bounds=[-0.69,7.59]
-  [continuous] <y(0)>: obj=0, original bounds=[-0.71,7.81]
-  [continuous] <d(0)>: obj=0, original bounds=[0,1]
-  [continuous] <x(1)>: obj=0, original bounds=[-0.69,7.59]
-  [continuous] <y(1)>: obj=0, original bounds=[-0.71,7.81]
-  [continuous] <d(1)>: obj=1, original bounds=[0,1]
-  [continuous] <x(2)>: obj=0, original bounds=[-0.69,7.59]
+  [binary] <z(0,3,11)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,3,12)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,3,13)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,3,14)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,3,15)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,3,16)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,3,17)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,3,18)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,3,19)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,3,20)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,3,21)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,3,22)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,3,23)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,3,24)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,3,25)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,3,26)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,3,27)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,3,28)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,3,29)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,3,30)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,3,31)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,3,32)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,3,33)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,3,34)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,3,35)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,3,36)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,3,37)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,3,38)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,3,39)>: obj=0, original bounds=[0,1]
+  [binary] <z(0,3,40)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,0,1)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,0,2)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,0,3)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,0,4)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,0,5)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,0,6)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,0,7)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,0,8)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,0,9)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,0,10)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,0,11)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,0,12)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,0,13)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,0,14)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,0,15)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,0,16)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,0,17)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,0,18)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,0,19)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,0,20)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,0,21)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,0,22)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,0,23)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,0,24)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,0,25)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,0,26)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,0,27)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,0,28)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,0,29)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,0,30)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,0,31)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,0,32)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,0,33)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,0,34)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,0,35)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,0,36)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,0,37)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,0,38)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,0,39)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,0,40)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,1,1)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,1,2)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,1,3)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,1,4)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,1,5)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,1,6)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,1,7)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,1,8)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,1,9)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,1,10)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,1,11)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,1,12)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,1,13)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,1,14)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,1,15)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,1,16)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,1,17)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,1,18)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,1,19)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,1,20)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,1,21)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,1,22)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,1,23)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,1,24)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,1,25)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,1,26)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,1,27)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,1,28)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,1,29)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,1,30)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,1,31)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,1,32)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,1,33)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,1,34)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,1,35)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,1,36)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,1,37)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,1,38)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,1,39)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,1,40)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,2,1)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,2,2)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,2,3)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,2,4)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,2,5)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,2,6)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,2,7)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,2,8)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,2,9)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,2,10)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,2,11)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,2,12)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,2,13)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,2,14)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,2,15)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,2,16)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,2,17)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,2,18)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,2,19)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,2,20)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,2,21)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,2,22)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,2,23)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,2,24)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,2,25)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,2,26)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,2,27)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,2,28)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,2,29)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,2,30)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,2,31)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,2,32)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,2,33)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,2,34)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,2,35)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,2,36)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,2,37)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,2,38)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,2,39)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,2,40)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,3,1)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,3,2)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,3,3)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,3,4)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,3,5)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,3,6)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,3,7)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,3,8)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,3,9)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,3,10)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,3,11)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,3,12)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,3,13)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,3,14)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,3,15)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,3,16)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,3,17)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,3,18)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,3,19)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,3,20)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,3,21)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,3,22)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,3,23)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,3,24)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,3,25)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,3,26)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,3,27)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,3,28)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,3,29)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,3,30)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,3,31)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,3,32)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,3,33)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,3,34)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,3,35)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,3,36)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,3,37)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,3,38)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,3,39)>: obj=0, original bounds=[0,1]
+  [binary] <z(1,3,40)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,0,1)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,0,2)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,0,3)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,0,4)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,0,5)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,0,6)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,0,7)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,0,8)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,0,9)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,0,10)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,0,11)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,0,12)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,0,13)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,0,14)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,0,15)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,0,16)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,0,17)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,0,18)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,0,19)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,0,20)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,0,21)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,0,22)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,0,23)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,0,24)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,0,25)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,0,26)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,0,27)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,0,28)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,0,29)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,0,30)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,0,31)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,0,32)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,0,33)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,0,34)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,0,35)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,0,36)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,0,37)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,0,38)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,0,39)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,0,40)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,1,1)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,1,2)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,1,3)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,1,4)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,1,5)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,1,6)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,1,7)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,1,8)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,1,9)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,1,10)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,1,11)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,1,12)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,1,13)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,1,14)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,1,15)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,1,16)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,1,17)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,1,18)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,1,19)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,1,20)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,1,21)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,1,22)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,1,23)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,1,24)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,1,25)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,1,26)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,1,27)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,1,28)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,1,29)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,1,30)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,1,31)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,1,32)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,1,33)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,1,34)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,1,35)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,1,36)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,1,37)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,1,38)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,1,39)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,1,40)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,2,1)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,2,2)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,2,3)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,2,4)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,2,5)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,2,6)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,2,7)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,2,8)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,2,9)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,2,10)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,2,11)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,2,12)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,2,13)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,2,14)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,2,15)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,2,16)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,2,17)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,2,18)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,2,19)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,2,20)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,2,21)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,2,22)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,2,23)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,2,24)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,2,25)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,2,26)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,2,27)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,2,28)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,2,29)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,2,30)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,2,31)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,2,32)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,2,33)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,2,34)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,2,35)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,2,36)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,2,37)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,2,38)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,2,39)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,2,40)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,3,1)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,3,2)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,3,3)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,3,4)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,3,5)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,3,6)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,3,7)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,3,8)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,3,9)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,3,10)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,3,11)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,3,12)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,3,13)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,3,14)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,3,15)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,3,16)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,3,17)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,3,18)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,3,19)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,3,20)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,3,21)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,3,22)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,3,23)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,3,24)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,3,25)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,3,26)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,3,27)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,3,28)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,3,29)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,3,30)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,3,31)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,3,32)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,3,33)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,3,34)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,3,35)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,3,36)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,3,37)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,3,38)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,3,39)>: obj=0, original bounds=[0,1]
+  [binary] <z(2,3,40)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,0,1)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,0,2)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,0,3)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,0,4)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,0,5)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,0,6)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,0,7)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,0,8)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,0,9)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,0,10)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,0,11)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,0,12)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,0,13)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,0,14)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,0,15)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,0,16)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,0,17)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,0,18)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,0,19)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,0,20)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,0,21)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,0,22)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,0,23)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,0,24)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,0,25)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,0,26)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,0,27)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,0,28)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,0,29)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,0,30)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,0,31)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,0,32)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,0,33)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,0,34)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,0,35)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,0,36)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,0,37)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,0,38)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,0,39)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,0,40)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,1,1)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,1,2)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,1,3)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,1,4)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,1,5)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,1,6)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,1,7)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,1,8)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,1,9)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,1,10)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,1,11)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,1,12)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,1,13)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,1,14)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,1,15)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,1,16)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,1,17)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,1,18)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,1,19)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,1,20)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,1,21)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,1,22)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,1,23)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,1,24)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,1,25)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,1,26)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,1,27)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,1,28)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,1,29)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,1,30)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,1,31)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,1,32)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,1,33)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,1,34)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,1,35)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,1,36)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,1,37)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,1,38)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,1,39)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,1,40)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,2,1)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,2,2)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,2,3)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,2,4)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,2,5)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,2,6)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,2,7)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,2,8)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,2,9)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,2,10)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,2,11)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,2,12)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,2,13)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,2,14)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,2,15)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,2,16)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,2,17)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,2,18)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,2,19)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,2,20)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,2,21)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,2,22)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,2,23)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,2,24)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,2,25)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,2,26)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,2,27)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,2,28)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,2,29)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,2,30)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,2,31)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,2,32)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,2,33)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,2,34)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,2,35)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,2,36)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,2,37)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,2,38)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,2,39)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,2,40)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,3,1)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,3,2)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,3,3)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,3,4)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,3,5)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,3,6)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,3,7)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,3,8)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,3,9)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,3,10)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,3,11)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,3,12)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,3,13)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,3,14)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,3,15)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,3,16)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,3,17)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,3,18)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,3,19)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,3,20)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,3,21)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,3,22)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,3,23)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,3,24)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,3,25)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,3,26)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,3,27)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,3,28)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,3,29)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,3,30)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,3,31)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,3,32)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,3,33)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,3,34)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,3,35)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,3,36)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,3,37)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,3,38)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,3,39)>: obj=0, original bounds=[0,1]
+  [binary] <z(3,3,40)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,0,1)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,0,2)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,0,3)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,0,4)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,0,5)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,0,6)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,0,7)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,0,8)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,0,9)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,0,10)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,0,11)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,0,12)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,0,13)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,0,14)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,0,15)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,0,16)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,0,17)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,0,18)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,0,19)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,0,20)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,0,21)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,0,22)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,0,23)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,0,24)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,0,25)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,0,26)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,0,27)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,0,28)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,0,29)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,0,30)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,0,31)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,0,32)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,0,33)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,0,34)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,0,35)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,0,36)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,0,37)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,0,38)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,0,39)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,0,40)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,1,1)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,1,2)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,1,3)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,1,4)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,1,5)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,1,6)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,1,7)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,1,8)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,1,9)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,1,10)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,1,11)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,1,12)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,1,13)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,1,14)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,1,15)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,1,16)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,1,17)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,1,18)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,1,19)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,1,20)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,1,21)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,1,22)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,1,23)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,1,24)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,1,25)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,1,26)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,1,27)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,1,28)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,1,29)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,1,30)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,1,31)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,1,32)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,1,33)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,1,34)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,1,35)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,1,36)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,1,37)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,1,38)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,1,39)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,1,40)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,2,1)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,2,2)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,2,3)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,2,4)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,2,5)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,2,6)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,2,7)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,2,8)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,2,9)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,2,10)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,2,11)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,2,12)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,2,13)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,2,14)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,2,15)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,2,16)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,2,17)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,2,18)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,2,19)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,2,20)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,2,21)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,2,22)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,2,23)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,2,24)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,2,25)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,2,26)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,2,27)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,2,28)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,2,29)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,2,30)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,2,31)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,2,32)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,2,33)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,2,34)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,2,35)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,2,36)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,2,37)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,2,38)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,2,39)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,2,40)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,3,1)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,3,2)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,3,3)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,3,4)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,3,5)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,3,6)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,3,7)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,3,8)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,3,9)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,3,10)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,3,11)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,3,12)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,3,13)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,3,14)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,3,15)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,3,16)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,3,17)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,3,18)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,3,19)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,3,20)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,3,21)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,3,22)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,3,23)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,3,24)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,3,25)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,3,26)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,3,27)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,3,28)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,3,29)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,3,30)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,3,31)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,3,32)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,3,33)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,3,34)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,3,35)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,3,36)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,3,37)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,3,38)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,3,39)>: obj=0, original bounds=[0,1]
+  [binary] <z(4,3,40)>: obj=0, original bounds=[0,1]
+  [continuous] <d(20)>: obj=1, original bounds=[0,0.25]
+  [continuous] <x(21)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <y(21)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <d(21)>: obj=1, original bounds=[0,0.25]
+  [continuous] <x(22)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <y(22)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <d(22)>: obj=1, original bounds=[0,0.25]
+  [continuous] <x(23)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <y(23)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <d(23)>: obj=1, original bounds=[0,0.25]
+  [continuous] <x(24)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <y(24)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <d(24)>: obj=1, original bounds=[0,0.25]
+  [continuous] <x(25)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <y(25)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <d(25)>: obj=1, original bounds=[0,0.25]
+  [continuous] <x(26)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <y(26)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <d(26)>: obj=1, original bounds=[0,0.25]
+  [continuous] <x(27)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <y(27)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <d(27)>: obj=1, original bounds=[0,0.25]
+  [continuous] <x(28)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <y(28)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <d(28)>: obj=1, original bounds=[0,0.25]
+  [continuous] <x(29)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <y(29)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <d(29)>: obj=1, original bounds=[0,0.25]
+  [continuous] <x(30)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <y(30)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <d(30)>: obj=1, original bounds=[0,0.25]
+  [continuous] <x(31)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <y(31)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <d(31)>: obj=1, original bounds=[0,0.25]
+  [continuous] <x(32)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <y(32)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <d(32)>: obj=1, original bounds=[0,0.25]
+  [continuous] <x(33)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <y(33)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <d(33)>: obj=1, original bounds=[0,0.25]
+  [continuous] <x(34)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <y(34)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <d(34)>: obj=1, original bounds=[0,0.25]
+  [continuous] <x(35)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <y(35)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <d(35)>: obj=1, original bounds=[0,0.25]
+  [continuous] <x(36)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <y(36)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <d(36)>: obj=1, original bounds=[0,0.25]
+  [continuous] <x(37)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <y(37)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <d(37)>: obj=1, original bounds=[0,0.25]
+  [continuous] <x(38)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <y(38)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <d(38)>: obj=1, original bounds=[0,0.25]
+  [continuous] <x(39)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <y(39)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <d(39)>: obj=1, original bounds=[0,0.25]
+  [continuous] <x(40)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <y(40)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <d(40)>: obj=1, original bounds=[0,0.25]
+  [continuous] <x(0)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <y(0)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <d(0)>: obj=0, original bounds=[0,0.25]
+  [continuous] <x(1)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <y(1)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <d(1)>: obj=1, original bounds=[0,0.25]
+  [continuous] <x(2)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <y(2)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <d(2)>: obj=1, original bounds=[0,0.25]
+  [continuous] <x(3)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <y(3)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <d(3)>: obj=1, original bounds=[0,0.25]
+  [continuous] <x(4)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <y(4)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <d(4)>: obj=1, original bounds=[0,0.25]
+  [continuous] <x(5)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <y(5)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <d(5)>: obj=1, original bounds=[0,0.25]
+  [continuous] <x(6)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <y(6)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <d(6)>: obj=1, original bounds=[0,0.25]
+  [continuous] <x(7)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <y(7)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <d(7)>: obj=1, original bounds=[0,0.25]
+  [continuous] <x(8)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <y(8)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <d(8)>: obj=1, original bounds=[0,0.25]
+  [continuous] <x(9)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <y(9)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <d(9)>: obj=1, original bounds=[0,0.25]
+  [continuous] <x(10)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <y(10)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <d(10)>: obj=1, original bounds=[0,0.25]
+  [continuous] <x(11)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <y(11)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <d(11)>: obj=1, original bounds=[0,0.25]
+  [continuous] <x(12)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <y(12)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <d(12)>: obj=1, original bounds=[0,0.25]
+  [continuous] <x(13)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <y(13)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <d(13)>: obj=1, original bounds=[0,0.25]
+  [continuous] <x(14)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <y(14)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <d(14)>: obj=1, original bounds=[0,0.25]
+  [continuous] <x(15)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <y(15)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <d(15)>: obj=1, original bounds=[0,0.25]
+  [continuous] <x(16)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <y(16)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <d(16)>: obj=1, original bounds=[0,0.25]
+  [continuous] <x(17)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <y(17)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <d(17)>: obj=1, original bounds=[0,0.25]
+  [continuous] <x(18)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <y(18)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <d(18)>: obj=1, original bounds=[0,0.25]
+  [continuous] <x(19)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <y(19)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <d(19)>: obj=1, original bounds=[0,0.25]
+  [continuous] <x(20)>: obj=0, original bounds=[-1.4,15.4]
+  [continuous] <y(20)>: obj=0, original bounds=[-1.4,15.4]
 CONSTRAINTS
   [linear] <c1>: <x(0)>[C] == 0;
   [linear] <c2>: <y(0)>[C] == 0;
@@ -92,58 +942,1054 @@ CONSTRAINTS
   [quadratic] <c11>: <d(8)>[C] -<x(7)>[C]^2 -<y(7)>[C]^2 -<x(8)>[C]^2 -<y(8)>[C]^2 +2<x(7)>[C]<x(8)>[C] +2<y(7)>[C]<y(8)>[C] == 0;
   [quadratic] <c12>: <d(9)>[C] -<x(8)>[C]^2 -<y(8)>[C]^2 -<x(9)>[C]^2 -<y(9)>[C]^2 +2<x(8)>[C]<x(9)>[C] +2<y(8)>[C]<y(9)>[C] == 0;
   [quadratic] <c13>: <d(10)>[C] -<x(9)>[C]^2 -<y(9)>[C]^2 -<x(10)>[C]^2 -<y(10)>[C]^2 +2<x(9)>[C]<x(10)>[C] +2<y(9)>[C]<y(10)>[C] == 0;
-  [linear] <c14>: <y(1)>[C] +4<x(1)>[C] -1000000<z(0,0,1)>[B] <= 13.9999;
-  [linear] <c15>: <y(2)>[C] +4<x(2)>[C] -1000000<z(0,0,2)>[B] <= 13.9999;
-  [linear] <c16>: <y(3)>[C] +4<x(3)>[C] -1000000<z(0,0,3)>[B] <= 13.9999;
-  [linear] <c17>: <y(4)>[C] +4<x(4)>[C] -1000000<z(0,0,4)>[B] <= 13.9999;
-  [linear] <c18>: <y(5)>[C] +4<x(5)>[C] -1000000<z(0,0,5)>[B] <= 13.9999;
-  [linear] <c19>: <y(6)>[C] +4<x(6)>[C] -1000000<z(0,0,6)>[B] <= 13.9999;
-  [linear] <c20>: <y(7)>[C] +4<x(7)>[C] -1000000<z(0,0,7)>[B] <= 13.9999;
-  [linear] <c21>: <y(8)>[C] +4<x(8)>[C] -1000000<z(0,0,8)>[B] <= 13.9999;
-  [linear] <c22>: <y(9)>[C] +4<x(9)>[C] -1000000<z(0,0,9)>[B] <= 13.9999;
-  [linear] <c23>: <y(10)>[C] +4<x(10)>[C] -1000000<z(0,0,10)>[B] <= 13.9999;
-  [linear] <c24>:  -<y(1)>[C] -0.5<x(1)>[C] -1000000<z(0,1,1)>[B] <= -7.0001;
-  [linear] <c25>:  -<y(2)>[C] -0.5<x(2)>[C] -1000000<z(0,1,2)>[B] <= -7.0001;
-  [linear] <c26>:  -<y(3)>[C] -0.5<x(3)>[C] -1000000<z(0,1,3)>[B] <= -7.0001;
-  [linear] <c27>:  -<y(4)>[C] -0.5<x(4)>[C] -1000000<z(0,1,4)>[B] <= -7.0001;
-  [linear] <c28>:  -<y(5)>[C] -0.5<x(5)>[C] -1000000<z(0,1,5)>[B] <= -7.0001;
-  [linear] <c29>:  -<y(6)>[C] -0.5<x(6)>[C] -1000000<z(0,1,6)>[B] <= -7.0001;
-  [linear] <c30>:  -<y(7)>[C] -0.5<x(7)>[C] -1000000<z(0,1,7)>[B] <= -7.0001;
-  [linear] <c31>:  -<y(8)>[C] -0.5<x(8)>[C] -1000000<z(0,1,8)>[B] <= -7.0001;
-  [linear] <c32>:  -<y(9)>[C] -0.5<x(9)>[C] -1000000<z(0,1,9)>[B] <= -7.0001;
-  [linear] <c33>:  -<y(10)>[C] -0.5<x(10)>[C] -1000000<z(0,1,10)>[B] <= -7.0001;
-  [linear] <c34>:  -<y(1)>[C] -<x(1)>[C] -1000000<z(0,2,1)>[B] <= -9.0001;
-  [linear] <c35>:  -<y(2)>[C] -<x(2)>[C] -1000000<z(0,2,2)>[B] <= -9.0001;
-  [linear] <c36>:  -<y(3)>[C] -<x(3)>[C] -1000000<z(0,2,3)>[B] <= -9.0001;
-  [linear] <c37>:  -<y(4)>[C] -<x(4)>[C] -1000000<z(0,2,4)>[B] <= -9.0001;
-  [linear] <c38>:  -<y(5)>[C] -<x(5)>[C] -1000000<z(0,2,5)>[B] <= -9.0001;
-  [linear] <c39>:  -<y(6)>[C] -<x(6)>[C] -1000000<z(0,2,6)>[B] <= -9.0001;
-  [linear] <c40>:  -<y(7)>[C] -<x(7)>[C] -1000000<z(0,2,7)>[B] <= -9.0001;
-  [linear] <c41>:  -<y(8)>[C] -<x(8)>[C] -1000000<z(0,2,8)>[B] <= -9.0001;
-  [linear] <c42>:  -<y(9)>[C] -<x(9)>[C] -1000000<z(0,2,9)>[B] <= -9.0001;
-  [linear] <c43>:  -<y(10)>[C] -<x(10)>[C] -1000000<z(0,2,10)>[B] <= -9.0001;
-  [linear] <c44>: <y(1)>[C] -0.333333333333333<x(1)>[C] -1000000<z(0,3,1)>[B] <= 0.9999;
-  [linear] <c45>: <y(2)>[C] -0.333333333333333<x(2)>[C] -1000000<z(0,3,2)>[B] <= 0.9999;
-  [linear] <c46>: <y(3)>[C] -0.333333333333333<x(3)>[C] -1000000<z(0,3,3)>[B] <= 0.9999;
-  [linear] <c47>: <y(4)>[C] -0.333333333333333<x(4)>[C] -1000000<z(0,3,4)>[B] <= 0.9999;
-  [linear] <c48>: <y(5)>[C] -0.333333333333333<x(5)>[C] -1000000<z(0,3,5)>[B] <= 0.9999;
-  [linear] <c49>: <y(6)>[C] -0.333333333333333<x(6)>[C] -1000000<z(0,3,6)>[B] <= 0.9999;
-  [linear] <c50>: <y(7)>[C] -0.333333333333333<x(7)>[C] -1000000<z(0,3,7)>[B] <= 0.9999;
-  [linear] <c51>: <y(8)>[C] -0.333333333333333<x(8)>[C] -1000000<z(0,3,8)>[B] <= 0.9999;
-  [linear] <c52>: <y(9)>[C] -0.333333333333333<x(9)>[C] -1000000<z(0,3,9)>[B] <= 0.9999;
-  [linear] <c53>: <y(10)>[C] -0.333333333333333<x(10)>[C] -1000000<z(0,3,10)>[B] <= 0.9999;
-  [linear] <c54>: <z(0,0,1)>[B] +<z(0,1,1)>[B] +<z(0,2,1)>[B] +<z(0,3,1)>[B] <= 3;
-  [linear] <c55>: <z(0,0,2)>[B] +<z(0,1,2)>[B] +<z(0,2,2)>[B] +<z(0,3,2)>[B] <= 3;
-  [linear] <c56>: <z(0,0,3)>[B] +<z(0,1,3)>[B] +<z(0,2,3)>[B] +<z(0,3,3)>[B] <= 3;
-  [linear] <c57>: <z(0,0,4)>[B] +<z(0,1,4)>[B] +<z(0,2,4)>[B] +<z(0,3,4)>[B] <= 3;
-  [linear] <c58>: <z(0,0,5)>[B] +<z(0,1,5)>[B] +<z(0,2,5)>[B] +<z(0,3,5)>[B] <= 3;
-  [linear] <c59>: <z(0,0,6)>[B] +<z(0,1,6)>[B] +<z(0,2,6)>[B] +<z(0,3,6)>[B] <= 3;
-  [linear] <c60>: <z(0,0,7)>[B] +<z(0,1,7)>[B] +<z(0,2,7)>[B] +<z(0,3,7)>[B] <= 3;
-  [linear] <c61>: <z(0,0,8)>[B] +<z(0,1,8)>[B] +<z(0,2,8)>[B] +<z(0,3,8)>[B] <= 3;
-  [linear] <c62>: <z(0,0,9)>[B] +<z(0,1,9)>[B] +<z(0,2,9)>[B] +<z(0,3,9)>[B] <= 3;
-  [linear] <c63>: <z(0,0,10)>[B] +<z(0,1,10)>[B] +<z(0,2,10)>[B] +<z(0,3,10)>[B] <= 3;
-  [linear] <c64>:  -<x(10)>[C] <= -5.9001;
-  [linear] <c65>: <y(10)>[C] <= 7.0999;
-  [linear] <c66>: <x(10)>[C] <= 6.8999;
-  [linear] <c67>:  -<y(10)>[C] <= -6.1001;
+  [quadratic] <c14>: <d(11)>[C] -<x(10)>[C]^2 -<y(10)>[C]^2 -<x(11)>[C]^2 -<y(11)>[C]^2 +2<x(10)>[C]<x(11)>[C] +2<y(10)>[C]<y(11)>[C] == 0;
+  [quadratic] <c15>: <d(12)>[C] -<x(11)>[C]^2 -<y(11)>[C]^2 -<x(12)>[C]^2 -<y(12)>[C]^2 +2<x(11)>[C]<x(12)>[C] +2<y(11)>[C]<y(12)>[C] == 0;
+  [quadratic] <c16>: <d(13)>[C] -<x(12)>[C]^2 -<y(12)>[C]^2 -<x(13)>[C]^2 -<y(13)>[C]^2 +2<x(12)>[C]<x(13)>[C] +2<y(12)>[C]<y(13)>[C] == 0;
+  [quadratic] <c17>: <d(14)>[C] -<x(13)>[C]^2 -<y(13)>[C]^2 -<x(14)>[C]^2 -<y(14)>[C]^2 +2<x(13)>[C]<x(14)>[C] +2<y(13)>[C]<y(14)>[C] == 0;
+  [quadratic] <c18>: <d(15)>[C] -<x(14)>[C]^2 -<y(14)>[C]^2 -<x(15)>[C]^2 -<y(15)>[C]^2 +2<x(14)>[C]<x(15)>[C] +2<y(14)>[C]<y(15)>[C] == 0;
+  [quadratic] <c19>: <d(16)>[C] -<x(15)>[C]^2 -<y(15)>[C]^2 -<x(16)>[C]^2 -<y(16)>[C]^2 +2<x(15)>[C]<x(16)>[C] +2<y(15)>[C]<y(16)>[C] == 0;
+  [quadratic] <c20>: <d(17)>[C] -<x(16)>[C]^2 -<y(16)>[C]^2 -<x(17)>[C]^2 -<y(17)>[C]^2 +2<x(16)>[C]<x(17)>[C] +2<y(16)>[C]<y(17)>[C] == 0;
+  [quadratic] <c21>: <d(18)>[C] -<x(17)>[C]^2 -<y(17)>[C]^2 -<x(18)>[C]^2 -<y(18)>[C]^2 +2<x(17)>[C]<x(18)>[C] +2<y(17)>[C]<y(18)>[C] == 0;
+  [quadratic] <c22>: <d(19)>[C] -<x(18)>[C]^2 -<y(18)>[C]^2 -<x(19)>[C]^2 -<y(19)>[C]^2 +2<x(18)>[C]<x(19)>[C] +2<y(18)>[C]<y(19)>[C] == 0;
+  [quadratic] <c23>: <d(20)>[C] -<x(19)>[C]^2 -<y(19)>[C]^2 -<x(20)>[C]^2 -<y(20)>[C]^2 +2<x(19)>[C]<x(20)>[C] +2<y(19)>[C]<y(20)>[C] == 0;
+  [quadratic] <c24>: <d(21)>[C] -<x(20)>[C]^2 -<y(20)>[C]^2 -<x(21)>[C]^2 -<y(21)>[C]^2 +2<x(20)>[C]<x(21)>[C] +2<y(20)>[C]<y(21)>[C] == 0;
+  [quadratic] <c25>: <d(22)>[C] -<x(21)>[C]^2 -<y(21)>[C]^2 -<x(22)>[C]^2 -<y(22)>[C]^2 +2<x(21)>[C]<x(22)>[C] +2<y(21)>[C]<y(22)>[C] == 0;
+  [quadratic] <c26>: <d(23)>[C] -<x(22)>[C]^2 -<y(22)>[C]^2 -<x(23)>[C]^2 -<y(23)>[C]^2 +2<x(22)>[C]<x(23)>[C] +2<y(22)>[C]<y(23)>[C] == 0;
+  [quadratic] <c27>: <d(24)>[C] -<x(23)>[C]^2 -<y(23)>[C]^2 -<x(24)>[C]^2 -<y(24)>[C]^2 +2<x(23)>[C]<x(24)>[C] +2<y(23)>[C]<y(24)>[C] == 0;
+  [quadratic] <c28>: <d(25)>[C] -<x(24)>[C]^2 -<y(24)>[C]^2 -<x(25)>[C]^2 -<y(25)>[C]^2 +2<x(24)>[C]<x(25)>[C] +2<y(24)>[C]<y(25)>[C] == 0;
+  [quadratic] <c29>: <d(26)>[C] -<x(25)>[C]^2 -<y(25)>[C]^2 -<x(26)>[C]^2 -<y(26)>[C]^2 +2<x(25)>[C]<x(26)>[C] +2<y(25)>[C]<y(26)>[C] == 0;
+  [quadratic] <c30>: <d(27)>[C] -<x(26)>[C]^2 -<y(26)>[C]^2 -<x(27)>[C]^2 -<y(27)>[C]^2 +2<x(26)>[C]<x(27)>[C] +2<y(26)>[C]<y(27)>[C] == 0;
+  [quadratic] <c31>: <d(28)>[C] -<x(27)>[C]^2 -<y(27)>[C]^2 -<x(28)>[C]^2 -<y(28)>[C]^2 +2<x(27)>[C]<x(28)>[C] +2<y(27)>[C]<y(28)>[C] == 0;
+  [quadratic] <c32>: <d(29)>[C] -<x(28)>[C]^2 -<y(28)>[C]^2 -<x(29)>[C]^2 -<y(29)>[C]^2 +2<x(28)>[C]<x(29)>[C] +2<y(28)>[C]<y(29)>[C] == 0;
+  [quadratic] <c33>: <d(30)>[C] -<x(29)>[C]^2 -<y(29)>[C]^2 -<x(30)>[C]^2 -<y(30)>[C]^2 +2<x(29)>[C]<x(30)>[C] +2<y(29)>[C]<y(30)>[C] == 0;
+  [quadratic] <c34>: <d(31)>[C] -<x(30)>[C]^2 -<y(30)>[C]^2 -<x(31)>[C]^2 -<y(31)>[C]^2 +2<x(30)>[C]<x(31)>[C] +2<y(30)>[C]<y(31)>[C] == 0;
+  [quadratic] <c35>: <d(32)>[C] -<x(31)>[C]^2 -<y(31)>[C]^2 -<x(32)>[C]^2 -<y(32)>[C]^2 +2<x(31)>[C]<x(32)>[C] +2<y(31)>[C]<y(32)>[C] == 0;
+  [quadratic] <c36>: <d(33)>[C] -<x(32)>[C]^2 -<y(32)>[C]^2 -<x(33)>[C]^2 -<y(33)>[C]^2 +2<x(32)>[C]<x(33)>[C] +2<y(32)>[C]<y(33)>[C] == 0;
+  [quadratic] <c37>: <d(34)>[C] -<x(33)>[C]^2 -<y(33)>[C]^2 -<x(34)>[C]^2 -<y(34)>[C]^2 +2<x(33)>[C]<x(34)>[C] +2<y(33)>[C]<y(34)>[C] == 0;
+  [quadratic] <c38>: <d(35)>[C] -<x(34)>[C]^2 -<y(34)>[C]^2 -<x(35)>[C]^2 -<y(35)>[C]^2 +2<x(34)>[C]<x(35)>[C] +2<y(34)>[C]<y(35)>[C] == 0;
+  [quadratic] <c39>: <d(36)>[C] -<x(35)>[C]^2 -<y(35)>[C]^2 -<x(36)>[C]^2 -<y(36)>[C]^2 +2<x(35)>[C]<x(36)>[C] +2<y(35)>[C]<y(36)>[C] == 0;
+  [quadratic] <c40>: <d(37)>[C] -<x(36)>[C]^2 -<y(36)>[C]^2 -<x(37)>[C]^2 -<y(37)>[C]^2 +2<x(36)>[C]<x(37)>[C] +2<y(36)>[C]<y(37)>[C] == 0;
+  [quadratic] <c41>: <d(38)>[C] -<x(37)>[C]^2 -<y(37)>[C]^2 -<x(38)>[C]^2 -<y(38)>[C]^2 +2<x(37)>[C]<x(38)>[C] +2<y(37)>[C]<y(38)>[C] == 0;
+  [quadratic] <c42>: <d(39)>[C] -<x(38)>[C]^2 -<y(38)>[C]^2 -<x(39)>[C]^2 -<y(39)>[C]^2 +2<x(38)>[C]<x(39)>[C] +2<y(38)>[C]<y(39)>[C] == 0;
+  [quadratic] <c43>: <d(40)>[C] -<x(39)>[C]^2 -<y(39)>[C]^2 -<x(40)>[C]^2 -<y(40)>[C]^2 +2<x(39)>[C]<x(40)>[C] +2<y(39)>[C]<y(40)>[C] == 0;
+  [linear] <c44>: <y(1)>[C] -1000000<z(0,0,1)>[B] <= 0.9999;
+  [linear] <c45>: <y(2)>[C] -1000000<z(0,0,2)>[B] <= 0.9999;
+  [linear] <c46>: <y(3)>[C] -1000000<z(0,0,3)>[B] <= 0.9999;
+  [linear] <c47>: <y(4)>[C] -1000000<z(0,0,4)>[B] <= 0.9999;
+  [linear] <c48>: <y(5)>[C] -1000000<z(0,0,5)>[B] <= 0.9999;
+  [linear] <c49>: <y(6)>[C] -1000000<z(0,0,6)>[B] <= 0.9999;
+  [linear] <c50>: <y(7)>[C] -1000000<z(0,0,7)>[B] <= 0.9999;
+  [linear] <c51>: <y(8)>[C] -1000000<z(0,0,8)>[B] <= 0.9999;
+  [linear] <c52>: <y(9)>[C] -1000000<z(0,0,9)>[B] <= 0.9999;
+  [linear] <c53>: <y(10)>[C] -1000000<z(0,0,10)>[B] <= 0.9999;
+  [linear] <c54>: <y(11)>[C] -1000000<z(0,0,11)>[B] <= 0.9999;
+  [linear] <c55>: <y(12)>[C] -1000000<z(0,0,12)>[B] <= 0.9999;
+  [linear] <c56>: <y(13)>[C] -1000000<z(0,0,13)>[B] <= 0.9999;
+  [linear] <c57>: <y(14)>[C] -1000000<z(0,0,14)>[B] <= 0.9999;
+  [linear] <c58>: <y(15)>[C] -1000000<z(0,0,15)>[B] <= 0.9999;
+  [linear] <c59>: <y(16)>[C] -1000000<z(0,0,16)>[B] <= 0.9999;
+  [linear] <c60>: <y(17)>[C] -1000000<z(0,0,17)>[B] <= 0.9999;
+  [linear] <c61>: <y(18)>[C] -1000000<z(0,0,18)>[B] <= 0.9999;
+  [linear] <c62>: <y(19)>[C] -1000000<z(0,0,19)>[B] <= 0.9999;
+  [linear] <c63>: <y(20)>[C] -1000000<z(0,0,20)>[B] <= 0.9999;
+  [linear] <c64>: <y(21)>[C] -1000000<z(0,0,21)>[B] <= 0.9999;
+  [linear] <c65>: <y(22)>[C] -1000000<z(0,0,22)>[B] <= 0.9999;
+  [linear] <c66>: <y(23)>[C] -1000000<z(0,0,23)>[B] <= 0.9999;
+  [linear] <c67>: <y(24)>[C] -1000000<z(0,0,24)>[B] <= 0.9999;
+  [linear] <c68>: <y(25)>[C] -1000000<z(0,0,25)>[B] <= 0.9999;
+  [linear] <c69>: <y(26)>[C] -1000000<z(0,0,26)>[B] <= 0.9999;
+  [linear] <c70>: <y(27)>[C] -1000000<z(0,0,27)>[B] <= 0.9999;
+  [linear] <c71>: <y(28)>[C] -1000000<z(0,0,28)>[B] <= 0.9999;
+  [linear] <c72>: <y(29)>[C] -1000000<z(0,0,29)>[B] <= 0.9999;
+  [linear] <c73>: <y(30)>[C] -1000000<z(0,0,30)>[B] <= 0.9999;
+  [linear] <c74>: <y(31)>[C] -1000000<z(0,0,31)>[B] <= 0.9999;
+  [linear] <c75>: <y(32)>[C] -1000000<z(0,0,32)>[B] <= 0.9999;
+  [linear] <c76>: <y(33)>[C] -1000000<z(0,0,33)>[B] <= 0.9999;
+  [linear] <c77>: <y(34)>[C] -1000000<z(0,0,34)>[B] <= 0.9999;
+  [linear] <c78>: <y(35)>[C] -1000000<z(0,0,35)>[B] <= 0.9999;
+  [linear] <c79>: <y(36)>[C] -1000000<z(0,0,36)>[B] <= 0.9999;
+  [linear] <c80>: <y(37)>[C] -1000000<z(0,0,37)>[B] <= 0.9999;
+  [linear] <c81>: <y(38)>[C] -1000000<z(0,0,38)>[B] <= 0.9999;
+  [linear] <c82>: <y(39)>[C] -1000000<z(0,0,39)>[B] <= 0.9999;
+  [linear] <c83>: <y(40)>[C] -1000000<z(0,0,40)>[B] <= 0.9999;
+  [linear] <c84>:  -<x(1)>[C] -1000000<z(0,1,1)>[B] <= -3.0001;
+  [linear] <c85>:  -<x(2)>[C] -1000000<z(0,1,2)>[B] <= -3.0001;
+  [linear] <c86>:  -<x(3)>[C] -1000000<z(0,1,3)>[B] <= -3.0001;
+  [linear] <c87>:  -<x(4)>[C] -1000000<z(0,1,4)>[B] <= -3.0001;
+  [linear] <c88>:  -<x(5)>[C] -1000000<z(0,1,5)>[B] <= -3.0001;
+  [linear] <c89>:  -<x(6)>[C] -1000000<z(0,1,6)>[B] <= -3.0001;
+  [linear] <c90>:  -<x(7)>[C] -1000000<z(0,1,7)>[B] <= -3.0001;
+  [linear] <c91>:  -<x(8)>[C] -1000000<z(0,1,8)>[B] <= -3.0001;
+  [linear] <c92>:  -<x(9)>[C] -1000000<z(0,1,9)>[B] <= -3.0001;
+  [linear] <c93>:  -<x(10)>[C] -1000000<z(0,1,10)>[B] <= -3.0001;
+  [linear] <c94>:  -<x(11)>[C] -1000000<z(0,1,11)>[B] <= -3.0001;
+  [linear] <c95>:  -<x(12)>[C] -1000000<z(0,1,12)>[B] <= -3.0001;
+  [linear] <c96>:  -<x(13)>[C] -1000000<z(0,1,13)>[B] <= -3.0001;
+  [linear] <c97>:  -<x(14)>[C] -1000000<z(0,1,14)>[B] <= -3.0001;
+  [linear] <c98>:  -<x(15)>[C] -1000000<z(0,1,15)>[B] <= -3.0001;
+  [linear] <c99>:  -<x(16)>[C] -1000000<z(0,1,16)>[B] <= -3.0001;
+  [linear] <c100>:  -<x(17)>[C] -1000000<z(0,1,17)>[B] <= -3.0001;
+  [linear] <c101>:  -<x(18)>[C] -1000000<z(0,1,18)>[B] <= -3.0001;
+  [linear] <c102>:  -<x(19)>[C] -1000000<z(0,1,19)>[B] <= -3.0001;
+  [linear] <c103>:  -<x(20)>[C] -1000000<z(0,1,20)>[B] <= -3.0001;
+  [linear] <c104>:  -<x(21)>[C] -1000000<z(0,1,21)>[B] <= -3.0001;
+  [linear] <c105>:  -<x(22)>[C] -1000000<z(0,1,22)>[B] <= -3.0001;
+  [linear] <c106>:  -<x(23)>[C] -1000000<z(0,1,23)>[B] <= -3.0001;
+  [linear] <c107>:  -<x(24)>[C] -1000000<z(0,1,24)>[B] <= -3.0001;
+  [linear] <c108>:  -<x(25)>[C] -1000000<z(0,1,25)>[B] <= -3.0001;
+  [linear] <c109>:  -<x(26)>[C] -1000000<z(0,1,26)>[B] <= -3.0001;
+  [linear] <c110>:  -<x(27)>[C] -1000000<z(0,1,27)>[B] <= -3.0001;
+  [linear] <c111>:  -<x(28)>[C] -1000000<z(0,1,28)>[B] <= -3.0001;
+  [linear] <c112>:  -<x(29)>[C] -1000000<z(0,1,29)>[B] <= -3.0001;
+  [linear] <c113>:  -<x(30)>[C] -1000000<z(0,1,30)>[B] <= -3.0001;
+  [linear] <c114>:  -<x(31)>[C] -1000000<z(0,1,31)>[B] <= -3.0001;
+  [linear] <c115>:  -<x(32)>[C] -1000000<z(0,1,32)>[B] <= -3.0001;
+  [linear] <c116>:  -<x(33)>[C] -1000000<z(0,1,33)>[B] <= -3.0001;
+  [linear] <c117>:  -<x(34)>[C] -1000000<z(0,1,34)>[B] <= -3.0001;
+  [linear] <c118>:  -<x(35)>[C] -1000000<z(0,1,35)>[B] <= -3.0001;
+  [linear] <c119>:  -<x(36)>[C] -1000000<z(0,1,36)>[B] <= -3.0001;
+  [linear] <c120>:  -<x(37)>[C] -1000000<z(0,1,37)>[B] <= -3.0001;
+  [linear] <c121>:  -<x(38)>[C] -1000000<z(0,1,38)>[B] <= -3.0001;
+  [linear] <c122>:  -<x(39)>[C] -1000000<z(0,1,39)>[B] <= -3.0001;
+  [linear] <c123>:  -<x(40)>[C] -1000000<z(0,1,40)>[B] <= -3.0001;
+  [linear] <c124>:  -<y(1)>[C] -1000000<z(0,2,1)>[B] <= -4.0001;
+  [linear] <c125>:  -<y(2)>[C] -1000000<z(0,2,2)>[B] <= -4.0001;
+  [linear] <c126>:  -<y(3)>[C] -1000000<z(0,2,3)>[B] <= -4.0001;
+  [linear] <c127>:  -<y(4)>[C] -1000000<z(0,2,4)>[B] <= -4.0001;
+  [linear] <c128>:  -<y(5)>[C] -1000000<z(0,2,5)>[B] <= -4.0001;
+  [linear] <c129>:  -<y(6)>[C] -1000000<z(0,2,6)>[B] <= -4.0001;
+  [linear] <c130>:  -<y(7)>[C] -1000000<z(0,2,7)>[B] <= -4.0001;
+  [linear] <c131>:  -<y(8)>[C] -1000000<z(0,2,8)>[B] <= -4.0001;
+  [linear] <c132>:  -<y(9)>[C] -1000000<z(0,2,9)>[B] <= -4.0001;
+  [linear] <c133>:  -<y(10)>[C] -1000000<z(0,2,10)>[B] <= -4.0001;
+  [linear] <c134>:  -<y(11)>[C] -1000000<z(0,2,11)>[B] <= -4.0001;
+  [linear] <c135>:  -<y(12)>[C] -1000000<z(0,2,12)>[B] <= -4.0001;
+  [linear] <c136>:  -<y(13)>[C] -1000000<z(0,2,13)>[B] <= -4.0001;
+  [linear] <c137>:  -<y(14)>[C] -1000000<z(0,2,14)>[B] <= -4.0001;
+  [linear] <c138>:  -<y(15)>[C] -1000000<z(0,2,15)>[B] <= -4.0001;
+  [linear] <c139>:  -<y(16)>[C] -1000000<z(0,2,16)>[B] <= -4.0001;
+  [linear] <c140>:  -<y(17)>[C] -1000000<z(0,2,17)>[B] <= -4.0001;
+  [linear] <c141>:  -<y(18)>[C] -1000000<z(0,2,18)>[B] <= -4.0001;
+  [linear] <c142>:  -<y(19)>[C] -1000000<z(0,2,19)>[B] <= -4.0001;
+  [linear] <c143>:  -<y(20)>[C] -1000000<z(0,2,20)>[B] <= -4.0001;
+  [linear] <c144>:  -<y(21)>[C] -1000000<z(0,2,21)>[B] <= -4.0001;
+  [linear] <c145>:  -<y(22)>[C] -1000000<z(0,2,22)>[B] <= -4.0001;
+  [linear] <c146>:  -<y(23)>[C] -1000000<z(0,2,23)>[B] <= -4.0001;
+  [linear] <c147>:  -<y(24)>[C] -1000000<z(0,2,24)>[B] <= -4.0001;
+  [linear] <c148>:  -<y(25)>[C] -1000000<z(0,2,25)>[B] <= -4.0001;
+  [linear] <c149>:  -<y(26)>[C] -1000000<z(0,2,26)>[B] <= -4.0001;
+  [linear] <c150>:  -<y(27)>[C] -1000000<z(0,2,27)>[B] <= -4.0001;
+  [linear] <c151>:  -<y(28)>[C] -1000000<z(0,2,28)>[B] <= -4.0001;
+  [linear] <c152>:  -<y(29)>[C] -1000000<z(0,2,29)>[B] <= -4.0001;
+  [linear] <c153>:  -<y(30)>[C] -1000000<z(0,2,30)>[B] <= -4.0001;
+  [linear] <c154>:  -<y(31)>[C] -1000000<z(0,2,31)>[B] <= -4.0001;
+  [linear] <c155>:  -<y(32)>[C] -1000000<z(0,2,32)>[B] <= -4.0001;
+  [linear] <c156>:  -<y(33)>[C] -1000000<z(0,2,33)>[B] <= -4.0001;
+  [linear] <c157>:  -<y(34)>[C] -1000000<z(0,2,34)>[B] <= -4.0001;
+  [linear] <c158>:  -<y(35)>[C] -1000000<z(0,2,35)>[B] <= -4.0001;
+  [linear] <c159>:  -<y(36)>[C] -1000000<z(0,2,36)>[B] <= -4.0001;
+  [linear] <c160>:  -<y(37)>[C] -1000000<z(0,2,37)>[B] <= -4.0001;
+  [linear] <c161>:  -<y(38)>[C] -1000000<z(0,2,38)>[B] <= -4.0001;
+  [linear] <c162>:  -<y(39)>[C] -1000000<z(0,2,39)>[B] <= -4.0001;
+  [linear] <c163>:  -<y(40)>[C] -1000000<z(0,2,40)>[B] <= -4.0001;
+  [linear] <c164>: <y(1)>[C] +3<x(1)>[C] -1000000<z(0,3,1)>[B] <= 6.9999;
+  [linear] <c165>: <y(2)>[C] +3<x(2)>[C] -1000000<z(0,3,2)>[B] <= 6.9999;
+  [linear] <c166>: <y(3)>[C] +3<x(3)>[C] -1000000<z(0,3,3)>[B] <= 6.9999;
+  [linear] <c167>: <y(4)>[C] +3<x(4)>[C] -1000000<z(0,3,4)>[B] <= 6.9999;
+  [linear] <c168>: <y(5)>[C] +3<x(5)>[C] -1000000<z(0,3,5)>[B] <= 6.9999;
+  [linear] <c169>: <y(6)>[C] +3<x(6)>[C] -1000000<z(0,3,6)>[B] <= 6.9999;
+  [linear] <c170>: <y(7)>[C] +3<x(7)>[C] -1000000<z(0,3,7)>[B] <= 6.9999;
+  [linear] <c171>: <y(8)>[C] +3<x(8)>[C] -1000000<z(0,3,8)>[B] <= 6.9999;
+  [linear] <c172>: <y(9)>[C] +3<x(9)>[C] -1000000<z(0,3,9)>[B] <= 6.9999;
+  [linear] <c173>: <y(10)>[C] +3<x(10)>[C] -1000000<z(0,3,10)>[B] <= 6.9999;
+  [linear] <c174>: <y(11)>[C] +3<x(11)>[C] -1000000<z(0,3,11)>[B] <= 6.9999;
+  [linear] <c175>: <y(12)>[C] +3<x(12)>[C] -1000000<z(0,3,12)>[B] <= 6.9999;
+  [linear] <c176>: <y(13)>[C] +3<x(13)>[C] -1000000<z(0,3,13)>[B] <= 6.9999;
+  [linear] <c177>: <y(14)>[C] +3<x(14)>[C] -1000000<z(0,3,14)>[B] <= 6.9999;
+  [linear] <c178>: <y(15)>[C] +3<x(15)>[C] -1000000<z(0,3,15)>[B] <= 6.9999;
+  [linear] <c179>: <y(16)>[C] +3<x(16)>[C] -1000000<z(0,3,16)>[B] <= 6.9999;
+  [linear] <c180>: <y(17)>[C] +3<x(17)>[C] -1000000<z(0,3,17)>[B] <= 6.9999;
+  [linear] <c181>: <y(18)>[C] +3<x(18)>[C] -1000000<z(0,3,18)>[B] <= 6.9999;
+  [linear] <c182>: <y(19)>[C] +3<x(19)>[C] -1000000<z(0,3,19)>[B] <= 6.9999;
+  [linear] <c183>: <y(20)>[C] +3<x(20)>[C] -1000000<z(0,3,20)>[B] <= 6.9999;
+  [linear] <c184>: <y(21)>[C] +3<x(21)>[C] -1000000<z(0,3,21)>[B] <= 6.9999;
+  [linear] <c185>: <y(22)>[C] +3<x(22)>[C] -1000000<z(0,3,22)>[B] <= 6.9999;
+  [linear] <c186>: <y(23)>[C] +3<x(23)>[C] -1000000<z(0,3,23)>[B] <= 6.9999;
+  [linear] <c187>: <y(24)>[C] +3<x(24)>[C] -1000000<z(0,3,24)>[B] <= 6.9999;
+  [linear] <c188>: <y(25)>[C] +3<x(25)>[C] -1000000<z(0,3,25)>[B] <= 6.9999;
+  [linear] <c189>: <y(26)>[C] +3<x(26)>[C] -1000000<z(0,3,26)>[B] <= 6.9999;
+  [linear] <c190>: <y(27)>[C] +3<x(27)>[C] -1000000<z(0,3,27)>[B] <= 6.9999;
+  [linear] <c191>: <y(28)>[C] +3<x(28)>[C] -1000000<z(0,3,28)>[B] <= 6.9999;
+  [linear] <c192>: <y(29)>[C] +3<x(29)>[C] -1000000<z(0,3,29)>[B] <= 6.9999;
+  [linear] <c193>: <y(30)>[C] +3<x(30)>[C] -1000000<z(0,3,30)>[B] <= 6.9999;
+  [linear] <c194>: <y(31)>[C] +3<x(31)>[C] -1000000<z(0,3,31)>[B] <= 6.9999;
+  [linear] <c195>: <y(32)>[C] +3<x(32)>[C] -1000000<z(0,3,32)>[B] <= 6.9999;
+  [linear] <c196>: <y(33)>[C] +3<x(33)>[C] -1000000<z(0,3,33)>[B] <= 6.9999;
+  [linear] <c197>: <y(34)>[C] +3<x(34)>[C] -1000000<z(0,3,34)>[B] <= 6.9999;
+  [linear] <c198>: <y(35)>[C] +3<x(35)>[C] -1000000<z(0,3,35)>[B] <= 6.9999;
+  [linear] <c199>: <y(36)>[C] +3<x(36)>[C] -1000000<z(0,3,36)>[B] <= 6.9999;
+  [linear] <c200>: <y(37)>[C] +3<x(37)>[C] -1000000<z(0,3,37)>[B] <= 6.9999;
+  [linear] <c201>: <y(38)>[C] +3<x(38)>[C] -1000000<z(0,3,38)>[B] <= 6.9999;
+  [linear] <c202>: <y(39)>[C] +3<x(39)>[C] -1000000<z(0,3,39)>[B] <= 6.9999;
+  [linear] <c203>: <y(40)>[C] +3<x(40)>[C] -1000000<z(0,3,40)>[B] <= 6.9999;
+  [linear] <c204>: <z(0,0,1)>[B] +<z(0,1,1)>[B] +<z(0,2,1)>[B] +<z(0,3,1)>[B] <= 3;
+  [linear] <c205>: <z(0,0,2)>[B] +<z(0,1,2)>[B] +<z(0,2,2)>[B] +<z(0,3,2)>[B] <= 3;
+  [linear] <c206>: <z(0,0,3)>[B] +<z(0,1,3)>[B] +<z(0,2,3)>[B] +<z(0,3,3)>[B] <= 3;
+  [linear] <c207>: <z(0,0,4)>[B] +<z(0,1,4)>[B] +<z(0,2,4)>[B] +<z(0,3,4)>[B] <= 3;
+  [linear] <c208>: <z(0,0,5)>[B] +<z(0,1,5)>[B] +<z(0,2,5)>[B] +<z(0,3,5)>[B] <= 3;
+  [linear] <c209>: <z(0,0,6)>[B] +<z(0,1,6)>[B] +<z(0,2,6)>[B] +<z(0,3,6)>[B] <= 3;
+  [linear] <c210>: <z(0,0,7)>[B] +<z(0,1,7)>[B] +<z(0,2,7)>[B] +<z(0,3,7)>[B] <= 3;
+  [linear] <c211>: <z(0,0,8)>[B] +<z(0,1,8)>[B] +<z(0,2,8)>[B] +<z(0,3,8)>[B] <= 3;
+  [linear] <c212>: <z(0,0,9)>[B] +<z(0,1,9)>[B] +<z(0,2,9)>[B] +<z(0,3,9)>[B] <= 3;
+  [linear] <c213>: <z(0,0,10)>[B] +<z(0,1,10)>[B] +<z(0,2,10)>[B] +<z(0,3,10)>[B] <= 3;
+  [linear] <c214>: <z(0,0,11)>[B] +<z(0,1,11)>[B] +<z(0,2,11)>[B] +<z(0,3,11)>[B] <= 3;
+  [linear] <c215>: <z(0,0,12)>[B] +<z(0,1,12)>[B] +<z(0,2,12)>[B] +<z(0,3,12)>[B] <= 3;
+  [linear] <c216>: <z(0,0,13)>[B] +<z(0,1,13)>[B] +<z(0,2,13)>[B] +<z(0,3,13)>[B] <= 3;
+  [linear] <c217>: <z(0,0,14)>[B] +<z(0,1,14)>[B] +<z(0,2,14)>[B] +<z(0,3,14)>[B] <= 3;
+  [linear] <c218>: <z(0,0,15)>[B] +<z(0,1,15)>[B] +<z(0,2,15)>[B] +<z(0,3,15)>[B] <= 3;
+  [linear] <c219>: <z(0,0,16)>[B] +<z(0,1,16)>[B] +<z(0,2,16)>[B] +<z(0,3,16)>[B] <= 3;
+  [linear] <c220>: <z(0,0,17)>[B] +<z(0,1,17)>[B] +<z(0,2,17)>[B] +<z(0,3,17)>[B] <= 3;
+  [linear] <c221>: <z(0,0,18)>[B] +<z(0,1,18)>[B] +<z(0,2,18)>[B] +<z(0,3,18)>[B] <= 3;
+  [linear] <c222>: <z(0,0,19)>[B] +<z(0,1,19)>[B] +<z(0,2,19)>[B] +<z(0,3,19)>[B] <= 3;
+  [linear] <c223>: <z(0,0,20)>[B] +<z(0,1,20)>[B] +<z(0,2,20)>[B] +<z(0,3,20)>[B] <= 3;
+  [linear] <c224>: <z(0,0,21)>[B] +<z(0,1,21)>[B] +<z(0,2,21)>[B] +<z(0,3,21)>[B] <= 3;
+  [linear] <c225>: <z(0,0,22)>[B] +<z(0,1,22)>[B] +<z(0,2,22)>[B] +<z(0,3,22)>[B] <= 3;
+  [linear] <c226>: <z(0,0,23)>[B] +<z(0,1,23)>[B] +<z(0,2,23)>[B] +<z(0,3,23)>[B] <= 3;
+  [linear] <c227>: <z(0,0,24)>[B] +<z(0,1,24)>[B] +<z(0,2,24)>[B] +<z(0,3,24)>[B] <= 3;
+  [linear] <c228>: <z(0,0,25)>[B] +<z(0,1,25)>[B] +<z(0,2,25)>[B] +<z(0,3,25)>[B] <= 3;
+  [linear] <c229>: <z(0,0,26)>[B] +<z(0,1,26)>[B] +<z(0,2,26)>[B] +<z(0,3,26)>[B] <= 3;
+  [linear] <c230>: <z(0,0,27)>[B] +<z(0,1,27)>[B] +<z(0,2,27)>[B] +<z(0,3,27)>[B] <= 3;
+  [linear] <c231>: <z(0,0,28)>[B] +<z(0,1,28)>[B] +<z(0,2,28)>[B] +<z(0,3,28)>[B] <= 3;
+  [linear] <c232>: <z(0,0,29)>[B] +<z(0,1,29)>[B] +<z(0,2,29)>[B] +<z(0,3,29)>[B] <= 3;
+  [linear] <c233>: <z(0,0,30)>[B] +<z(0,1,30)>[B] +<z(0,2,30)>[B] +<z(0,3,30)>[B] <= 3;
+  [linear] <c234>: <z(0,0,31)>[B] +<z(0,1,31)>[B] +<z(0,2,31)>[B] +<z(0,3,31)>[B] <= 3;
+  [linear] <c235>: <z(0,0,32)>[B] +<z(0,1,32)>[B] +<z(0,2,32)>[B] +<z(0,3,32)>[B] <= 3;
+  [linear] <c236>: <z(0,0,33)>[B] +<z(0,1,33)>[B] +<z(0,2,33)>[B] +<z(0,3,33)>[B] <= 3;
+  [linear] <c237>: <z(0,0,34)>[B] +<z(0,1,34)>[B] +<z(0,2,34)>[B] +<z(0,3,34)>[B] <= 3;
+  [linear] <c238>: <z(0,0,35)>[B] +<z(0,1,35)>[B] +<z(0,2,35)>[B] +<z(0,3,35)>[B] <= 3;
+  [linear] <c239>: <z(0,0,36)>[B] +<z(0,1,36)>[B] +<z(0,2,36)>[B] +<z(0,3,36)>[B] <= 3;
+  [linear] <c240>: <z(0,0,37)>[B] +<z(0,1,37)>[B] +<z(0,2,37)>[B] +<z(0,3,37)>[B] <= 3;
+  [linear] <c241>: <z(0,0,38)>[B] +<z(0,1,38)>[B] +<z(0,2,38)>[B] +<z(0,3,38)>[B] <= 3;
+  [linear] <c242>: <z(0,0,39)>[B] +<z(0,1,39)>[B] +<z(0,2,39)>[B] +<z(0,3,39)>[B] <= 3;
+  [linear] <c243>: <z(0,0,40)>[B] +<z(0,1,40)>[B] +<z(0,2,40)>[B] +<z(0,3,40)>[B] <= 3;
+  [linear] <c244>:  -<x(40)>[C] <= -12.0001;
+  [linear] <c245>: <y(40)>[C] <= 13.9999;
+  [linear] <c246>: <x(40)>[C] <= 13.9999;
+  [linear] <c247>:  -<y(40)>[C] <= -12.0001;
+  [linear] <c248>: <y(1)>[C] -2<x(1)>[C] -1000000<z(1,0,1)>[B] <= -9.0001;
+  [linear] <c249>: <y(2)>[C] -2<x(2)>[C] -1000000<z(1,0,2)>[B] <= -9.0001;
+  [linear] <c250>: <y(3)>[C] -2<x(3)>[C] -1000000<z(1,0,3)>[B] <= -9.0001;
+  [linear] <c251>: <y(4)>[C] -2<x(4)>[C] -1000000<z(1,0,4)>[B] <= -9.0001;
+  [linear] <c252>: <y(5)>[C] -2<x(5)>[C] -1000000<z(1,0,5)>[B] <= -9.0001;
+  [linear] <c253>: <y(6)>[C] -2<x(6)>[C] -1000000<z(1,0,6)>[B] <= -9.0001;
+  [linear] <c254>: <y(7)>[C] -2<x(7)>[C] -1000000<z(1,0,7)>[B] <= -9.0001;
+  [linear] <c255>: <y(8)>[C] -2<x(8)>[C] -1000000<z(1,0,8)>[B] <= -9.0001;
+  [linear] <c256>: <y(9)>[C] -2<x(9)>[C] -1000000<z(1,0,9)>[B] <= -9.0001;
+  [linear] <c257>: <y(10)>[C] -2<x(10)>[C] -1000000<z(1,0,10)>[B] <= -9.0001;
+  [linear] <c258>: <y(11)>[C] -2<x(11)>[C] -1000000<z(1,0,11)>[B] <= -9.0001;
+  [linear] <c259>: <y(12)>[C] -2<x(12)>[C] -1000000<z(1,0,12)>[B] <= -9.0001;
+  [linear] <c260>: <y(13)>[C] -2<x(13)>[C] -1000000<z(1,0,13)>[B] <= -9.0001;
+  [linear] <c261>: <y(14)>[C] -2<x(14)>[C] -1000000<z(1,0,14)>[B] <= -9.0001;
+  [linear] <c262>: <y(15)>[C] -2<x(15)>[C] -1000000<z(1,0,15)>[B] <= -9.0001;
+  [linear] <c263>: <y(16)>[C] -2<x(16)>[C] -1000000<z(1,0,16)>[B] <= -9.0001;
+  [linear] <c264>: <y(17)>[C] -2<x(17)>[C] -1000000<z(1,0,17)>[B] <= -9.0001;
+  [linear] <c265>: <y(18)>[C] -2<x(18)>[C] -1000000<z(1,0,18)>[B] <= -9.0001;
+  [linear] <c266>: <y(19)>[C] -2<x(19)>[C] -1000000<z(1,0,19)>[B] <= -9.0001;
+  [linear] <c267>: <y(20)>[C] -2<x(20)>[C] -1000000<z(1,0,20)>[B] <= -9.0001;
+  [linear] <c268>: <y(21)>[C] -2<x(21)>[C] -1000000<z(1,0,21)>[B] <= -9.0001;
+  [linear] <c269>: <y(22)>[C] -2<x(22)>[C] -1000000<z(1,0,22)>[B] <= -9.0001;
+  [linear] <c270>: <y(23)>[C] -2<x(23)>[C] -1000000<z(1,0,23)>[B] <= -9.0001;
+  [linear] <c271>: <y(24)>[C] -2<x(24)>[C] -1000000<z(1,0,24)>[B] <= -9.0001;
+  [linear] <c272>: <y(25)>[C] -2<x(25)>[C] -1000000<z(1,0,25)>[B] <= -9.0001;
+  [linear] <c273>: <y(26)>[C] -2<x(26)>[C] -1000000<z(1,0,26)>[B] <= -9.0001;
+  [linear] <c274>: <y(27)>[C] -2<x(27)>[C] -1000000<z(1,0,27)>[B] <= -9.0001;
+  [linear] <c275>: <y(28)>[C] -2<x(28)>[C] -1000000<z(1,0,28)>[B] <= -9.0001;
+  [linear] <c276>: <y(29)>[C] -2<x(29)>[C] -1000000<z(1,0,29)>[B] <= -9.0001;
+  [linear] <c277>: <y(30)>[C] -2<x(30)>[C] -1000000<z(1,0,30)>[B] <= -9.0001;
+  [linear] <c278>: <y(31)>[C] -2<x(31)>[C] -1000000<z(1,0,31)>[B] <= -9.0001;
+  [linear] <c279>: <y(32)>[C] -2<x(32)>[C] -1000000<z(1,0,32)>[B] <= -9.0001;
+  [linear] <c280>: <y(33)>[C] -2<x(33)>[C] -1000000<z(1,0,33)>[B] <= -9.0001;
+  [linear] <c281>: <y(34)>[C] -2<x(34)>[C] -1000000<z(1,0,34)>[B] <= -9.0001;
+  [linear] <c282>: <y(35)>[C] -2<x(35)>[C] -1000000<z(1,0,35)>[B] <= -9.0001;
+  [linear] <c283>: <y(36)>[C] -2<x(36)>[C] -1000000<z(1,0,36)>[B] <= -9.0001;
+  [linear] <c284>: <y(37)>[C] -2<x(37)>[C] -1000000<z(1,0,37)>[B] <= -9.0001;
+  [linear] <c285>: <y(38)>[C] -2<x(38)>[C] -1000000<z(1,0,38)>[B] <= -9.0001;
+  [linear] <c286>: <y(39)>[C] -2<x(39)>[C] -1000000<z(1,0,39)>[B] <= -9.0001;
+  [linear] <c287>: <y(40)>[C] -2<x(40)>[C] -1000000<z(1,0,40)>[B] <= -9.0001;
+  [linear] <c288>:  -<y(1)>[C] -2<x(1)>[C] -1000000<z(1,1,1)>[B] <= -15.0001;
+  [linear] <c289>:  -<y(2)>[C] -2<x(2)>[C] -1000000<z(1,1,2)>[B] <= -15.0001;
+  [linear] <c290>:  -<y(3)>[C] -2<x(3)>[C] -1000000<z(1,1,3)>[B] <= -15.0001;
+  [linear] <c291>:  -<y(4)>[C] -2<x(4)>[C] -1000000<z(1,1,4)>[B] <= -15.0001;
+  [linear] <c292>:  -<y(5)>[C] -2<x(5)>[C] -1000000<z(1,1,5)>[B] <= -15.0001;
+  [linear] <c293>:  -<y(6)>[C] -2<x(6)>[C] -1000000<z(1,1,6)>[B] <= -15.0001;
+  [linear] <c294>:  -<y(7)>[C] -2<x(7)>[C] -1000000<z(1,1,7)>[B] <= -15.0001;
+  [linear] <c295>:  -<y(8)>[C] -2<x(8)>[C] -1000000<z(1,1,8)>[B] <= -15.0001;
+  [linear] <c296>:  -<y(9)>[C] -2<x(9)>[C] -1000000<z(1,1,9)>[B] <= -15.0001;
+  [linear] <c297>:  -<y(10)>[C] -2<x(10)>[C] -1000000<z(1,1,10)>[B] <= -15.0001;
+  [linear] <c298>:  -<y(11)>[C] -2<x(11)>[C] -1000000<z(1,1,11)>[B] <= -15.0001;
+  [linear] <c299>:  -<y(12)>[C] -2<x(12)>[C] -1000000<z(1,1,12)>[B] <= -15.0001;
+  [linear] <c300>:  -<y(13)>[C] -2<x(13)>[C] -1000000<z(1,1,13)>[B] <= -15.0001;
+  [linear] <c301>:  -<y(14)>[C] -2<x(14)>[C] -1000000<z(1,1,14)>[B] <= -15.0001;
+  [linear] <c302>:  -<y(15)>[C] -2<x(15)>[C] -1000000<z(1,1,15)>[B] <= -15.0001;
+  [linear] <c303>:  -<y(16)>[C] -2<x(16)>[C] -1000000<z(1,1,16)>[B] <= -15.0001;
+  [linear] <c304>:  -<y(17)>[C] -2<x(17)>[C] -1000000<z(1,1,17)>[B] <= -15.0001;
+  [linear] <c305>:  -<y(18)>[C] -2<x(18)>[C] -1000000<z(1,1,18)>[B] <= -15.0001;
+  [linear] <c306>:  -<y(19)>[C] -2<x(19)>[C] -1000000<z(1,1,19)>[B] <= -15.0001;
+  [linear] <c307>:  -<y(20)>[C] -2<x(20)>[C] -1000000<z(1,1,20)>[B] <= -15.0001;
+  [linear] <c308>:  -<y(21)>[C] -2<x(21)>[C] -1000000<z(1,1,21)>[B] <= -15.0001;
+  [linear] <c309>:  -<y(22)>[C] -2<x(22)>[C] -1000000<z(1,1,22)>[B] <= -15.0001;
+  [linear] <c310>:  -<y(23)>[C] -2<x(23)>[C] -1000000<z(1,1,23)>[B] <= -15.0001;
+  [linear] <c311>:  -<y(24)>[C] -2<x(24)>[C] -1000000<z(1,1,24)>[B] <= -15.0001;
+  [linear] <c312>:  -<y(25)>[C] -2<x(25)>[C] -1000000<z(1,1,25)>[B] <= -15.0001;
+  [linear] <c313>:  -<y(26)>[C] -2<x(26)>[C] -1000000<z(1,1,26)>[B] <= -15.0001;
+  [linear] <c314>:  -<y(27)>[C] -2<x(27)>[C] -1000000<z(1,1,27)>[B] <= -15.0001;
+  [linear] <c315>:  -<y(28)>[C] -2<x(28)>[C] -1000000<z(1,1,28)>[B] <= -15.0001;
+  [linear] <c316>:  -<y(29)>[C] -2<x(29)>[C] -1000000<z(1,1,29)>[B] <= -15.0001;
+  [linear] <c317>:  -<y(30)>[C] -2<x(30)>[C] -1000000<z(1,1,30)>[B] <= -15.0001;
+  [linear] <c318>:  -<y(31)>[C] -2<x(31)>[C] -1000000<z(1,1,31)>[B] <= -15.0001;
+  [linear] <c319>:  -<y(32)>[C] -2<x(32)>[C] -1000000<z(1,1,32)>[B] <= -15.0001;
+  [linear] <c320>:  -<y(33)>[C] -2<x(33)>[C] -1000000<z(1,1,33)>[B] <= -15.0001;
+  [linear] <c321>:  -<y(34)>[C] -2<x(34)>[C] -1000000<z(1,1,34)>[B] <= -15.0001;
+  [linear] <c322>:  -<y(35)>[C] -2<x(35)>[C] -1000000<z(1,1,35)>[B] <= -15.0001;
+  [linear] <c323>:  -<y(36)>[C] -2<x(36)>[C] -1000000<z(1,1,36)>[B] <= -15.0001;
+  [linear] <c324>:  -<y(37)>[C] -2<x(37)>[C] -1000000<z(1,1,37)>[B] <= -15.0001;
+  [linear] <c325>:  -<y(38)>[C] -2<x(38)>[C] -1000000<z(1,1,38)>[B] <= -15.0001;
+  [linear] <c326>:  -<y(39)>[C] -2<x(39)>[C] -1000000<z(1,1,39)>[B] <= -15.0001;
+  [linear] <c327>:  -<y(40)>[C] -2<x(40)>[C] -1000000<z(1,1,40)>[B] <= -15.0001;
+  [linear] <c328>:  -<y(1)>[C] +2<x(1)>[C] -1000000<z(1,2,1)>[B] <= 4.9999;
+  [linear] <c329>:  -<y(2)>[C] +2<x(2)>[C] -1000000<z(1,2,2)>[B] <= 4.9999;
+  [linear] <c330>:  -<y(3)>[C] +2<x(3)>[C] -1000000<z(1,2,3)>[B] <= 4.9999;
+  [linear] <c331>:  -<y(4)>[C] +2<x(4)>[C] -1000000<z(1,2,4)>[B] <= 4.9999;
+  [linear] <c332>:  -<y(5)>[C] +2<x(5)>[C] -1000000<z(1,2,5)>[B] <= 4.9999;
+  [linear] <c333>:  -<y(6)>[C] +2<x(6)>[C] -1000000<z(1,2,6)>[B] <= 4.9999;
+  [linear] <c334>:  -<y(7)>[C] +2<x(7)>[C] -1000000<z(1,2,7)>[B] <= 4.9999;
+  [linear] <c335>:  -<y(8)>[C] +2<x(8)>[C] -1000000<z(1,2,8)>[B] <= 4.9999;
+  [linear] <c336>:  -<y(9)>[C] +2<x(9)>[C] -1000000<z(1,2,9)>[B] <= 4.9999;
+  [linear] <c337>:  -<y(10)>[C] +2<x(10)>[C] -1000000<z(1,2,10)>[B] <= 4.9999;
+  [linear] <c338>:  -<y(11)>[C] +2<x(11)>[C] -1000000<z(1,2,11)>[B] <= 4.9999;
+  [linear] <c339>:  -<y(12)>[C] +2<x(12)>[C] -1000000<z(1,2,12)>[B] <= 4.9999;
+  [linear] <c340>:  -<y(13)>[C] +2<x(13)>[C] -1000000<z(1,2,13)>[B] <= 4.9999;
+  [linear] <c341>:  -<y(14)>[C] +2<x(14)>[C] -1000000<z(1,2,14)>[B] <= 4.9999;
+  [linear] <c342>:  -<y(15)>[C] +2<x(15)>[C] -1000000<z(1,2,15)>[B] <= 4.9999;
+  [linear] <c343>:  -<y(16)>[C] +2<x(16)>[C] -1000000<z(1,2,16)>[B] <= 4.9999;
+  [linear] <c344>:  -<y(17)>[C] +2<x(17)>[C] -1000000<z(1,2,17)>[B] <= 4.9999;
+  [linear] <c345>:  -<y(18)>[C] +2<x(18)>[C] -1000000<z(1,2,18)>[B] <= 4.9999;
+  [linear] <c346>:  -<y(19)>[C] +2<x(19)>[C] -1000000<z(1,2,19)>[B] <= 4.9999;
+  [linear] <c347>:  -<y(20)>[C] +2<x(20)>[C] -1000000<z(1,2,20)>[B] <= 4.9999;
+  [linear] <c348>:  -<y(21)>[C] +2<x(21)>[C] -1000000<z(1,2,21)>[B] <= 4.9999;
+  [linear] <c349>:  -<y(22)>[C] +2<x(22)>[C] -1000000<z(1,2,22)>[B] <= 4.9999;
+  [linear] <c350>:  -<y(23)>[C] +2<x(23)>[C] -1000000<z(1,2,23)>[B] <= 4.9999;
+  [linear] <c351>:  -<y(24)>[C] +2<x(24)>[C] -1000000<z(1,2,24)>[B] <= 4.9999;
+  [linear] <c352>:  -<y(25)>[C] +2<x(25)>[C] -1000000<z(1,2,25)>[B] <= 4.9999;
+  [linear] <c353>:  -<y(26)>[C] +2<x(26)>[C] -1000000<z(1,2,26)>[B] <= 4.9999;
+  [linear] <c354>:  -<y(27)>[C] +2<x(27)>[C] -1000000<z(1,2,27)>[B] <= 4.9999;
+  [linear] <c355>:  -<y(28)>[C] +2<x(28)>[C] -1000000<z(1,2,28)>[B] <= 4.9999;
+  [linear] <c356>:  -<y(29)>[C] +2<x(29)>[C] -1000000<z(1,2,29)>[B] <= 4.9999;
+  [linear] <c357>:  -<y(30)>[C] +2<x(30)>[C] -1000000<z(1,2,30)>[B] <= 4.9999;
+  [linear] <c358>:  -<y(31)>[C] +2<x(31)>[C] -1000000<z(1,2,31)>[B] <= 4.9999;
+  [linear] <c359>:  -<y(32)>[C] +2<x(32)>[C] -1000000<z(1,2,32)>[B] <= 4.9999;
+  [linear] <c360>:  -<y(33)>[C] +2<x(33)>[C] -1000000<z(1,2,33)>[B] <= 4.9999;
+  [linear] <c361>:  -<y(34)>[C] +2<x(34)>[C] -1000000<z(1,2,34)>[B] <= 4.9999;
+  [linear] <c362>:  -<y(35)>[C] +2<x(35)>[C] -1000000<z(1,2,35)>[B] <= 4.9999;
+  [linear] <c363>:  -<y(36)>[C] +2<x(36)>[C] -1000000<z(1,2,36)>[B] <= 4.9999;
+  [linear] <c364>:  -<y(37)>[C] +2<x(37)>[C] -1000000<z(1,2,37)>[B] <= 4.9999;
+  [linear] <c365>:  -<y(38)>[C] +2<x(38)>[C] -1000000<z(1,2,38)>[B] <= 4.9999;
+  [linear] <c366>:  -<y(39)>[C] +2<x(39)>[C] -1000000<z(1,2,39)>[B] <= 4.9999;
+  [linear] <c367>:  -<y(40)>[C] +2<x(40)>[C] -1000000<z(1,2,40)>[B] <= 4.9999;
+  [linear] <c368>: <y(1)>[C] +2<x(1)>[C] -1000000<z(1,3,1)>[B] <= 10.9999;
+  [linear] <c369>: <y(2)>[C] +2<x(2)>[C] -1000000<z(1,3,2)>[B] <= 10.9999;
+  [linear] <c370>: <y(3)>[C] +2<x(3)>[C] -1000000<z(1,3,3)>[B] <= 10.9999;
+  [linear] <c371>: <y(4)>[C] +2<x(4)>[C] -1000000<z(1,3,4)>[B] <= 10.9999;
+  [linear] <c372>: <y(5)>[C] +2<x(5)>[C] -1000000<z(1,3,5)>[B] <= 10.9999;
+  [linear] <c373>: <y(6)>[C] +2<x(6)>[C] -1000000<z(1,3,6)>[B] <= 10.9999;
+  [linear] <c374>: <y(7)>[C] +2<x(7)>[C] -1000000<z(1,3,7)>[B] <= 10.9999;
+  [linear] <c375>: <y(8)>[C] +2<x(8)>[C] -1000000<z(1,3,8)>[B] <= 10.9999;
+  [linear] <c376>: <y(9)>[C] +2<x(9)>[C] -1000000<z(1,3,9)>[B] <= 10.9999;
+  [linear] <c377>: <y(10)>[C] +2<x(10)>[C] -1000000<z(1,3,10)>[B] <= 10.9999;
+  [linear] <c378>: <y(11)>[C] +2<x(11)>[C] -1000000<z(1,3,11)>[B] <= 10.9999;
+  [linear] <c379>: <y(12)>[C] +2<x(12)>[C] -1000000<z(1,3,12)>[B] <= 10.9999;
+  [linear] <c380>: <y(13)>[C] +2<x(13)>[C] -1000000<z(1,3,13)>[B] <= 10.9999;
+  [linear] <c381>: <y(14)>[C] +2<x(14)>[C] -1000000<z(1,3,14)>[B] <= 10.9999;
+  [linear] <c382>: <y(15)>[C] +2<x(15)>[C] -1000000<z(1,3,15)>[B] <= 10.9999;
+  [linear] <c383>: <y(16)>[C] +2<x(16)>[C] -1000000<z(1,3,16)>[B] <= 10.9999;
+  [linear] <c384>: <y(17)>[C] +2<x(17)>[C] -1000000<z(1,3,17)>[B] <= 10.9999;
+  [linear] <c385>: <y(18)>[C] +2<x(18)>[C] -1000000<z(1,3,18)>[B] <= 10.9999;
+  [linear] <c386>: <y(19)>[C] +2<x(19)>[C] -1000000<z(1,3,19)>[B] <= 10.9999;
+  [linear] <c387>: <y(20)>[C] +2<x(20)>[C] -1000000<z(1,3,20)>[B] <= 10.9999;
+  [linear] <c388>: <y(21)>[C] +2<x(21)>[C] -1000000<z(1,3,21)>[B] <= 10.9999;
+  [linear] <c389>: <y(22)>[C] +2<x(22)>[C] -1000000<z(1,3,22)>[B] <= 10.9999;
+  [linear] <c390>: <y(23)>[C] +2<x(23)>[C] -1000000<z(1,3,23)>[B] <= 10.9999;
+  [linear] <c391>: <y(24)>[C] +2<x(24)>[C] -1000000<z(1,3,24)>[B] <= 10.9999;
+  [linear] <c392>: <y(25)>[C] +2<x(25)>[C] -1000000<z(1,3,25)>[B] <= 10.9999;
+  [linear] <c393>: <y(26)>[C] +2<x(26)>[C] -1000000<z(1,3,26)>[B] <= 10.9999;
+  [linear] <c394>: <y(27)>[C] +2<x(27)>[C] -1000000<z(1,3,27)>[B] <= 10.9999;
+  [linear] <c395>: <y(28)>[C] +2<x(28)>[C] -1000000<z(1,3,28)>[B] <= 10.9999;
+  [linear] <c396>: <y(29)>[C] +2<x(29)>[C] -1000000<z(1,3,29)>[B] <= 10.9999;
+  [linear] <c397>: <y(30)>[C] +2<x(30)>[C] -1000000<z(1,3,30)>[B] <= 10.9999;
+  [linear] <c398>: <y(31)>[C] +2<x(31)>[C] -1000000<z(1,3,31)>[B] <= 10.9999;
+  [linear] <c399>: <y(32)>[C] +2<x(32)>[C] -1000000<z(1,3,32)>[B] <= 10.9999;
+  [linear] <c400>: <y(33)>[C] +2<x(33)>[C] -1000000<z(1,3,33)>[B] <= 10.9999;
+  [linear] <c401>: <y(34)>[C] +2<x(34)>[C] -1000000<z(1,3,34)>[B] <= 10.9999;
+  [linear] <c402>: <y(35)>[C] +2<x(35)>[C] -1000000<z(1,3,35)>[B] <= 10.9999;
+  [linear] <c403>: <y(36)>[C] +2<x(36)>[C] -1000000<z(1,3,36)>[B] <= 10.9999;
+  [linear] <c404>: <y(37)>[C] +2<x(37)>[C] -1000000<z(1,3,37)>[B] <= 10.9999;
+  [linear] <c405>: <y(38)>[C] +2<x(38)>[C] -1000000<z(1,3,38)>[B] <= 10.9999;
+  [linear] <c406>: <y(39)>[C] +2<x(39)>[C] -1000000<z(1,3,39)>[B] <= 10.9999;
+  [linear] <c407>: <y(40)>[C] +2<x(40)>[C] -1000000<z(1,3,40)>[B] <= 10.9999;
+  [linear] <c408>: <z(1,0,1)>[B] +<z(1,1,1)>[B] +<z(1,2,1)>[B] +<z(1,3,1)>[B] <= 3;
+  [linear] <c409>: <z(1,0,2)>[B] +<z(1,1,2)>[B] +<z(1,2,2)>[B] +<z(1,3,2)>[B] <= 3;
+  [linear] <c410>: <z(1,0,3)>[B] +<z(1,1,3)>[B] +<z(1,2,3)>[B] +<z(1,3,3)>[B] <= 3;
+  [linear] <c411>: <z(1,0,4)>[B] +<z(1,1,4)>[B] +<z(1,2,4)>[B] +<z(1,3,4)>[B] <= 3;
+  [linear] <c412>: <z(1,0,5)>[B] +<z(1,1,5)>[B] +<z(1,2,5)>[B] +<z(1,3,5)>[B] <= 3;
+  [linear] <c413>: <z(1,0,6)>[B] +<z(1,1,6)>[B] +<z(1,2,6)>[B] +<z(1,3,6)>[B] <= 3;
+  [linear] <c414>: <z(1,0,7)>[B] +<z(1,1,7)>[B] +<z(1,2,7)>[B] +<z(1,3,7)>[B] <= 3;
+  [linear] <c415>: <z(1,0,8)>[B] +<z(1,1,8)>[B] +<z(1,2,8)>[B] +<z(1,3,8)>[B] <= 3;
+  [linear] <c416>: <z(1,0,9)>[B] +<z(1,1,9)>[B] +<z(1,2,9)>[B] +<z(1,3,9)>[B] <= 3;
+  [linear] <c417>: <z(1,0,10)>[B] +<z(1,1,10)>[B] +<z(1,2,10)>[B] +<z(1,3,10)>[B] <= 3;
+  [linear] <c418>: <z(1,0,11)>[B] +<z(1,1,11)>[B] +<z(1,2,11)>[B] +<z(1,3,11)>[B] <= 3;
+  [linear] <c419>: <z(1,0,12)>[B] +<z(1,1,12)>[B] +<z(1,2,12)>[B] +<z(1,3,12)>[B] <= 3;
+  [linear] <c420>: <z(1,0,13)>[B] +<z(1,1,13)>[B] +<z(1,2,13)>[B] +<z(1,3,13)>[B] <= 3;
+  [linear] <c421>: <z(1,0,14)>[B] +<z(1,1,14)>[B] +<z(1,2,14)>[B] +<z(1,3,14)>[B] <= 3;
+  [linear] <c422>: <z(1,0,15)>[B] +<z(1,1,15)>[B] +<z(1,2,15)>[B] +<z(1,3,15)>[B] <= 3;
+  [linear] <c423>: <z(1,0,16)>[B] +<z(1,1,16)>[B] +<z(1,2,16)>[B] +<z(1,3,16)>[B] <= 3;
+  [linear] <c424>: <z(1,0,17)>[B] +<z(1,1,17)>[B] +<z(1,2,17)>[B] +<z(1,3,17)>[B] <= 3;
+  [linear] <c425>: <z(1,0,18)>[B] +<z(1,1,18)>[B] +<z(1,2,18)>[B] +<z(1,3,18)>[B] <= 3;
+  [linear] <c426>: <z(1,0,19)>[B] +<z(1,1,19)>[B] +<z(1,2,19)>[B] +<z(1,3,19)>[B] <= 3;
+  [linear] <c427>: <z(1,0,20)>[B] +<z(1,1,20)>[B] +<z(1,2,20)>[B] +<z(1,3,20)>[B] <= 3;
+  [linear] <c428>: <z(1,0,21)>[B] +<z(1,1,21)>[B] +<z(1,2,21)>[B] +<z(1,3,21)>[B] <= 3;
+  [linear] <c429>: <z(1,0,22)>[B] +<z(1,1,22)>[B] +<z(1,2,22)>[B] +<z(1,3,22)>[B] <= 3;
+  [linear] <c430>: <z(1,0,23)>[B] +<z(1,1,23)>[B] +<z(1,2,23)>[B] +<z(1,3,23)>[B] <= 3;
+  [linear] <c431>: <z(1,0,24)>[B] +<z(1,1,24)>[B] +<z(1,2,24)>[B] +<z(1,3,24)>[B] <= 3;
+  [linear] <c432>: <z(1,0,25)>[B] +<z(1,1,25)>[B] +<z(1,2,25)>[B] +<z(1,3,25)>[B] <= 3;
+  [linear] <c433>: <z(1,0,26)>[B] +<z(1,1,26)>[B] +<z(1,2,26)>[B] +<z(1,3,26)>[B] <= 3;
+  [linear] <c434>: <z(1,0,27)>[B] +<z(1,1,27)>[B] +<z(1,2,27)>[B] +<z(1,3,27)>[B] <= 3;
+  [linear] <c435>: <z(1,0,28)>[B] +<z(1,1,28)>[B] +<z(1,2,28)>[B] +<z(1,3,28)>[B] <= 3;
+  [linear] <c436>: <z(1,0,29)>[B] +<z(1,1,29)>[B] +<z(1,2,29)>[B] +<z(1,3,29)>[B] <= 3;
+  [linear] <c437>: <z(1,0,30)>[B] +<z(1,1,30)>[B] +<z(1,2,30)>[B] +<z(1,3,30)>[B] <= 3;
+  [linear] <c438>: <z(1,0,31)>[B] +<z(1,1,31)>[B] +<z(1,2,31)>[B] +<z(1,3,31)>[B] <= 3;
+  [linear] <c439>: <z(1,0,32)>[B] +<z(1,1,32)>[B] +<z(1,2,32)>[B] +<z(1,3,32)>[B] <= 3;
+  [linear] <c440>: <z(1,0,33)>[B] +<z(1,1,33)>[B] +<z(1,2,33)>[B] +<z(1,3,33)>[B] <= 3;
+  [linear] <c441>: <z(1,0,34)>[B] +<z(1,1,34)>[B] +<z(1,2,34)>[B] +<z(1,3,34)>[B] <= 3;
+  [linear] <c442>: <z(1,0,35)>[B] +<z(1,1,35)>[B] +<z(1,2,35)>[B] +<z(1,3,35)>[B] <= 3;
+  [linear] <c443>: <z(1,0,36)>[B] +<z(1,1,36)>[B] +<z(1,2,36)>[B] +<z(1,3,36)>[B] <= 3;
+  [linear] <c444>: <z(1,0,37)>[B] +<z(1,1,37)>[B] +<z(1,2,37)>[B] +<z(1,3,37)>[B] <= 3;
+  [linear] <c445>: <z(1,0,38)>[B] +<z(1,1,38)>[B] +<z(1,2,38)>[B] +<z(1,3,38)>[B] <= 3;
+  [linear] <c446>: <z(1,0,39)>[B] +<z(1,1,39)>[B] +<z(1,2,39)>[B] +<z(1,3,39)>[B] <= 3;
+  [linear] <c447>: <z(1,0,40)>[B] +<z(1,1,40)>[B] +<z(1,2,40)>[B] +<z(1,3,40)>[B] <= 3;
+  [linear] <c448>:  -<x(40)>[C] <= -12.0001;
+  [linear] <c449>: <y(40)>[C] <= 13.9999;
+  [linear] <c450>: <x(40)>[C] <= 13.9999;
+  [linear] <c451>:  -<y(40)>[C] <= -12.0001;
+  [linear] <c452>: <y(1)>[C] -1000000<z(2,0,1)>[B] <= 5.9999;
+  [linear] <c453>: <y(2)>[C] -1000000<z(2,0,2)>[B] <= 5.9999;
+  [linear] <c454>: <y(3)>[C] -1000000<z(2,0,3)>[B] <= 5.9999;
+  [linear] <c455>: <y(4)>[C] -1000000<z(2,0,4)>[B] <= 5.9999;
+  [linear] <c456>: <y(5)>[C] -1000000<z(2,0,5)>[B] <= 5.9999;
+  [linear] <c457>: <y(6)>[C] -1000000<z(2,0,6)>[B] <= 5.9999;
+  [linear] <c458>: <y(7)>[C] -1000000<z(2,0,7)>[B] <= 5.9999;
+  [linear] <c459>: <y(8)>[C] -1000000<z(2,0,8)>[B] <= 5.9999;
+  [linear] <c460>: <y(9)>[C] -1000000<z(2,0,9)>[B] <= 5.9999;
+  [linear] <c461>: <y(10)>[C] -1000000<z(2,0,10)>[B] <= 5.9999;
+  [linear] <c462>: <y(11)>[C] -1000000<z(2,0,11)>[B] <= 5.9999;
+  [linear] <c463>: <y(12)>[C] -1000000<z(2,0,12)>[B] <= 5.9999;
+  [linear] <c464>: <y(13)>[C] -1000000<z(2,0,13)>[B] <= 5.9999;
+  [linear] <c465>: <y(14)>[C] -1000000<z(2,0,14)>[B] <= 5.9999;
+  [linear] <c466>: <y(15)>[C] -1000000<z(2,0,15)>[B] <= 5.9999;
+  [linear] <c467>: <y(16)>[C] -1000000<z(2,0,16)>[B] <= 5.9999;
+  [linear] <c468>: <y(17)>[C] -1000000<z(2,0,17)>[B] <= 5.9999;
+  [linear] <c469>: <y(18)>[C] -1000000<z(2,0,18)>[B] <= 5.9999;
+  [linear] <c470>: <y(19)>[C] -1000000<z(2,0,19)>[B] <= 5.9999;
+  [linear] <c471>: <y(20)>[C] -1000000<z(2,0,20)>[B] <= 5.9999;
+  [linear] <c472>: <y(21)>[C] -1000000<z(2,0,21)>[B] <= 5.9999;
+  [linear] <c473>: <y(22)>[C] -1000000<z(2,0,22)>[B] <= 5.9999;
+  [linear] <c474>: <y(23)>[C] -1000000<z(2,0,23)>[B] <= 5.9999;
+  [linear] <c475>: <y(24)>[C] -1000000<z(2,0,24)>[B] <= 5.9999;
+  [linear] <c476>: <y(25)>[C] -1000000<z(2,0,25)>[B] <= 5.9999;
+  [linear] <c477>: <y(26)>[C] -1000000<z(2,0,26)>[B] <= 5.9999;
+  [linear] <c478>: <y(27)>[C] -1000000<z(2,0,27)>[B] <= 5.9999;
+  [linear] <c479>: <y(28)>[C] -1000000<z(2,0,28)>[B] <= 5.9999;
+  [linear] <c480>: <y(29)>[C] -1000000<z(2,0,29)>[B] <= 5.9999;
+  [linear] <c481>: <y(30)>[C] -1000000<z(2,0,30)>[B] <= 5.9999;
+  [linear] <c482>: <y(31)>[C] -1000000<z(2,0,31)>[B] <= 5.9999;
+  [linear] <c483>: <y(32)>[C] -1000000<z(2,0,32)>[B] <= 5.9999;
+  [linear] <c484>: <y(33)>[C] -1000000<z(2,0,33)>[B] <= 5.9999;
+  [linear] <c485>: <y(34)>[C] -1000000<z(2,0,34)>[B] <= 5.9999;
+  [linear] <c486>: <y(35)>[C] -1000000<z(2,0,35)>[B] <= 5.9999;
+  [linear] <c487>: <y(36)>[C] -1000000<z(2,0,36)>[B] <= 5.9999;
+  [linear] <c488>: <y(37)>[C] -1000000<z(2,0,37)>[B] <= 5.9999;
+  [linear] <c489>: <y(38)>[C] -1000000<z(2,0,38)>[B] <= 5.9999;
+  [linear] <c490>: <y(39)>[C] -1000000<z(2,0,39)>[B] <= 5.9999;
+  [linear] <c491>: <y(40)>[C] -1000000<z(2,0,40)>[B] <= 5.9999;
+  [linear] <c492>:  -<x(1)>[C] -1000000<z(2,1,1)>[B] <= -6.0001;
+  [linear] <c493>:  -<x(2)>[C] -1000000<z(2,1,2)>[B] <= -6.0001;
+  [linear] <c494>:  -<x(3)>[C] -1000000<z(2,1,3)>[B] <= -6.0001;
+  [linear] <c495>:  -<x(4)>[C] -1000000<z(2,1,4)>[B] <= -6.0001;
+  [linear] <c496>:  -<x(5)>[C] -1000000<z(2,1,5)>[B] <= -6.0001;
+  [linear] <c497>:  -<x(6)>[C] -1000000<z(2,1,6)>[B] <= -6.0001;
+  [linear] <c498>:  -<x(7)>[C] -1000000<z(2,1,7)>[B] <= -6.0001;
+  [linear] <c499>:  -<x(8)>[C] -1000000<z(2,1,8)>[B] <= -6.0001;
+  [linear] <c500>:  -<x(9)>[C] -1000000<z(2,1,9)>[B] <= -6.0001;
+  [linear] <c501>:  -<x(10)>[C] -1000000<z(2,1,10)>[B] <= -6.0001;
+  [linear] <c502>:  -<x(11)>[C] -1000000<z(2,1,11)>[B] <= -6.0001;
+  [linear] <c503>:  -<x(12)>[C] -1000000<z(2,1,12)>[B] <= -6.0001;
+  [linear] <c504>:  -<x(13)>[C] -1000000<z(2,1,13)>[B] <= -6.0001;
+  [linear] <c505>:  -<x(14)>[C] -1000000<z(2,1,14)>[B] <= -6.0001;
+  [linear] <c506>:  -<x(15)>[C] -1000000<z(2,1,15)>[B] <= -6.0001;
+  [linear] <c507>:  -<x(16)>[C] -1000000<z(2,1,16)>[B] <= -6.0001;
+  [linear] <c508>:  -<x(17)>[C] -1000000<z(2,1,17)>[B] <= -6.0001;
+  [linear] <c509>:  -<x(18)>[C] -1000000<z(2,1,18)>[B] <= -6.0001;
+  [linear] <c510>:  -<x(19)>[C] -1000000<z(2,1,19)>[B] <= -6.0001;
+  [linear] <c511>:  -<x(20)>[C] -1000000<z(2,1,20)>[B] <= -6.0001;
+  [linear] <c512>:  -<x(21)>[C] -1000000<z(2,1,21)>[B] <= -6.0001;
+  [linear] <c513>:  -<x(22)>[C] -1000000<z(2,1,22)>[B] <= -6.0001;
+  [linear] <c514>:  -<x(23)>[C] -1000000<z(2,1,23)>[B] <= -6.0001;
+  [linear] <c515>:  -<x(24)>[C] -1000000<z(2,1,24)>[B] <= -6.0001;
+  [linear] <c516>:  -<x(25)>[C] -1000000<z(2,1,25)>[B] <= -6.0001;
+  [linear] <c517>:  -<x(26)>[C] -1000000<z(2,1,26)>[B] <= -6.0001;
+  [linear] <c518>:  -<x(27)>[C] -1000000<z(2,1,27)>[B] <= -6.0001;
+  [linear] <c519>:  -<x(28)>[C] -1000000<z(2,1,28)>[B] <= -6.0001;
+  [linear] <c520>:  -<x(29)>[C] -1000000<z(2,1,29)>[B] <= -6.0001;
+  [linear] <c521>:  -<x(30)>[C] -1000000<z(2,1,30)>[B] <= -6.0001;
+  [linear] <c522>:  -<x(31)>[C] -1000000<z(2,1,31)>[B] <= -6.0001;
+  [linear] <c523>:  -<x(32)>[C] -1000000<z(2,1,32)>[B] <= -6.0001;
+  [linear] <c524>:  -<x(33)>[C] -1000000<z(2,1,33)>[B] <= -6.0001;
+  [linear] <c525>:  -<x(34)>[C] -1000000<z(2,1,34)>[B] <= -6.0001;
+  [linear] <c526>:  -<x(35)>[C] -1000000<z(2,1,35)>[B] <= -6.0001;
+  [linear] <c527>:  -<x(36)>[C] -1000000<z(2,1,36)>[B] <= -6.0001;
+  [linear] <c528>:  -<x(37)>[C] -1000000<z(2,1,37)>[B] <= -6.0001;
+  [linear] <c529>:  -<x(38)>[C] -1000000<z(2,1,38)>[B] <= -6.0001;
+  [linear] <c530>:  -<x(39)>[C] -1000000<z(2,1,39)>[B] <= -6.0001;
+  [linear] <c531>:  -<x(40)>[C] -1000000<z(2,1,40)>[B] <= -6.0001;
+  [linear] <c532>:  -<y(1)>[C] -0.5<x(1)>[C] -1000000<z(2,2,1)>[B] <= -10.0001;
+  [linear] <c533>:  -<y(2)>[C] -0.5<x(2)>[C] -1000000<z(2,2,2)>[B] <= -10.0001;
+  [linear] <c534>:  -<y(3)>[C] -0.5<x(3)>[C] -1000000<z(2,2,3)>[B] <= -10.0001;
+  [linear] <c535>:  -<y(4)>[C] -0.5<x(4)>[C] -1000000<z(2,2,4)>[B] <= -10.0001;
+  [linear] <c536>:  -<y(5)>[C] -0.5<x(5)>[C] -1000000<z(2,2,5)>[B] <= -10.0001;
+  [linear] <c537>:  -<y(6)>[C] -0.5<x(6)>[C] -1000000<z(2,2,6)>[B] <= -10.0001;
+  [linear] <c538>:  -<y(7)>[C] -0.5<x(7)>[C] -1000000<z(2,2,7)>[B] <= -10.0001;
+  [linear] <c539>:  -<y(8)>[C] -0.5<x(8)>[C] -1000000<z(2,2,8)>[B] <= -10.0001;
+  [linear] <c540>:  -<y(9)>[C] -0.5<x(9)>[C] -1000000<z(2,2,9)>[B] <= -10.0001;
+  [linear] <c541>:  -<y(10)>[C] -0.5<x(10)>[C] -1000000<z(2,2,10)>[B] <= -10.0001;
+  [linear] <c542>:  -<y(11)>[C] -0.5<x(11)>[C] -1000000<z(2,2,11)>[B] <= -10.0001;
+  [linear] <c543>:  -<y(12)>[C] -0.5<x(12)>[C] -1000000<z(2,2,12)>[B] <= -10.0001;
+  [linear] <c544>:  -<y(13)>[C] -0.5<x(13)>[C] -1000000<z(2,2,13)>[B] <= -10.0001;
+  [linear] <c545>:  -<y(14)>[C] -0.5<x(14)>[C] -1000000<z(2,2,14)>[B] <= -10.0001;
+  [linear] <c546>:  -<y(15)>[C] -0.5<x(15)>[C] -1000000<z(2,2,15)>[B] <= -10.0001;
+  [linear] <c547>:  -<y(16)>[C] -0.5<x(16)>[C] -1000000<z(2,2,16)>[B] <= -10.0001;
+  [linear] <c548>:  -<y(17)>[C] -0.5<x(17)>[C] -1000000<z(2,2,17)>[B] <= -10.0001;
+  [linear] <c549>:  -<y(18)>[C] -0.5<x(18)>[C] -1000000<z(2,2,18)>[B] <= -10.0001;
+  [linear] <c550>:  -<y(19)>[C] -0.5<x(19)>[C] -1000000<z(2,2,19)>[B] <= -10.0001;
+  [linear] <c551>:  -<y(20)>[C] -0.5<x(20)>[C] -1000000<z(2,2,20)>[B] <= -10.0001;
+  [linear] <c552>:  -<y(21)>[C] -0.5<x(21)>[C] -1000000<z(2,2,21)>[B] <= -10.0001;
+  [linear] <c553>:  -<y(22)>[C] -0.5<x(22)>[C] -1000000<z(2,2,22)>[B] <= -10.0001;
+  [linear] <c554>:  -<y(23)>[C] -0.5<x(23)>[C] -1000000<z(2,2,23)>[B] <= -10.0001;
+  [linear] <c555>:  -<y(24)>[C] -0.5<x(24)>[C] -1000000<z(2,2,24)>[B] <= -10.0001;
+  [linear] <c556>:  -<y(25)>[C] -0.5<x(25)>[C] -1000000<z(2,2,25)>[B] <= -10.0001;
+  [linear] <c557>:  -<y(26)>[C] -0.5<x(26)>[C] -1000000<z(2,2,26)>[B] <= -10.0001;
+  [linear] <c558>:  -<y(27)>[C] -0.5<x(27)>[C] -1000000<z(2,2,27)>[B] <= -10.0001;
+  [linear] <c559>:  -<y(28)>[C] -0.5<x(28)>[C] -1000000<z(2,2,28)>[B] <= -10.0001;
+  [linear] <c560>:  -<y(29)>[C] -0.5<x(29)>[C] -1000000<z(2,2,29)>[B] <= -10.0001;
+  [linear] <c561>:  -<y(30)>[C] -0.5<x(30)>[C] -1000000<z(2,2,30)>[B] <= -10.0001;
+  [linear] <c562>:  -<y(31)>[C] -0.5<x(31)>[C] -1000000<z(2,2,31)>[B] <= -10.0001;
+  [linear] <c563>:  -<y(32)>[C] -0.5<x(32)>[C] -1000000<z(2,2,32)>[B] <= -10.0001;
+  [linear] <c564>:  -<y(33)>[C] -0.5<x(33)>[C] -1000000<z(2,2,33)>[B] <= -10.0001;
+  [linear] <c565>:  -<y(34)>[C] -0.5<x(34)>[C] -1000000<z(2,2,34)>[B] <= -10.0001;
+  [linear] <c566>:  -<y(35)>[C] -0.5<x(35)>[C] -1000000<z(2,2,35)>[B] <= -10.0001;
+  [linear] <c567>:  -<y(36)>[C] -0.5<x(36)>[C] -1000000<z(2,2,36)>[B] <= -10.0001;
+  [linear] <c568>:  -<y(37)>[C] -0.5<x(37)>[C] -1000000<z(2,2,37)>[B] <= -10.0001;
+  [linear] <c569>:  -<y(38)>[C] -0.5<x(38)>[C] -1000000<z(2,2,38)>[B] <= -10.0001;
+  [linear] <c570>:  -<y(39)>[C] -0.5<x(39)>[C] -1000000<z(2,2,39)>[B] <= -10.0001;
+  [linear] <c571>:  -<y(40)>[C] -0.5<x(40)>[C] -1000000<z(2,2,40)>[B] <= -10.0001;
+  [linear] <c572>:  -<y(1)>[C] +3<x(1)>[C] -1000000<z(2,3,1)>[B] <= -3.0001;
+  [linear] <c573>:  -<y(2)>[C] +3<x(2)>[C] -1000000<z(2,3,2)>[B] <= -3.0001;
+  [linear] <c574>:  -<y(3)>[C] +3<x(3)>[C] -1000000<z(2,3,3)>[B] <= -3.0001;
+  [linear] <c575>:  -<y(4)>[C] +3<x(4)>[C] -1000000<z(2,3,4)>[B] <= -3.0001;
+  [linear] <c576>:  -<y(5)>[C] +3<x(5)>[C] -1000000<z(2,3,5)>[B] <= -3.0001;
+  [linear] <c577>:  -<y(6)>[C] +3<x(6)>[C] -1000000<z(2,3,6)>[B] <= -3.0001;
+  [linear] <c578>:  -<y(7)>[C] +3<x(7)>[C] -1000000<z(2,3,7)>[B] <= -3.0001;
+  [linear] <c579>:  -<y(8)>[C] +3<x(8)>[C] -1000000<z(2,3,8)>[B] <= -3.0001;
+  [linear] <c580>:  -<y(9)>[C] +3<x(9)>[C] -1000000<z(2,3,9)>[B] <= -3.0001;
+  [linear] <c581>:  -<y(10)>[C] +3<x(10)>[C] -1000000<z(2,3,10)>[B] <= -3.0001;
+  [linear] <c582>:  -<y(11)>[C] +3<x(11)>[C] -1000000<z(2,3,11)>[B] <= -3.0001;
+  [linear] <c583>:  -<y(12)>[C] +3<x(12)>[C] -1000000<z(2,3,12)>[B] <= -3.0001;
+  [linear] <c584>:  -<y(13)>[C] +3<x(13)>[C] -1000000<z(2,3,13)>[B] <= -3.0001;
+  [linear] <c585>:  -<y(14)>[C] +3<x(14)>[C] -1000000<z(2,3,14)>[B] <= -3.0001;
+  [linear] <c586>:  -<y(15)>[C] +3<x(15)>[C] -1000000<z(2,3,15)>[B] <= -3.0001;
+  [linear] <c587>:  -<y(16)>[C] +3<x(16)>[C] -1000000<z(2,3,16)>[B] <= -3.0001;
+  [linear] <c588>:  -<y(17)>[C] +3<x(17)>[C] -1000000<z(2,3,17)>[B] <= -3.0001;
+  [linear] <c589>:  -<y(18)>[C] +3<x(18)>[C] -1000000<z(2,3,18)>[B] <= -3.0001;
+  [linear] <c590>:  -<y(19)>[C] +3<x(19)>[C] -1000000<z(2,3,19)>[B] <= -3.0001;
+  [linear] <c591>:  -<y(20)>[C] +3<x(20)>[C] -1000000<z(2,3,20)>[B] <= -3.0001;
+  [linear] <c592>:  -<y(21)>[C] +3<x(21)>[C] -1000000<z(2,3,21)>[B] <= -3.0001;
+  [linear] <c593>:  -<y(22)>[C] +3<x(22)>[C] -1000000<z(2,3,22)>[B] <= -3.0001;
+  [linear] <c594>:  -<y(23)>[C] +3<x(23)>[C] -1000000<z(2,3,23)>[B] <= -3.0001;
+  [linear] <c595>:  -<y(24)>[C] +3<x(24)>[C] -1000000<z(2,3,24)>[B] <= -3.0001;
+  [linear] <c596>:  -<y(25)>[C] +3<x(25)>[C] -1000000<z(2,3,25)>[B] <= -3.0001;
+  [linear] <c597>:  -<y(26)>[C] +3<x(26)>[C] -1000000<z(2,3,26)>[B] <= -3.0001;
+  [linear] <c598>:  -<y(27)>[C] +3<x(27)>[C] -1000000<z(2,3,27)>[B] <= -3.0001;
+  [linear] <c599>:  -<y(28)>[C] +3<x(28)>[C] -1000000<z(2,3,28)>[B] <= -3.0001;
+  [linear] <c600>:  -<y(29)>[C] +3<x(29)>[C] -1000000<z(2,3,29)>[B] <= -3.0001;
+  [linear] <c601>:  -<y(30)>[C] +3<x(30)>[C] -1000000<z(2,3,30)>[B] <= -3.0001;
+  [linear] <c602>:  -<y(31)>[C] +3<x(31)>[C] -1000000<z(2,3,31)>[B] <= -3.0001;
+  [linear] <c603>:  -<y(32)>[C] +3<x(32)>[C] -1000000<z(2,3,32)>[B] <= -3.0001;
+  [linear] <c604>:  -<y(33)>[C] +3<x(33)>[C] -1000000<z(2,3,33)>[B] <= -3.0001;
+  [linear] <c605>:  -<y(34)>[C] +3<x(34)>[C] -1000000<z(2,3,34)>[B] <= -3.0001;
+  [linear] <c606>:  -<y(35)>[C] +3<x(35)>[C] -1000000<z(2,3,35)>[B] <= -3.0001;
+  [linear] <c607>:  -<y(36)>[C] +3<x(36)>[C] -1000000<z(2,3,36)>[B] <= -3.0001;
+  [linear] <c608>:  -<y(37)>[C] +3<x(37)>[C] -1000000<z(2,3,37)>[B] <= -3.0001;
+  [linear] <c609>:  -<y(38)>[C] +3<x(38)>[C] -1000000<z(2,3,38)>[B] <= -3.0001;
+  [linear] <c610>:  -<y(39)>[C] +3<x(39)>[C] -1000000<z(2,3,39)>[B] <= -3.0001;
+  [linear] <c611>:  -<y(40)>[C] +3<x(40)>[C] -1000000<z(2,3,40)>[B] <= -3.0001;
+  [linear] <c612>: <z(2,0,1)>[B] +<z(2,1,1)>[B] +<z(2,2,1)>[B] +<z(2,3,1)>[B] <= 3;
+  [linear] <c613>: <z(2,0,2)>[B] +<z(2,1,2)>[B] +<z(2,2,2)>[B] +<z(2,3,2)>[B] <= 3;
+  [linear] <c614>: <z(2,0,3)>[B] +<z(2,1,3)>[B] +<z(2,2,3)>[B] +<z(2,3,3)>[B] <= 3;
+  [linear] <c615>: <z(2,0,4)>[B] +<z(2,1,4)>[B] +<z(2,2,4)>[B] +<z(2,3,4)>[B] <= 3;
+  [linear] <c616>: <z(2,0,5)>[B] +<z(2,1,5)>[B] +<z(2,2,5)>[B] +<z(2,3,5)>[B] <= 3;
+  [linear] <c617>: <z(2,0,6)>[B] +<z(2,1,6)>[B] +<z(2,2,6)>[B] +<z(2,3,6)>[B] <= 3;
+  [linear] <c618>: <z(2,0,7)>[B] +<z(2,1,7)>[B] +<z(2,2,7)>[B] +<z(2,3,7)>[B] <= 3;
+  [linear] <c619>: <z(2,0,8)>[B] +<z(2,1,8)>[B] +<z(2,2,8)>[B] +<z(2,3,8)>[B] <= 3;
+  [linear] <c620>: <z(2,0,9)>[B] +<z(2,1,9)>[B] +<z(2,2,9)>[B] +<z(2,3,9)>[B] <= 3;
+  [linear] <c621>: <z(2,0,10)>[B] +<z(2,1,10)>[B] +<z(2,2,10)>[B] +<z(2,3,10)>[B] <= 3;
+  [linear] <c622>: <z(2,0,11)>[B] +<z(2,1,11)>[B] +<z(2,2,11)>[B] +<z(2,3,11)>[B] <= 3;
+  [linear] <c623>: <z(2,0,12)>[B] +<z(2,1,12)>[B] +<z(2,2,12)>[B] +<z(2,3,12)>[B] <= 3;
+  [linear] <c624>: <z(2,0,13)>[B] +<z(2,1,13)>[B] +<z(2,2,13)>[B] +<z(2,3,13)>[B] <= 3;
+  [linear] <c625>: <z(2,0,14)>[B] +<z(2,1,14)>[B] +<z(2,2,14)>[B] +<z(2,3,14)>[B] <= 3;
+  [linear] <c626>: <z(2,0,15)>[B] +<z(2,1,15)>[B] +<z(2,2,15)>[B] +<z(2,3,15)>[B] <= 3;
+  [linear] <c627>: <z(2,0,16)>[B] +<z(2,1,16)>[B] +<z(2,2,16)>[B] +<z(2,3,16)>[B] <= 3;
+  [linear] <c628>: <z(2,0,17)>[B] +<z(2,1,17)>[B] +<z(2,2,17)>[B] +<z(2,3,17)>[B] <= 3;
+  [linear] <c629>: <z(2,0,18)>[B] +<z(2,1,18)>[B] +<z(2,2,18)>[B] +<z(2,3,18)>[B] <= 3;
+  [linear] <c630>: <z(2,0,19)>[B] +<z(2,1,19)>[B] +<z(2,2,19)>[B] +<z(2,3,19)>[B] <= 3;
+  [linear] <c631>: <z(2,0,20)>[B] +<z(2,1,20)>[B] +<z(2,2,20)>[B] +<z(2,3,20)>[B] <= 3;
+  [linear] <c632>: <z(2,0,21)>[B] +<z(2,1,21)>[B] +<z(2,2,21)>[B] +<z(2,3,21)>[B] <= 3;
+  [linear] <c633>: <z(2,0,22)>[B] +<z(2,1,22)>[B] +<z(2,2,22)>[B] +<z(2,3,22)>[B] <= 3;
+  [linear] <c634>: <z(2,0,23)>[B] +<z(2,1,23)>[B] +<z(2,2,23)>[B] +<z(2,3,23)>[B] <= 3;
+  [linear] <c635>: <z(2,0,24)>[B] +<z(2,1,24)>[B] +<z(2,2,24)>[B] +<z(2,3,24)>[B] <= 3;
+  [linear] <c636>: <z(2,0,25)>[B] +<z(2,1,25)>[B] +<z(2,2,25)>[B] +<z(2,3,25)>[B] <= 3;
+  [linear] <c637>: <z(2,0,26)>[B] +<z(2,1,26)>[B] +<z(2,2,26)>[B] +<z(2,3,26)>[B] <= 3;
+  [linear] <c638>: <z(2,0,27)>[B] +<z(2,1,27)>[B] +<z(2,2,27)>[B] +<z(2,3,27)>[B] <= 3;
+  [linear] <c639>: <z(2,0,28)>[B] +<z(2,1,28)>[B] +<z(2,2,28)>[B] +<z(2,3,28)>[B] <= 3;
+  [linear] <c640>: <z(2,0,29)>[B] +<z(2,1,29)>[B] +<z(2,2,29)>[B] +<z(2,3,29)>[B] <= 3;
+  [linear] <c641>: <z(2,0,30)>[B] +<z(2,1,30)>[B] +<z(2,2,30)>[B] +<z(2,3,30)>[B] <= 3;
+  [linear] <c642>: <z(2,0,31)>[B] +<z(2,1,31)>[B] +<z(2,2,31)>[B] +<z(2,3,31)>[B] <= 3;
+  [linear] <c643>: <z(2,0,32)>[B] +<z(2,1,32)>[B] +<z(2,2,32)>[B] +<z(2,3,32)>[B] <= 3;
+  [linear] <c644>: <z(2,0,33)>[B] +<z(2,1,33)>[B] +<z(2,2,33)>[B] +<z(2,3,33)>[B] <= 3;
+  [linear] <c645>: <z(2,0,34)>[B] +<z(2,1,34)>[B] +<z(2,2,34)>[B] +<z(2,3,34)>[B] <= 3;
+  [linear] <c646>: <z(2,0,35)>[B] +<z(2,1,35)>[B] +<z(2,2,35)>[B] +<z(2,3,35)>[B] <= 3;
+  [linear] <c647>: <z(2,0,36)>[B] +<z(2,1,36)>[B] +<z(2,2,36)>[B] +<z(2,3,36)>[B] <= 3;
+  [linear] <c648>: <z(2,0,37)>[B] +<z(2,1,37)>[B] +<z(2,2,37)>[B] +<z(2,3,37)>[B] <= 3;
+  [linear] <c649>: <z(2,0,38)>[B] +<z(2,1,38)>[B] +<z(2,2,38)>[B] +<z(2,3,38)>[B] <= 3;
+  [linear] <c650>: <z(2,0,39)>[B] +<z(2,1,39)>[B] +<z(2,2,39)>[B] +<z(2,3,39)>[B] <= 3;
+  [linear] <c651>: <z(2,0,40)>[B] +<z(2,1,40)>[B] +<z(2,2,40)>[B] +<z(2,3,40)>[B] <= 3;
+  [linear] <c652>:  -<x(40)>[C] <= -12.0001;
+  [linear] <c653>: <y(40)>[C] <= 13.9999;
+  [linear] <c654>: <x(40)>[C] <= 13.9999;
+  [linear] <c655>:  -<y(40)>[C] <= -12.0001;
+  [linear] <c656>: <y(1)>[C] -0.333333333333333<x(1)>[C] -1000000<z(3,0,1)>[B] <= 0.333233333333333;
+  [linear] <c657>: <y(2)>[C] -0.333333333333333<x(2)>[C] -1000000<z(3,0,2)>[B] <= 0.333233333333333;
+  [linear] <c658>: <y(3)>[C] -0.333333333333333<x(3)>[C] -1000000<z(3,0,3)>[B] <= 0.333233333333333;
+  [linear] <c659>: <y(4)>[C] -0.333333333333333<x(4)>[C] -1000000<z(3,0,4)>[B] <= 0.333233333333333;
+  [linear] <c660>: <y(5)>[C] -0.333333333333333<x(5)>[C] -1000000<z(3,0,5)>[B] <= 0.333233333333333;
+  [linear] <c661>: <y(6)>[C] -0.333333333333333<x(6)>[C] -1000000<z(3,0,6)>[B] <= 0.333233333333333;
+  [linear] <c662>: <y(7)>[C] -0.333333333333333<x(7)>[C] -1000000<z(3,0,7)>[B] <= 0.333233333333333;
+  [linear] <c663>: <y(8)>[C] -0.333333333333333<x(8)>[C] -1000000<z(3,0,8)>[B] <= 0.333233333333333;
+  [linear] <c664>: <y(9)>[C] -0.333333333333333<x(9)>[C] -1000000<z(3,0,9)>[B] <= 0.333233333333333;
+  [linear] <c665>: <y(10)>[C] -0.333333333333333<x(10)>[C] -1000000<z(3,0,10)>[B] <= 0.333233333333333;
+  [linear] <c666>: <y(11)>[C] -0.333333333333333<x(11)>[C] -1000000<z(3,0,11)>[B] <= 0.333233333333333;
+  [linear] <c667>: <y(12)>[C] -0.333333333333333<x(12)>[C] -1000000<z(3,0,12)>[B] <= 0.333233333333333;
+  [linear] <c668>: <y(13)>[C] -0.333333333333333<x(13)>[C] -1000000<z(3,0,13)>[B] <= 0.333233333333333;
+  [linear] <c669>: <y(14)>[C] -0.333333333333333<x(14)>[C] -1000000<z(3,0,14)>[B] <= 0.333233333333333;
+  [linear] <c670>: <y(15)>[C] -0.333333333333333<x(15)>[C] -1000000<z(3,0,15)>[B] <= 0.333233333333333;
+  [linear] <c671>: <y(16)>[C] -0.333333333333333<x(16)>[C] -1000000<z(3,0,16)>[B] <= 0.333233333333333;
+  [linear] <c672>: <y(17)>[C] -0.333333333333333<x(17)>[C] -1000000<z(3,0,17)>[B] <= 0.333233333333333;
+  [linear] <c673>: <y(18)>[C] -0.333333333333333<x(18)>[C] -1000000<z(3,0,18)>[B] <= 0.333233333333333;
+  [linear] <c674>: <y(19)>[C] -0.333333333333333<x(19)>[C] -1000000<z(3,0,19)>[B] <= 0.333233333333333;
+  [linear] <c675>: <y(20)>[C] -0.333333333333333<x(20)>[C] -1000000<z(3,0,20)>[B] <= 0.333233333333333;
+  [linear] <c676>: <y(21)>[C] -0.333333333333333<x(21)>[C] -1000000<z(3,0,21)>[B] <= 0.333233333333333;
+  [linear] <c677>: <y(22)>[C] -0.333333333333333<x(22)>[C] -1000000<z(3,0,22)>[B] <= 0.333233333333333;
+  [linear] <c678>: <y(23)>[C] -0.333333333333333<x(23)>[C] -1000000<z(3,0,23)>[B] <= 0.333233333333333;
+  [linear] <c679>: <y(24)>[C] -0.333333333333333<x(24)>[C] -1000000<z(3,0,24)>[B] <= 0.333233333333333;
+  [linear] <c680>: <y(25)>[C] -0.333333333333333<x(25)>[C] -1000000<z(3,0,25)>[B] <= 0.333233333333333;
+  [linear] <c681>: <y(26)>[C] -0.333333333333333<x(26)>[C] -1000000<z(3,0,26)>[B] <= 0.333233333333333;
+  [linear] <c682>: <y(27)>[C] -0.333333333333333<x(27)>[C] -1000000<z(3,0,27)>[B] <= 0.333233333333333;
+  [linear] <c683>: <y(28)>[C] -0.333333333333333<x(28)>[C] -1000000<z(3,0,28)>[B] <= 0.333233333333333;
+  [linear] <c684>: <y(29)>[C] -0.333333333333333<x(29)>[C] -1000000<z(3,0,29)>[B] <= 0.333233333333333;
+  [linear] <c685>: <y(30)>[C] -0.333333333333333<x(30)>[C] -1000000<z(3,0,30)>[B] <= 0.333233333333333;
+  [linear] <c686>: <y(31)>[C] -0.333333333333333<x(31)>[C] -1000000<z(3,0,31)>[B] <= 0.333233333333333;
+  [linear] <c687>: <y(32)>[C] -0.333333333333333<x(32)>[C] -1000000<z(3,0,32)>[B] <= 0.333233333333333;
+  [linear] <c688>: <y(33)>[C] -0.333333333333333<x(33)>[C] -1000000<z(3,0,33)>[B] <= 0.333233333333333;
+  [linear] <c689>: <y(34)>[C] -0.333333333333333<x(34)>[C] -1000000<z(3,0,34)>[B] <= 0.333233333333333;
+  [linear] <c690>: <y(35)>[C] -0.333333333333333<x(35)>[C] -1000000<z(3,0,35)>[B] <= 0.333233333333333;
+  [linear] <c691>: <y(36)>[C] -0.333333333333333<x(36)>[C] -1000000<z(3,0,36)>[B] <= 0.333233333333333;
+  [linear] <c692>: <y(37)>[C] -0.333333333333333<x(37)>[C] -1000000<z(3,0,37)>[B] <= 0.333233333333333;
+  [linear] <c693>: <y(38)>[C] -0.333333333333333<x(38)>[C] -1000000<z(3,0,38)>[B] <= 0.333233333333333;
+  [linear] <c694>: <y(39)>[C] -0.333333333333333<x(39)>[C] -1000000<z(3,0,39)>[B] <= 0.333233333333333;
+  [linear] <c695>: <y(40)>[C] -0.333333333333333<x(40)>[C] -1000000<z(3,0,40)>[B] <= 0.333233333333333;
+  [linear] <c696>:  -<y(1)>[C] -<x(1)>[C] -1000000<z(3,1,1)>[B] <= -19.0001;
+  [linear] <c697>:  -<y(2)>[C] -<x(2)>[C] -1000000<z(3,1,2)>[B] <= -19.0001;
+  [linear] <c698>:  -<y(3)>[C] -<x(3)>[C] -1000000<z(3,1,3)>[B] <= -19.0001;
+  [linear] <c699>:  -<y(4)>[C] -<x(4)>[C] -1000000<z(3,1,4)>[B] <= -19.0001;
+  [linear] <c700>:  -<y(5)>[C] -<x(5)>[C] -1000000<z(3,1,5)>[B] <= -19.0001;
+  [linear] <c701>:  -<y(6)>[C] -<x(6)>[C] -1000000<z(3,1,6)>[B] <= -19.0001;
+  [linear] <c702>:  -<y(7)>[C] -<x(7)>[C] -1000000<z(3,1,7)>[B] <= -19.0001;
+  [linear] <c703>:  -<y(8)>[C] -<x(8)>[C] -1000000<z(3,1,8)>[B] <= -19.0001;
+  [linear] <c704>:  -<y(9)>[C] -<x(9)>[C] -1000000<z(3,1,9)>[B] <= -19.0001;
+  [linear] <c705>:  -<y(10)>[C] -<x(10)>[C] -1000000<z(3,1,10)>[B] <= -19.0001;
+  [linear] <c706>:  -<y(11)>[C] -<x(11)>[C] -1000000<z(3,1,11)>[B] <= -19.0001;
+  [linear] <c707>:  -<y(12)>[C] -<x(12)>[C] -1000000<z(3,1,12)>[B] <= -19.0001;
+  [linear] <c708>:  -<y(13)>[C] -<x(13)>[C] -1000000<z(3,1,13)>[B] <= -19.0001;
+  [linear] <c709>:  -<y(14)>[C] -<x(14)>[C] -1000000<z(3,1,14)>[B] <= -19.0001;
+  [linear] <c710>:  -<y(15)>[C] -<x(15)>[C] -1000000<z(3,1,15)>[B] <= -19.0001;
+  [linear] <c711>:  -<y(16)>[C] -<x(16)>[C] -1000000<z(3,1,16)>[B] <= -19.0001;
+  [linear] <c712>:  -<y(17)>[C] -<x(17)>[C] -1000000<z(3,1,17)>[B] <= -19.0001;
+  [linear] <c713>:  -<y(18)>[C] -<x(18)>[C] -1000000<z(3,1,18)>[B] <= -19.0001;
+  [linear] <c714>:  -<y(19)>[C] -<x(19)>[C] -1000000<z(3,1,19)>[B] <= -19.0001;
+  [linear] <c715>:  -<y(20)>[C] -<x(20)>[C] -1000000<z(3,1,20)>[B] <= -19.0001;
+  [linear] <c716>:  -<y(21)>[C] -<x(21)>[C] -1000000<z(3,1,21)>[B] <= -19.0001;
+  [linear] <c717>:  -<y(22)>[C] -<x(22)>[C] -1000000<z(3,1,22)>[B] <= -19.0001;
+  [linear] <c718>:  -<y(23)>[C] -<x(23)>[C] -1000000<z(3,1,23)>[B] <= -19.0001;
+  [linear] <c719>:  -<y(24)>[C] -<x(24)>[C] -1000000<z(3,1,24)>[B] <= -19.0001;
+  [linear] <c720>:  -<y(25)>[C] -<x(25)>[C] -1000000<z(3,1,25)>[B] <= -19.0001;
+  [linear] <c721>:  -<y(26)>[C] -<x(26)>[C] -1000000<z(3,1,26)>[B] <= -19.0001;
+  [linear] <c722>:  -<y(27)>[C] -<x(27)>[C] -1000000<z(3,1,27)>[B] <= -19.0001;
+  [linear] <c723>:  -<y(28)>[C] -<x(28)>[C] -1000000<z(3,1,28)>[B] <= -19.0001;
+  [linear] <c724>:  -<y(29)>[C] -<x(29)>[C] -1000000<z(3,1,29)>[B] <= -19.0001;
+  [linear] <c725>:  -<y(30)>[C] -<x(30)>[C] -1000000<z(3,1,30)>[B] <= -19.0001;
+  [linear] <c726>:  -<y(31)>[C] -<x(31)>[C] -1000000<z(3,1,31)>[B] <= -19.0001;
+  [linear] <c727>:  -<y(32)>[C] -<x(32)>[C] -1000000<z(3,1,32)>[B] <= -19.0001;
+  [linear] <c728>:  -<y(33)>[C] -<x(33)>[C] -1000000<z(3,1,33)>[B] <= -19.0001;
+  [linear] <c729>:  -<y(34)>[C] -<x(34)>[C] -1000000<z(3,1,34)>[B] <= -19.0001;
+  [linear] <c730>:  -<y(35)>[C] -<x(35)>[C] -1000000<z(3,1,35)>[B] <= -19.0001;
+  [linear] <c731>:  -<y(36)>[C] -<x(36)>[C] -1000000<z(3,1,36)>[B] <= -19.0001;
+  [linear] <c732>:  -<y(37)>[C] -<x(37)>[C] -1000000<z(3,1,37)>[B] <= -19.0001;
+  [linear] <c733>:  -<y(38)>[C] -<x(38)>[C] -1000000<z(3,1,38)>[B] <= -19.0001;
+  [linear] <c734>:  -<y(39)>[C] -<x(39)>[C] -1000000<z(3,1,39)>[B] <= -19.0001;
+  [linear] <c735>:  -<y(40)>[C] -<x(40)>[C] -1000000<z(3,1,40)>[B] <= -19.0001;
+  [linear] <c736>:  -<y(1)>[C] +<x(1)>[C] -1000000<z(3,2,1)>[B] <= -3.0001;
+  [linear] <c737>:  -<y(2)>[C] +<x(2)>[C] -1000000<z(3,2,2)>[B] <= -3.0001;
+  [linear] <c738>:  -<y(3)>[C] +<x(3)>[C] -1000000<z(3,2,3)>[B] <= -3.0001;
+  [linear] <c739>:  -<y(4)>[C] +<x(4)>[C] -1000000<z(3,2,4)>[B] <= -3.0001;
+  [linear] <c740>:  -<y(5)>[C] +<x(5)>[C] -1000000<z(3,2,5)>[B] <= -3.0001;
+  [linear] <c741>:  -<y(6)>[C] +<x(6)>[C] -1000000<z(3,2,6)>[B] <= -3.0001;
+  [linear] <c742>:  -<y(7)>[C] +<x(7)>[C] -1000000<z(3,2,7)>[B] <= -3.0001;
+  [linear] <c743>:  -<y(8)>[C] +<x(8)>[C] -1000000<z(3,2,8)>[B] <= -3.0001;
+  [linear] <c744>:  -<y(9)>[C] +<x(9)>[C] -1000000<z(3,2,9)>[B] <= -3.0001;
+  [linear] <c745>:  -<y(10)>[C] +<x(10)>[C] -1000000<z(3,2,10)>[B] <= -3.0001;
+  [linear] <c746>:  -<y(11)>[C] +<x(11)>[C] -1000000<z(3,2,11)>[B] <= -3.0001;
+  [linear] <c747>:  -<y(12)>[C] +<x(12)>[C] -1000000<z(3,2,12)>[B] <= -3.0001;
+  [linear] <c748>:  -<y(13)>[C] +<x(13)>[C] -1000000<z(3,2,13)>[B] <= -3.0001;
+  [linear] <c749>:  -<y(14)>[C] +<x(14)>[C] -1000000<z(3,2,14)>[B] <= -3.0001;
+  [linear] <c750>:  -<y(15)>[C] +<x(15)>[C] -1000000<z(3,2,15)>[B] <= -3.0001;
+  [linear] <c751>:  -<y(16)>[C] +<x(16)>[C] -1000000<z(3,2,16)>[B] <= -3.0001;
+  [linear] <c752>:  -<y(17)>[C] +<x(17)>[C] -1000000<z(3,2,17)>[B] <= -3.0001;
+  [linear] <c753>:  -<y(18)>[C] +<x(18)>[C] -1000000<z(3,2,18)>[B] <= -3.0001;
+  [linear] <c754>:  -<y(19)>[C] +<x(19)>[C] -1000000<z(3,2,19)>[B] <= -3.0001;
+  [linear] <c755>:  -<y(20)>[C] +<x(20)>[C] -1000000<z(3,2,20)>[B] <= -3.0001;
+  [linear] <c756>:  -<y(21)>[C] +<x(21)>[C] -1000000<z(3,2,21)>[B] <= -3.0001;
+  [linear] <c757>:  -<y(22)>[C] +<x(22)>[C] -1000000<z(3,2,22)>[B] <= -3.0001;
+  [linear] <c758>:  -<y(23)>[C] +<x(23)>[C] -1000000<z(3,2,23)>[B] <= -3.0001;
+  [linear] <c759>:  -<y(24)>[C] +<x(24)>[C] -1000000<z(3,2,24)>[B] <= -3.0001;
+  [linear] <c760>:  -<y(25)>[C] +<x(25)>[C] -1000000<z(3,2,25)>[B] <= -3.0001;
+  [linear] <c761>:  -<y(26)>[C] +<x(26)>[C] -1000000<z(3,2,26)>[B] <= -3.0001;
+  [linear] <c762>:  -<y(27)>[C] +<x(27)>[C] -1000000<z(3,2,27)>[B] <= -3.0001;
+  [linear] <c763>:  -<y(28)>[C] +<x(28)>[C] -1000000<z(3,2,28)>[B] <= -3.0001;
+  [linear] <c764>:  -<y(29)>[C] +<x(29)>[C] -1000000<z(3,2,29)>[B] <= -3.0001;
+  [linear] <c765>:  -<y(30)>[C] +<x(30)>[C] -1000000<z(3,2,30)>[B] <= -3.0001;
+  [linear] <c766>:  -<y(31)>[C] +<x(31)>[C] -1000000<z(3,2,31)>[B] <= -3.0001;
+  [linear] <c767>:  -<y(32)>[C] +<x(32)>[C] -1000000<z(3,2,32)>[B] <= -3.0001;
+  [linear] <c768>:  -<y(33)>[C] +<x(33)>[C] -1000000<z(3,2,33)>[B] <= -3.0001;
+  [linear] <c769>:  -<y(34)>[C] +<x(34)>[C] -1000000<z(3,2,34)>[B] <= -3.0001;
+  [linear] <c770>:  -<y(35)>[C] +<x(35)>[C] -1000000<z(3,2,35)>[B] <= -3.0001;
+  [linear] <c771>:  -<y(36)>[C] +<x(36)>[C] -1000000<z(3,2,36)>[B] <= -3.0001;
+  [linear] <c772>:  -<y(37)>[C] +<x(37)>[C] -1000000<z(3,2,37)>[B] <= -3.0001;
+  [linear] <c773>:  -<y(38)>[C] +<x(38)>[C] -1000000<z(3,2,38)>[B] <= -3.0001;
+  [linear] <c774>:  -<y(39)>[C] +<x(39)>[C] -1000000<z(3,2,39)>[B] <= -3.0001;
+  [linear] <c775>:  -<y(40)>[C] +<x(40)>[C] -1000000<z(3,2,40)>[B] <= -3.0001;
+  [linear] <c776>: <y(1)>[C] +<x(1)>[C] -1000000<z(3,3,1)>[B] <= 14.9999;
+  [linear] <c777>: <y(2)>[C] +<x(2)>[C] -1000000<z(3,3,2)>[B] <= 14.9999;
+  [linear] <c778>: <y(3)>[C] +<x(3)>[C] -1000000<z(3,3,3)>[B] <= 14.9999;
+  [linear] <c779>: <y(4)>[C] +<x(4)>[C] -1000000<z(3,3,4)>[B] <= 14.9999;
+  [linear] <c780>: <y(5)>[C] +<x(5)>[C] -1000000<z(3,3,5)>[B] <= 14.9999;
+  [linear] <c781>: <y(6)>[C] +<x(6)>[C] -1000000<z(3,3,6)>[B] <= 14.9999;
+  [linear] <c782>: <y(7)>[C] +<x(7)>[C] -1000000<z(3,3,7)>[B] <= 14.9999;
+  [linear] <c783>: <y(8)>[C] +<x(8)>[C] -1000000<z(3,3,8)>[B] <= 14.9999;
+  [linear] <c784>: <y(9)>[C] +<x(9)>[C] -1000000<z(3,3,9)>[B] <= 14.9999;
+  [linear] <c785>: <y(10)>[C] +<x(10)>[C] -1000000<z(3,3,10)>[B] <= 14.9999;
+  [linear] <c786>: <y(11)>[C] +<x(11)>[C] -1000000<z(3,3,11)>[B] <= 14.9999;
+  [linear] <c787>: <y(12)>[C] +<x(12)>[C] -1000000<z(3,3,12)>[B] <= 14.9999;
+  [linear] <c788>: <y(13)>[C] +<x(13)>[C] -1000000<z(3,3,13)>[B] <= 14.9999;
+  [linear] <c789>: <y(14)>[C] +<x(14)>[C] -1000000<z(3,3,14)>[B] <= 14.9999;
+  [linear] <c790>: <y(15)>[C] +<x(15)>[C] -1000000<z(3,3,15)>[B] <= 14.9999;
+  [linear] <c791>: <y(16)>[C] +<x(16)>[C] -1000000<z(3,3,16)>[B] <= 14.9999;
+  [linear] <c792>: <y(17)>[C] +<x(17)>[C] -1000000<z(3,3,17)>[B] <= 14.9999;
+  [linear] <c793>: <y(18)>[C] +<x(18)>[C] -1000000<z(3,3,18)>[B] <= 14.9999;
+  [linear] <c794>: <y(19)>[C] +<x(19)>[C] -1000000<z(3,3,19)>[B] <= 14.9999;
+  [linear] <c795>: <y(20)>[C] +<x(20)>[C] -1000000<z(3,3,20)>[B] <= 14.9999;
+  [linear] <c796>: <y(21)>[C] +<x(21)>[C] -1000000<z(3,3,21)>[B] <= 14.9999;
+  [linear] <c797>: <y(22)>[C] +<x(22)>[C] -1000000<z(3,3,22)>[B] <= 14.9999;
+  [linear] <c798>: <y(23)>[C] +<x(23)>[C] -1000000<z(3,3,23)>[B] <= 14.9999;
+  [linear] <c799>: <y(24)>[C] +<x(24)>[C] -1000000<z(3,3,24)>[B] <= 14.9999;
+  [linear] <c800>: <y(25)>[C] +<x(25)>[C] -1000000<z(3,3,25)>[B] <= 14.9999;
+  [linear] <c801>: <y(26)>[C] +<x(26)>[C] -1000000<z(3,3,26)>[B] <= 14.9999;
+  [linear] <c802>: <y(27)>[C] +<x(27)>[C] -1000000<z(3,3,27)>[B] <= 14.9999;
+  [linear] <c803>: <y(28)>[C] +<x(28)>[C] -1000000<z(3,3,28)>[B] <= 14.9999;
+  [linear] <c804>: <y(29)>[C] +<x(29)>[C] -1000000<z(3,3,29)>[B] <= 14.9999;
+  [linear] <c805>: <y(30)>[C] +<x(30)>[C] -1000000<z(3,3,30)>[B] <= 14.9999;
+  [linear] <c806>: <y(31)>[C] +<x(31)>[C] -1000000<z(3,3,31)>[B] <= 14.9999;
+  [linear] <c807>: <y(32)>[C] +<x(32)>[C] -1000000<z(3,3,32)>[B] <= 14.9999;
+  [linear] <c808>: <y(33)>[C] +<x(33)>[C] -1000000<z(3,3,33)>[B] <= 14.9999;
+  [linear] <c809>: <y(34)>[C] +<x(34)>[C] -1000000<z(3,3,34)>[B] <= 14.9999;
+  [linear] <c810>: <y(35)>[C] +<x(35)>[C] -1000000<z(3,3,35)>[B] <= 14.9999;
+  [linear] <c811>: <y(36)>[C] +<x(36)>[C] -1000000<z(3,3,36)>[B] <= 14.9999;
+  [linear] <c812>: <y(37)>[C] +<x(37)>[C] -1000000<z(3,3,37)>[B] <= 14.9999;
+  [linear] <c813>: <y(38)>[C] +<x(38)>[C] -1000000<z(3,3,38)>[B] <= 14.9999;
+  [linear] <c814>: <y(39)>[C] +<x(39)>[C] -1000000<z(3,3,39)>[B] <= 14.9999;
+  [linear] <c815>: <y(40)>[C] +<x(40)>[C] -1000000<z(3,3,40)>[B] <= 14.9999;
+  [linear] <c816>: <z(3,0,1)>[B] +<z(3,1,1)>[B] +<z(3,2,1)>[B] +<z(3,3,1)>[B] <= 3;
+  [linear] <c817>: <z(3,0,2)>[B] +<z(3,1,2)>[B] +<z(3,2,2)>[B] +<z(3,3,2)>[B] <= 3;
+  [linear] <c818>: <z(3,0,3)>[B] +<z(3,1,3)>[B] +<z(3,2,3)>[B] +<z(3,3,3)>[B] <= 3;
+  [linear] <c819>: <z(3,0,4)>[B] +<z(3,1,4)>[B] +<z(3,2,4)>[B] +<z(3,3,4)>[B] <= 3;
+  [linear] <c820>: <z(3,0,5)>[B] +<z(3,1,5)>[B] +<z(3,2,5)>[B] +<z(3,3,5)>[B] <= 3;
+  [linear] <c821>: <z(3,0,6)>[B] +<z(3,1,6)>[B] +<z(3,2,6)>[B] +<z(3,3,6)>[B] <= 3;
+  [linear] <c822>: <z(3,0,7)>[B] +<z(3,1,7)>[B] +<z(3,2,7)>[B] +<z(3,3,7)>[B] <= 3;
+  [linear] <c823>: <z(3,0,8)>[B] +<z(3,1,8)>[B] +<z(3,2,8)>[B] +<z(3,3,8)>[B] <= 3;
+  [linear] <c824>: <z(3,0,9)>[B] +<z(3,1,9)>[B] +<z(3,2,9)>[B] +<z(3,3,9)>[B] <= 3;
+  [linear] <c825>: <z(3,0,10)>[B] +<z(3,1,10)>[B] +<z(3,2,10)>[B] +<z(3,3,10)>[B] <= 3;
+  [linear] <c826>: <z(3,0,11)>[B] +<z(3,1,11)>[B] +<z(3,2,11)>[B] +<z(3,3,11)>[B] <= 3;
+  [linear] <c827>: <z(3,0,12)>[B] +<z(3,1,12)>[B] +<z(3,2,12)>[B] +<z(3,3,12)>[B] <= 3;
+  [linear] <c828>: <z(3,0,13)>[B] +<z(3,1,13)>[B] +<z(3,2,13)>[B] +<z(3,3,13)>[B] <= 3;
+  [linear] <c829>: <z(3,0,14)>[B] +<z(3,1,14)>[B] +<z(3,2,14)>[B] +<z(3,3,14)>[B] <= 3;
+  [linear] <c830>: <z(3,0,15)>[B] +<z(3,1,15)>[B] +<z(3,2,15)>[B] +<z(3,3,15)>[B] <= 3;
+  [linear] <c831>: <z(3,0,16)>[B] +<z(3,1,16)>[B] +<z(3,2,16)>[B] +<z(3,3,16)>[B] <= 3;
+  [linear] <c832>: <z(3,0,17)>[B] +<z(3,1,17)>[B] +<z(3,2,17)>[B] +<z(3,3,17)>[B] <= 3;
+  [linear] <c833>: <z(3,0,18)>[B] +<z(3,1,18)>[B] +<z(3,2,18)>[B] +<z(3,3,18)>[B] <= 3;
+  [linear] <c834>: <z(3,0,19)>[B] +<z(3,1,19)>[B] +<z(3,2,19)>[B] +<z(3,3,19)>[B] <= 3;
+  [linear] <c835>: <z(3,0,20)>[B] +<z(3,1,20)>[B] +<z(3,2,20)>[B] +<z(3,3,20)>[B] <= 3;
+  [linear] <c836>: <z(3,0,21)>[B] +<z(3,1,21)>[B] +<z(3,2,21)>[B] +<z(3,3,21)>[B] <= 3;
+  [linear] <c837>: <z(3,0,22)>[B] +<z(3,1,22)>[B] +<z(3,2,22)>[B] +<z(3,3,22)>[B] <= 3;
+  [linear] <c838>: <z(3,0,23)>[B] +<z(3,1,23)>[B] +<z(3,2,23)>[B] +<z(3,3,23)>[B] <= 3;
+  [linear] <c839>: <z(3,0,24)>[B] +<z(3,1,24)>[B] +<z(3,2,24)>[B] +<z(3,3,24)>[B] <= 3;
+  [linear] <c840>: <z(3,0,25)>[B] +<z(3,1,25)>[B] +<z(3,2,25)>[B] +<z(3,3,25)>[B] <= 3;
+  [linear] <c841>: <z(3,0,26)>[B] +<z(3,1,26)>[B] +<z(3,2,26)>[B] +<z(3,3,26)>[B] <= 3;
+  [linear] <c842>: <z(3,0,27)>[B] +<z(3,1,27)>[B] +<z(3,2,27)>[B] +<z(3,3,27)>[B] <= 3;
+  [linear] <c843>: <z(3,0,28)>[B] +<z(3,1,28)>[B] +<z(3,2,28)>[B] +<z(3,3,28)>[B] <= 3;
+  [linear] <c844>: <z(3,0,29)>[B] +<z(3,1,29)>[B] +<z(3,2,29)>[B] +<z(3,3,29)>[B] <= 3;
+  [linear] <c845>: <z(3,0,30)>[B] +<z(3,1,30)>[B] +<z(3,2,30)>[B] +<z(3,3,30)>[B] <= 3;
+  [linear] <c846>: <z(3,0,31)>[B] +<z(3,1,31)>[B] +<z(3,2,31)>[B] +<z(3,3,31)>[B] <= 3;
+  [linear] <c847>: <z(3,0,32)>[B] +<z(3,1,32)>[B] +<z(3,2,32)>[B] +<z(3,3,32)>[B] <= 3;
+  [linear] <c848>: <z(3,0,33)>[B] +<z(3,1,33)>[B] +<z(3,2,33)>[B] +<z(3,3,33)>[B] <= 3;
+  [linear] <c849>: <z(3,0,34)>[B] +<z(3,1,34)>[B] +<z(3,2,34)>[B] +<z(3,3,34)>[B] <= 3;
+  [linear] <c850>: <z(3,0,35)>[B] +<z(3,1,35)>[B] +<z(3,2,35)>[B] +<z(3,3,35)>[B] <= 3;
+  [linear] <c851>: <z(3,0,36)>[B] +<z(3,1,36)>[B] +<z(3,2,36)>[B] +<z(3,3,36)>[B] <= 3;
+  [linear] <c852>: <z(3,0,37)>[B] +<z(3,1,37)>[B] +<z(3,2,37)>[B] +<z(3,3,37)>[B] <= 3;
+  [linear] <c853>: <z(3,0,38)>[B] +<z(3,1,38)>[B] +<z(3,2,38)>[B] +<z(3,3,38)>[B] <= 3;
+  [linear] <c854>: <z(3,0,39)>[B] +<z(3,1,39)>[B] +<z(3,2,39)>[B] +<z(3,3,39)>[B] <= 3;
+  [linear] <c855>: <z(3,0,40)>[B] +<z(3,1,40)>[B] +<z(3,2,40)>[B] +<z(3,3,40)>[B] <= 3;
+  [linear] <c856>:  -<x(40)>[C] <= -12.0001;
+  [linear] <c857>: <y(40)>[C] <= 13.9999;
+  [linear] <c858>: <x(40)>[C] <= 13.9999;
+  [linear] <c859>:  -<y(40)>[C] <= -12.0001;
+  [linear] <c860>: <y(1)>[C] -0.5<x(1)>[C] -1000000<z(4,0,1)>[B] <= 7.4999;
+  [linear] <c861>: <y(2)>[C] -0.5<x(2)>[C] -1000000<z(4,0,2)>[B] <= 7.4999;
+  [linear] <c862>: <y(3)>[C] -0.5<x(3)>[C] -1000000<z(4,0,3)>[B] <= 7.4999;
+  [linear] <c863>: <y(4)>[C] -0.5<x(4)>[C] -1000000<z(4,0,4)>[B] <= 7.4999;
+  [linear] <c864>: <y(5)>[C] -0.5<x(5)>[C] -1000000<z(4,0,5)>[B] <= 7.4999;
+  [linear] <c865>: <y(6)>[C] -0.5<x(6)>[C] -1000000<z(4,0,6)>[B] <= 7.4999;
+  [linear] <c866>: <y(7)>[C] -0.5<x(7)>[C] -1000000<z(4,0,7)>[B] <= 7.4999;
+  [linear] <c867>: <y(8)>[C] -0.5<x(8)>[C] -1000000<z(4,0,8)>[B] <= 7.4999;
+  [linear] <c868>: <y(9)>[C] -0.5<x(9)>[C] -1000000<z(4,0,9)>[B] <= 7.4999;
+  [linear] <c869>: <y(10)>[C] -0.5<x(10)>[C] -1000000<z(4,0,10)>[B] <= 7.4999;
+  [linear] <c870>: <y(11)>[C] -0.5<x(11)>[C] -1000000<z(4,0,11)>[B] <= 7.4999;
+  [linear] <c871>: <y(12)>[C] -0.5<x(12)>[C] -1000000<z(4,0,12)>[B] <= 7.4999;
+  [linear] <c872>: <y(13)>[C] -0.5<x(13)>[C] -1000000<z(4,0,13)>[B] <= 7.4999;
+  [linear] <c873>: <y(14)>[C] -0.5<x(14)>[C] -1000000<z(4,0,14)>[B] <= 7.4999;
+  [linear] <c874>: <y(15)>[C] -0.5<x(15)>[C] -1000000<z(4,0,15)>[B] <= 7.4999;
+  [linear] <c875>: <y(16)>[C] -0.5<x(16)>[C] -1000000<z(4,0,16)>[B] <= 7.4999;
+  [linear] <c876>: <y(17)>[C] -0.5<x(17)>[C] -1000000<z(4,0,17)>[B] <= 7.4999;
+  [linear] <c877>: <y(18)>[C] -0.5<x(18)>[C] -1000000<z(4,0,18)>[B] <= 7.4999;
+  [linear] <c878>: <y(19)>[C] -0.5<x(19)>[C] -1000000<z(4,0,19)>[B] <= 7.4999;
+  [linear] <c879>: <y(20)>[C] -0.5<x(20)>[C] -1000000<z(4,0,20)>[B] <= 7.4999;
+  [linear] <c880>: <y(21)>[C] -0.5<x(21)>[C] -1000000<z(4,0,21)>[B] <= 7.4999;
+  [linear] <c881>: <y(22)>[C] -0.5<x(22)>[C] -1000000<z(4,0,22)>[B] <= 7.4999;
+  [linear] <c882>: <y(23)>[C] -0.5<x(23)>[C] -1000000<z(4,0,23)>[B] <= 7.4999;
+  [linear] <c883>: <y(24)>[C] -0.5<x(24)>[C] -1000000<z(4,0,24)>[B] <= 7.4999;
+  [linear] <c884>: <y(25)>[C] -0.5<x(25)>[C] -1000000<z(4,0,25)>[B] <= 7.4999;
+  [linear] <c885>: <y(26)>[C] -0.5<x(26)>[C] -1000000<z(4,0,26)>[B] <= 7.4999;
+  [linear] <c886>: <y(27)>[C] -0.5<x(27)>[C] -1000000<z(4,0,27)>[B] <= 7.4999;
+  [linear] <c887>: <y(28)>[C] -0.5<x(28)>[C] -1000000<z(4,0,28)>[B] <= 7.4999;
+  [linear] <c888>: <y(29)>[C] -0.5<x(29)>[C] -1000000<z(4,0,29)>[B] <= 7.4999;
+  [linear] <c889>: <y(30)>[C] -0.5<x(30)>[C] -1000000<z(4,0,30)>[B] <= 7.4999;
+  [linear] <c890>: <y(31)>[C] -0.5<x(31)>[C] -1000000<z(4,0,31)>[B] <= 7.4999;
+  [linear] <c891>: <y(32)>[C] -0.5<x(32)>[C] -1000000<z(4,0,32)>[B] <= 7.4999;
+  [linear] <c892>: <y(33)>[C] -0.5<x(33)>[C] -1000000<z(4,0,33)>[B] <= 7.4999;
+  [linear] <c893>: <y(34)>[C] -0.5<x(34)>[C] -1000000<z(4,0,34)>[B] <= 7.4999;
+  [linear] <c894>: <y(35)>[C] -0.5<x(35)>[C] -1000000<z(4,0,35)>[B] <= 7.4999;
+  [linear] <c895>: <y(36)>[C] -0.5<x(36)>[C] -1000000<z(4,0,36)>[B] <= 7.4999;
+  [linear] <c896>: <y(37)>[C] -0.5<x(37)>[C] -1000000<z(4,0,37)>[B] <= 7.4999;
+  [linear] <c897>: <y(38)>[C] -0.5<x(38)>[C] -1000000<z(4,0,38)>[B] <= 7.4999;
+  [linear] <c898>: <y(39)>[C] -0.5<x(39)>[C] -1000000<z(4,0,39)>[B] <= 7.4999;
+  [linear] <c899>: <y(40)>[C] -0.5<x(40)>[C] -1000000<z(4,0,40)>[B] <= 7.4999;
+  [linear] <c900>: <y(1)>[C] -3<x(1)>[C] -1000000<z(4,1,1)>[B] <= -10.0001;
+  [linear] <c901>: <y(2)>[C] -3<x(2)>[C] -1000000<z(4,1,2)>[B] <= -10.0001;
+  [linear] <c902>: <y(3)>[C] -3<x(3)>[C] -1000000<z(4,1,3)>[B] <= -10.0001;
+  [linear] <c903>: <y(4)>[C] -3<x(4)>[C] -1000000<z(4,1,4)>[B] <= -10.0001;
+  [linear] <c904>: <y(5)>[C] -3<x(5)>[C] -1000000<z(4,1,5)>[B] <= -10.0001;
+  [linear] <c905>: <y(6)>[C] -3<x(6)>[C] -1000000<z(4,1,6)>[B] <= -10.0001;
+  [linear] <c906>: <y(7)>[C] -3<x(7)>[C] -1000000<z(4,1,7)>[B] <= -10.0001;
+  [linear] <c907>: <y(8)>[C] -3<x(8)>[C] -1000000<z(4,1,8)>[B] <= -10.0001;
+  [linear] <c908>: <y(9)>[C] -3<x(9)>[C] -1000000<z(4,1,9)>[B] <= -10.0001;
+  [linear] <c909>: <y(10)>[C] -3<x(10)>[C] -1000000<z(4,1,10)>[B] <= -10.0001;
+  [linear] <c910>: <y(11)>[C] -3<x(11)>[C] -1000000<z(4,1,11)>[B] <= -10.0001;
+  [linear] <c911>: <y(12)>[C] -3<x(12)>[C] -1000000<z(4,1,12)>[B] <= -10.0001;
+  [linear] <c912>: <y(13)>[C] -3<x(13)>[C] -1000000<z(4,1,13)>[B] <= -10.0001;
+  [linear] <c913>: <y(14)>[C] -3<x(14)>[C] -1000000<z(4,1,14)>[B] <= -10.0001;
+  [linear] <c914>: <y(15)>[C] -3<x(15)>[C] -1000000<z(4,1,15)>[B] <= -10.0001;
+  [linear] <c915>: <y(16)>[C] -3<x(16)>[C] -1000000<z(4,1,16)>[B] <= -10.0001;
+  [linear] <c916>: <y(17)>[C] -3<x(17)>[C] -1000000<z(4,1,17)>[B] <= -10.0001;
+  [linear] <c917>: <y(18)>[C] -3<x(18)>[C] -1000000<z(4,1,18)>[B] <= -10.0001;
+  [linear] <c918>: <y(19)>[C] -3<x(19)>[C] -1000000<z(4,1,19)>[B] <= -10.0001;
+  [linear] <c919>: <y(20)>[C] -3<x(20)>[C] -1000000<z(4,1,20)>[B] <= -10.0001;
+  [linear] <c920>: <y(21)>[C] -3<x(21)>[C] -1000000<z(4,1,21)>[B] <= -10.0001;
+  [linear] <c921>: <y(22)>[C] -3<x(22)>[C] -1000000<z(4,1,22)>[B] <= -10.0001;
+  [linear] <c922>: <y(23)>[C] -3<x(23)>[C] -1000000<z(4,1,23)>[B] <= -10.0001;
+  [linear] <c923>: <y(24)>[C] -3<x(24)>[C] -1000000<z(4,1,24)>[B] <= -10.0001;
+  [linear] <c924>: <y(25)>[C] -3<x(25)>[C] -1000000<z(4,1,25)>[B] <= -10.0001;
+  [linear] <c925>: <y(26)>[C] -3<x(26)>[C] -1000000<z(4,1,26)>[B] <= -10.0001;
+  [linear] <c926>: <y(27)>[C] -3<x(27)>[C] -1000000<z(4,1,27)>[B] <= -10.0001;
+  [linear] <c927>: <y(28)>[C] -3<x(28)>[C] -1000000<z(4,1,28)>[B] <= -10.0001;
+  [linear] <c928>: <y(29)>[C] -3<x(29)>[C] -1000000<z(4,1,29)>[B] <= -10.0001;
+  [linear] <c929>: <y(30)>[C] -3<x(30)>[C] -1000000<z(4,1,30)>[B] <= -10.0001;
+  [linear] <c930>: <y(31)>[C] -3<x(31)>[C] -1000000<z(4,1,31)>[B] <= -10.0001;
+  [linear] <c931>: <y(32)>[C] -3<x(32)>[C] -1000000<z(4,1,32)>[B] <= -10.0001;
+  [linear] <c932>: <y(33)>[C] -3<x(33)>[C] -1000000<z(4,1,33)>[B] <= -10.0001;
+  [linear] <c933>: <y(34)>[C] -3<x(34)>[C] -1000000<z(4,1,34)>[B] <= -10.0001;
+  [linear] <c934>: <y(35)>[C] -3<x(35)>[C] -1000000<z(4,1,35)>[B] <= -10.0001;
+  [linear] <c935>: <y(36)>[C] -3<x(36)>[C] -1000000<z(4,1,36)>[B] <= -10.0001;
+  [linear] <c936>: <y(37)>[C] -3<x(37)>[C] -1000000<z(4,1,37)>[B] <= -10.0001;
+  [linear] <c937>: <y(38)>[C] -3<x(38)>[C] -1000000<z(4,1,38)>[B] <= -10.0001;
+  [linear] <c938>: <y(39)>[C] -3<x(39)>[C] -1000000<z(4,1,39)>[B] <= -10.0001;
+  [linear] <c939>: <y(40)>[C] -3<x(40)>[C] -1000000<z(4,1,40)>[B] <= -10.0001;
+  [linear] <c940>:  -<y(1)>[C] +0.25<x(1)>[C] -1000000<z(4,2,1)>[B] <= -12.0001;
+  [linear] <c941>:  -<y(2)>[C] +0.25<x(2)>[C] -1000000<z(4,2,2)>[B] <= -12.0001;
+  [linear] <c942>:  -<y(3)>[C] +0.25<x(3)>[C] -1000000<z(4,2,3)>[B] <= -12.0001;
+  [linear] <c943>:  -<y(4)>[C] +0.25<x(4)>[C] -1000000<z(4,2,4)>[B] <= -12.0001;
+  [linear] <c944>:  -<y(5)>[C] +0.25<x(5)>[C] -1000000<z(4,2,5)>[B] <= -12.0001;
+  [linear] <c945>:  -<y(6)>[C] +0.25<x(6)>[C] -1000000<z(4,2,6)>[B] <= -12.0001;
+  [linear] <c946>:  -<y(7)>[C] +0.25<x(7)>[C] -1000000<z(4,2,7)>[B] <= -12.0001;
+  [linear] <c947>:  -<y(8)>[C] +0.25<x(8)>[C] -1000000<z(4,2,8)>[B] <= -12.0001;
+  [linear] <c948>:  -<y(9)>[C] +0.25<x(9)>[C] -1000000<z(4,2,9)>[B] <= -12.0001;
+  [linear] <c949>:  -<y(10)>[C] +0.25<x(10)>[C] -1000000<z(4,2,10)>[B] <= -12.0001;
+  [linear] <c950>:  -<y(11)>[C] +0.25<x(11)>[C] -1000000<z(4,2,11)>[B] <= -12.0001;
+  [linear] <c951>:  -<y(12)>[C] +0.25<x(12)>[C] -1000000<z(4,2,12)>[B] <= -12.0001;
+  [linear] <c952>:  -<y(13)>[C] +0.25<x(13)>[C] -1000000<z(4,2,13)>[B] <= -12.0001;
+  [linear] <c953>:  -<y(14)>[C] +0.25<x(14)>[C] -1000000<z(4,2,14)>[B] <= -12.0001;
+  [linear] <c954>:  -<y(15)>[C] +0.25<x(15)>[C] -1000000<z(4,2,15)>[B] <= -12.0001;
+  [linear] <c955>:  -<y(16)>[C] +0.25<x(16)>[C] -1000000<z(4,2,16)>[B] <= -12.0001;
+  [linear] <c956>:  -<y(17)>[C] +0.25<x(17)>[C] -1000000<z(4,2,17)>[B] <= -12.0001;
+  [linear] <c957>:  -<y(18)>[C] +0.25<x(18)>[C] -1000000<z(4,2,18)>[B] <= -12.0001;
+  [linear] <c958>:  -<y(19)>[C] +0.25<x(19)>[C] -1000000<z(4,2,19)>[B] <= -12.0001;
+  [linear] <c959>:  -<y(20)>[C] +0.25<x(20)>[C] -1000000<z(4,2,20)>[B] <= -12.0001;
+  [linear] <c960>:  -<y(21)>[C] +0.25<x(21)>[C] -1000000<z(4,2,21)>[B] <= -12.0001;
+  [linear] <c961>:  -<y(22)>[C] +0.25<x(22)>[C] -1000000<z(4,2,22)>[B] <= -12.0001;
+  [linear] <c962>:  -<y(23)>[C] +0.25<x(23)>[C] -1000000<z(4,2,23)>[B] <= -12.0001;
+  [linear] <c963>:  -<y(24)>[C] +0.25<x(24)>[C] -1000000<z(4,2,24)>[B] <= -12.0001;
+  [linear] <c964>:  -<y(25)>[C] +0.25<x(25)>[C] -1000000<z(4,2,25)>[B] <= -12.0001;
+  [linear] <c965>:  -<y(26)>[C] +0.25<x(26)>[C] -1000000<z(4,2,26)>[B] <= -12.0001;
+  [linear] <c966>:  -<y(27)>[C] +0.25<x(27)>[C] -1000000<z(4,2,27)>[B] <= -12.0001;
+  [linear] <c967>:  -<y(28)>[C] +0.25<x(28)>[C] -1000000<z(4,2,28)>[B] <= -12.0001;
+  [linear] <c968>:  -<y(29)>[C] +0.25<x(29)>[C] -1000000<z(4,2,29)>[B] <= -12.0001;
+  [linear] <c969>:  -<y(30)>[C] +0.25<x(30)>[C] -1000000<z(4,2,30)>[B] <= -12.0001;
+  [linear] <c970>:  -<y(31)>[C] +0.25<x(31)>[C] -1000000<z(4,2,31)>[B] <= -12.0001;
+  [linear] <c971>:  -<y(32)>[C] +0.25<x(32)>[C] -1000000<z(4,2,32)>[B] <= -12.0001;
+  [linear] <c972>:  -<y(33)>[C] +0.25<x(33)>[C] -1000000<z(4,2,33)>[B] <= -12.0001;
+  [linear] <c973>:  -<y(34)>[C] +0.25<x(34)>[C] -1000000<z(4,2,34)>[B] <= -12.0001;
+  [linear] <c974>:  -<y(35)>[C] +0.25<x(35)>[C] -1000000<z(4,2,35)>[B] <= -12.0001;
+  [linear] <c975>:  -<y(36)>[C] +0.25<x(36)>[C] -1000000<z(4,2,36)>[B] <= -12.0001;
+  [linear] <c976>:  -<y(37)>[C] +0.25<x(37)>[C] -1000000<z(4,2,37)>[B] <= -12.0001;
+  [linear] <c977>:  -<y(38)>[C] +0.25<x(38)>[C] -1000000<z(4,2,38)>[B] <= -12.0001;
+  [linear] <c978>:  -<y(39)>[C] +0.25<x(39)>[C] -1000000<z(4,2,39)>[B] <= -12.0001;
+  [linear] <c979>:  -<y(40)>[C] +0.25<x(40)>[C] -1000000<z(4,2,40)>[B] <= -12.0001;
+  [linear] <c980>: <y(1)>[C] +3<x(1)>[C] -1000000<z(4,3,1)>[B] <= 24.9999;
+  [linear] <c981>: <y(2)>[C] +3<x(2)>[C] -1000000<z(4,3,2)>[B] <= 24.9999;
+  [linear] <c982>: <y(3)>[C] +3<x(3)>[C] -1000000<z(4,3,3)>[B] <= 24.9999;
+  [linear] <c983>: <y(4)>[C] +3<x(4)>[C] -1000000<z(4,3,4)>[B] <= 24.9999;
+  [linear] <c984>: <y(5)>[C] +3<x(5)>[C] -1000000<z(4,3,5)>[B] <= 24.9999;
+  [linear] <c985>: <y(6)>[C] +3<x(6)>[C] -1000000<z(4,3,6)>[B] <= 24.9999;
+  [linear] <c986>: <y(7)>[C] +3<x(7)>[C] -1000000<z(4,3,7)>[B] <= 24.9999;
+  [linear] <c987>: <y(8)>[C] +3<x(8)>[C] -1000000<z(4,3,8)>[B] <= 24.9999;
+  [linear] <c988>: <y(9)>[C] +3<x(9)>[C] -1000000<z(4,3,9)>[B] <= 24.9999;
+  [linear] <c989>: <y(10)>[C] +3<x(10)>[C] -1000000<z(4,3,10)>[B] <= 24.9999;
+  [linear] <c990>: <y(11)>[C] +3<x(11)>[C] -1000000<z(4,3,11)>[B] <= 24.9999;
+  [linear] <c991>: <y(12)>[C] +3<x(12)>[C] -1000000<z(4,3,12)>[B] <= 24.9999;
+  [linear] <c992>: <y(13)>[C] +3<x(13)>[C] -1000000<z(4,3,13)>[B] <= 24.9999;
+  [linear] <c993>: <y(14)>[C] +3<x(14)>[C] -1000000<z(4,3,14)>[B] <= 24.9999;
+  [linear] <c994>: <y(15)>[C] +3<x(15)>[C] -1000000<z(4,3,15)>[B] <= 24.9999;
+  [linear] <c995>: <y(16)>[C] +3<x(16)>[C] -1000000<z(4,3,16)>[B] <= 24.9999;
+  [linear] <c996>: <y(17)>[C] +3<x(17)>[C] -1000000<z(4,3,17)>[B] <= 24.9999;
+  [linear] <c997>: <y(18)>[C] +3<x(18)>[C] -1000000<z(4,3,18)>[B] <= 24.9999;
+  [linear] <c998>: <y(19)>[C] +3<x(19)>[C] -1000000<z(4,3,19)>[B] <= 24.9999;
+  [linear] <c999>: <y(20)>[C] +3<x(20)>[C] -1000000<z(4,3,20)>[B] <= 24.9999;
+  [linear] <c1000>: <y(21)>[C] +3<x(21)>[C] -1000000<z(4,3,21)>[B] <= 24.9999;
+  [linear] <c1001>: <y(22)>[C] +3<x(22)>[C] -1000000<z(4,3,22)>[B] <= 24.9999;
+  [linear] <c1002>: <y(23)>[C] +3<x(23)>[C] -1000000<z(4,3,23)>[B] <= 24.9999;
+  [linear] <c1003>: <y(24)>[C] +3<x(24)>[C] -1000000<z(4,3,24)>[B] <= 24.9999;
+  [linear] <c1004>: <y(25)>[C] +3<x(25)>[C] -1000000<z(4,3,25)>[B] <= 24.9999;
+  [linear] <c1005>: <y(26)>[C] +3<x(26)>[C] -1000000<z(4,3,26)>[B] <= 24.9999;
+  [linear] <c1006>: <y(27)>[C] +3<x(27)>[C] -1000000<z(4,3,27)>[B] <= 24.9999;
+  [linear] <c1007>: <y(28)>[C] +3<x(28)>[C] -1000000<z(4,3,28)>[B] <= 24.9999;
+  [linear] <c1008>: <y(29)>[C] +3<x(29)>[C] -1000000<z(4,3,29)>[B] <= 24.9999;
+  [linear] <c1009>: <y(30)>[C] +3<x(30)>[C] -1000000<z(4,3,30)>[B] <= 24.9999;
+  [linear] <c1010>: <y(31)>[C] +3<x(31)>[C] -1000000<z(4,3,31)>[B] <= 24.9999;
+  [linear] <c1011>: <y(32)>[C] +3<x(32)>[C] -1000000<z(4,3,32)>[B] <= 24.9999;
+  [linear] <c1012>: <y(33)>[C] +3<x(33)>[C] -1000000<z(4,3,33)>[B] <= 24.9999;
+  [linear] <c1013>: <y(34)>[C] +3<x(34)>[C] -1000000<z(4,3,34)>[B] <= 24.9999;
+  [linear] <c1014>: <y(35)>[C] +3<x(35)>[C] -1000000<z(4,3,35)>[B] <= 24.9999;
+  [linear] <c1015>: <y(36)>[C] +3<x(36)>[C] -1000000<z(4,3,36)>[B] <= 24.9999;
+  [linear] <c1016>: <y(37)>[C] +3<x(37)>[C] -1000000<z(4,3,37)>[B] <= 24.9999;
+  [linear] <c1017>: <y(38)>[C] +3<x(38)>[C] -1000000<z(4,3,38)>[B] <= 24.9999;
+  [linear] <c1018>: <y(39)>[C] +3<x(39)>[C] -1000000<z(4,3,39)>[B] <= 24.9999;
+  [linear] <c1019>: <y(40)>[C] +3<x(40)>[C] -1000000<z(4,3,40)>[B] <= 24.9999;
+  [linear] <c1020>: <z(4,0,1)>[B] +<z(4,1,1)>[B] +<z(4,2,1)>[B] +<z(4,3,1)>[B] <= 3;
+  [linear] <c1021>: <z(4,0,2)>[B] +<z(4,1,2)>[B] +<z(4,2,2)>[B] +<z(4,3,2)>[B] <= 3;
+  [linear] <c1022>: <z(4,0,3)>[B] +<z(4,1,3)>[B] +<z(4,2,3)>[B] +<z(4,3,3)>[B] <= 3;
+  [linear] <c1023>: <z(4,0,4)>[B] +<z(4,1,4)>[B] +<z(4,2,4)>[B] +<z(4,3,4)>[B] <= 3;
+  [linear] <c1024>: <z(4,0,5)>[B] +<z(4,1,5)>[B] +<z(4,2,5)>[B] +<z(4,3,5)>[B] <= 3;
+  [linear] <c1025>: <z(4,0,6)>[B] +<z(4,1,6)>[B] +<z(4,2,6)>[B] +<z(4,3,6)>[B] <= 3;
+  [linear] <c1026>: <z(4,0,7)>[B] +<z(4,1,7)>[B] +<z(4,2,7)>[B] +<z(4,3,7)>[B] <= 3;
+  [linear] <c1027>: <z(4,0,8)>[B] +<z(4,1,8)>[B] +<z(4,2,8)>[B] +<z(4,3,8)>[B] <= 3;
+  [linear] <c1028>: <z(4,0,9)>[B] +<z(4,1,9)>[B] +<z(4,2,9)>[B] +<z(4,3,9)>[B] <= 3;
+  [linear] <c1029>: <z(4,0,10)>[B] +<z(4,1,10)>[B] +<z(4,2,10)>[B] +<z(4,3,10)>[B] <= 3;
+  [linear] <c1030>: <z(4,0,11)>[B] +<z(4,1,11)>[B] +<z(4,2,11)>[B] +<z(4,3,11)>[B] <= 3;
+  [linear] <c1031>: <z(4,0,12)>[B] +<z(4,1,12)>[B] +<z(4,2,12)>[B] +<z(4,3,12)>[B] <= 3;
+  [linear] <c1032>: <z(4,0,13)>[B] +<z(4,1,13)>[B] +<z(4,2,13)>[B] +<z(4,3,13)>[B] <= 3;
+  [linear] <c1033>: <z(4,0,14)>[B] +<z(4,1,14)>[B] +<z(4,2,14)>[B] +<z(4,3,14)>[B] <= 3;
+  [linear] <c1034>: <z(4,0,15)>[B] +<z(4,1,15)>[B] +<z(4,2,15)>[B] +<z(4,3,15)>[B] <= 3;
+  [linear] <c1035>: <z(4,0,16)>[B] +<z(4,1,16)>[B] +<z(4,2,16)>[B] +<z(4,3,16)>[B] <= 3;
+  [linear] <c1036>: <z(4,0,17)>[B] +<z(4,1,17)>[B] +<z(4,2,17)>[B] +<z(4,3,17)>[B] <= 3;
+  [linear] <c1037>: <z(4,0,18)>[B] +<z(4,1,18)>[B] +<z(4,2,18)>[B] +<z(4,3,18)>[B] <= 3;
+  [linear] <c1038>: <z(4,0,19)>[B] +<z(4,1,19)>[B] +<z(4,2,19)>[B] +<z(4,3,19)>[B] <= 3;
+  [linear] <c1039>: <z(4,0,20)>[B] +<z(4,1,20)>[B] +<z(4,2,20)>[B] +<z(4,3,20)>[B] <= 3;
+  [linear] <c1040>: <z(4,0,21)>[B] +<z(4,1,21)>[B] +<z(4,2,21)>[B] +<z(4,3,21)>[B] <= 3;
+  [linear] <c1041>: <z(4,0,22)>[B] +<z(4,1,22)>[B] +<z(4,2,22)>[B] +<z(4,3,22)>[B] <= 3;
+  [linear] <c1042>: <z(4,0,23)>[B] +<z(4,1,23)>[B] +<z(4,2,23)>[B] +<z(4,3,23)>[B] <= 3;
+  [linear] <c1043>: <z(4,0,24)>[B] +<z(4,1,24)>[B] +<z(4,2,24)>[B] +<z(4,3,24)>[B] <= 3;
+  [linear] <c1044>: <z(4,0,25)>[B] +<z(4,1,25)>[B] +<z(4,2,25)>[B] +<z(4,3,25)>[B] <= 3;
+  [linear] <c1045>: <z(4,0,26)>[B] +<z(4,1,26)>[B] +<z(4,2,26)>[B] +<z(4,3,26)>[B] <= 3;
+  [linear] <c1046>: <z(4,0,27)>[B] +<z(4,1,27)>[B] +<z(4,2,27)>[B] +<z(4,3,27)>[B] <= 3;
+  [linear] <c1047>: <z(4,0,28)>[B] +<z(4,1,28)>[B] +<z(4,2,28)>[B] +<z(4,3,28)>[B] <= 3;
+  [linear] <c1048>: <z(4,0,29)>[B] +<z(4,1,29)>[B] +<z(4,2,29)>[B] +<z(4,3,29)>[B] <= 3;
+  [linear] <c1049>: <z(4,0,30)>[B] +<z(4,1,30)>[B] +<z(4,2,30)>[B] +<z(4,3,30)>[B] <= 3;
+  [linear] <c1050>: <z(4,0,31)>[B] +<z(4,1,31)>[B] +<z(4,2,31)>[B] +<z(4,3,31)>[B] <= 3;
+  [linear] <c1051>: <z(4,0,32)>[B] +<z(4,1,32)>[B] +<z(4,2,32)>[B] +<z(4,3,32)>[B] <= 3;
+  [linear] <c1052>: <z(4,0,33)>[B] +<z(4,1,33)>[B] +<z(4,2,33)>[B] +<z(4,3,33)>[B] <= 3;
+  [linear] <c1053>: <z(4,0,34)>[B] +<z(4,1,34)>[B] +<z(4,2,34)>[B] +<z(4,3,34)>[B] <= 3;
+  [linear] <c1054>: <z(4,0,35)>[B] +<z(4,1,35)>[B] +<z(4,2,35)>[B] +<z(4,3,35)>[B] <= 3;
+  [linear] <c1055>: <z(4,0,36)>[B] +<z(4,1,36)>[B] +<z(4,2,36)>[B] +<z(4,3,36)>[B] <= 3;
+  [linear] <c1056>: <z(4,0,37)>[B] +<z(4,1,37)>[B] +<z(4,2,37)>[B] +<z(4,3,37)>[B] <= 3;
+  [linear] <c1057>: <z(4,0,38)>[B] +<z(4,1,38)>[B] +<z(4,2,38)>[B] +<z(4,3,38)>[B] <= 3;
+  [linear] <c1058>: <z(4,0,39)>[B] +<z(4,1,39)>[B] +<z(4,2,39)>[B] +<z(4,3,39)>[B] <= 3;
+  [linear] <c1059>: <z(4,0,40)>[B] +<z(4,1,40)>[B] +<z(4,2,40)>[B] +<z(4,3,40)>[B] <= 3;
+  [linear] <c1060>:  -<x(40)>[C] <= -12.0001;
+  [linear] <c1061>: <y(40)>[C] <= 13.9999;
+  [linear] <c1062>: <x(40)>[C] <= 13.9999;
+  [linear] <c1063>:  -<y(40)>[C] <= -12.0001;
 END

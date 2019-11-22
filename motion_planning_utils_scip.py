@@ -2,8 +2,9 @@ from matplotlib import pyplot as plt
 import numpy as np
 from shapely.geometry import Point, Polygon, LineString, box
 from environment import Environment, plot_environment, plot_line, plot_poly
-import pyclipper
+# import pyclipper
 from pyscipopt import *
+import random
 
 
 
@@ -33,18 +34,22 @@ def find_vertex_avg(obstacle):
     y_avg = sum([x[1] for x in obstacle])/len(obstacle)
     return (x_avg, y_avg)
 
-def process_json_obstacles(json_dict, remove_duplicates=False):
+def process_json_obstacles(json_dict, rand_obs=None):
     obs_list = []
+    obs_list_dd = []
     for item in json_dict['obstacles']:
         obs = item['geometry']['coordinates']
         # Remove duplicate points
-        if remove_duplicates == True:
-            obs_dd = []
-            [obs_dd.append(x) for x in obs if x not in obs_dd]
-            obs_list.append(obs_dd)
-        else:
-            obs_list.append(obs)
-    return obs_list
+        obs_dd = []
+        [obs_dd.append(x) for x in obs if x not in obs_dd]
+        obs_list_dd.append(obs_dd)
+        # Original Obstacles
+        obs_list.append(obs)
+    if rand_obs != None:
+        sel = random.sample(range(0, len(json_dict['obstacles'])), rand_obs)
+        obs_list = [obs_list[x] for x in sel]
+        obs_list_dd = [obs_list_dd[x] for x in sel]
+    return obs_list, obs_list_dd
 
 
 def get_bounds(start,goal,obs_list):
@@ -77,7 +82,7 @@ def create_model(start, goal, obs_list, N, timestep, V_max, buffer):
     T = int(N * timestep)
     time = list(range(1,N+1))
     M = 1e6
-    vts = (timestep*V_max)
+    vts = (timestep*V_max)**2
     bounds = get_bounds(start, goal, obs_list)
 
     model = Model()
@@ -153,7 +158,7 @@ def create_model(start, goal, obs_list, N, timestep, V_max, buffer):
     model.setObjective(quicksum(d[t] for t in time), "minimize")
     # model.setObjective(quicksum((x[t] - x[t-1])*(x[t] - x[t-1]) + (y[t] - y[t-1])*(y[t] - y[t-1]) for t in time))
 
-    model.hideOutput(False)
+    model.hideOutput(quiet=False)
     return model, x, y, d, bounds
 
 
