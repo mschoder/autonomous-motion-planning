@@ -82,7 +82,7 @@ def create_model(start, goal, obs_list, N, timestep, V_max, buffer):
     T = int(N * timestep)
     time = list(range(1,N+1))
     M = 1e6
-    vts = (timestep*V_max)**2
+    vts = timestep*V_max
     bounds = get_bounds(start, goal, obs_list)
 
     model = Model()
@@ -101,8 +101,8 @@ def create_model(start, goal, obs_list, N, timestep, V_max, buffer):
     # Set velocity constraint for each time period
     for t in time:
         # model.addCons((x[t] - x[t-1])*(x[t] - x[t-1]) + (y[t] - y[t-1])*(y[t] - y[t-1]) <= vts)
-        model.addCons(d[t] == ((x[t] - x[t-1])**2 + (y[t] - y[t-1])**2))
-        # model.addCons(d[t] == (x[t]**2 -2*x[t-1]*x[t] + x[t-1]**2 + y[t]**2 - 2*y[t-1]*y[t] + y[t-1]**2)**0.5)
+        # model.addCons(d[t] == ((x[t] - x[t-1])**2 + (y[t] - y[t-1])**2))
+        model.addCons((d[t]*d[t]) >= ((x[t] - x[t-1])**2 + (y[t] - y[t-1])**2))
 
     # Set Obstacle Constraints
     for idx_obs, obs in enumerate(obs_list):
